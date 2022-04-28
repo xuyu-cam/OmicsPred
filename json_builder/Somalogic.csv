@@ -1,0 +1,12 @@
+SOMAscan ID,UniProt ID,Gene,Protein,#SNP,Internal_R2,Internal_Rho,FENLAND_R2,FENLAND_Rho,FENLAND_MissingRate,MEC_CN_R2,MEC_CN_Rho,MEC_CN_MissingRate,MEC_IN_R2,MEC_IN_Rho,MEC_IN_MissingRate,MEC_MA_R2,MEC_MA_Rho,MEC_MA_MissingRate,JHS_R2,JHS_Rho,JHS_MissingRate
+CRYBB2.10000.28.3,P43320,CRYBB2,Beta-crystallin B2,5,0.027,0.156,0.0,0.006,0.2,0.0,0.025,0.2,0.0,0.004,0.2,0.0,0.021,0.2,,,
+ELK1.10006.25.3,P19419,ELK1,ETS domain-containing protein Elk-1,25,0.052,0.209,0.0,-0.005,0.0,0.0,-0.012,0.08,0.0,-0.004,0.08,0.001,0.016,0.08,,,
+GUCA1A.10008.43.3,P43080,GUCA1A,Guanylyl cyclase-activating protein 1,10,0.072,0.252,0.0,0.016,0.0,0.001,0.022,0.0,0.016,0.102,0.0,0.008,0.101,0.0,,,
+OCRL.10011.65.3,Q01968,OCRL,Inositol polyphosphate 5-phosphatase OCRL-1,23,0.065,0.255,0.059,0.261,0.043,0.065,0.239,0.0,0.083,0.305,0.0,0.056,0.247,0.0,,,
+SNAI2.10014.31.3,O43623,SNAI2,Zinc finger protein SNAI2,1,0.011,0.055,0.0,0.005,0.0,0.0,,0.0,0.0,-0.017,0.0,0.0,,0.0,,,
+KCNAB2.10015.119.3,Q13303,KCNAB2,Voltage-gated potassium channel subunit beta-2,4,0.016,0.103,0.0,0.008,0.0,0.0,0.026,0.25,0.0,-0.025,0.25,0.001,0.026,0.25,,,
+DUSP4.10035.6.3,Q13115,DUSP4,Dual specificity protein phosphatase 4,5,0.014,0.11,0.0,0.007,0.0,0.01,0.086,0.0,0.0,0.009,0.0,0.007,0.079,0.0,,,
+ZHX3.10036.201.3,Q9H4I2,ZHX3,Zinc fingers and homeoboxes protein 3,14,0.022,0.147,0.005,0.069,0.357,0.003,0.049,0.286,0.047,0.224,0.286,0.034,0.149,0.286,,,
+SIGLEC12.10037.98.3,Q96PQ1,SIGLEC12,Sialic acid-binding Ig-like lectin 12,74,0.319,0.515,0.402,0.57,0.014,0.518,0.709,0.04,0.232,0.413,0.04,0.443,0.706,0.04,,,
+PNP.10039.32.3,P00491,PNP,Purine nucleoside phosphorylase,3,0.018,0.129,0,0,0,0,0,0,0,0,0,,,,,,
+,,,,,,,,,,,,,,,,,,,,,

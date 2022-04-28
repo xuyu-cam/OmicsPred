@@ -1,0 +1,43 @@
+
+[
+    {
+        "title": "Number of metabolites: ",
+        "type": "Number",
+        "value": "726"
+    },
+    {
+        "title": "Training cohort: ",
+        "type": "Link",
+        "value": "INTERVAL" ,
+        "link" :"https://www.intervalstudy.org.uk/"
+    },
+    {
+        "title": "Training sample size: ",
+        "type": "Number",
+        "value": "8,153"
+    },
+    {
+        "title": "Independent validation subset:",
+        "type": "Link",
+        "link" : "https://www.intervalstudy.org.uk/" ,
+        "value": "INTERVAL withheld subset (527 metabolites; 8114 participants)" 
+
+    },
+
+    {
+        "title": "External validation cohort:",
+        "type": "Link",
+        "link" : "https://www.ed.ac.uk/usher/molecular-epidemiology/our-studies/the-orkney-complex-disease-study" ,
+        "value": "ORCADES (European; 455 metabolites; 1007 participants)"
+    },
+
+   
+    {
+        "title": "Evaluation Metric: ",
+        "type": "Text",
+        "value": "Spearman correlation coefficient (Rho), Variance explained (R2)"
+    }
+]
+
+
+

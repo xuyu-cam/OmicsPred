@@ -1,0 +1,130 @@
+@import "./index.scss" ;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin : 0px  ; 
+  padding : 0px ;
+}
+
+
+html::-webkit-scrollbar {
+  display:  none ;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#leftpanel::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+.language-shell 
+.highlighter-rouge{
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 1em;
+  background: #263238;
+  color: #eff;
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
+  line-height: 1.8;
+  border-radius: 4px;
+
+}
+
+
+
+
+.highlight{
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  color: #eff;
+  line-height: 1.8;
+  box-sizing: border-box;
+  orphans: 3;
+  widows: 3;
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  margin: 0;
+  padding: 1em;
+}
+
+.k {
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  line-height: 1.8;
+  orphans: 3;
+  widows: 3;
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  color: #c792ea;
+
+}
+.o {
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  line-height: 1.8;
+  orphans: 3;
+  widows: 3;
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  color: #89ddff;
+}
+.nt{
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  line-height: 1.8;
+  orphans: 3;
+  widows: 3;
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  color: #89ddff;
+  
+}
+.nv{
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  line-height: 1.8;
+  orphans: 3;
+  widows: 3;
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  color: #f07178;
+}
+
+
+
+
