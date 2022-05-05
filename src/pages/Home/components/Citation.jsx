@@ -28,6 +28,8 @@ import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import SkipNextIcon from "@mui/icons-material/SkipNext";
 
+import Href from "./components/Href"
+
 function Slide(props) {
   return (
     <div
@@ -80,18 +82,12 @@ const Citation = () => {
 
       <div style={{width :"100%"}} className="mySwiper w-[100%] overflow-visible rounded-sm">
         <p className="text-justify mt-3 w-[100%] text-base text-gray-500 sm:mt-5 sm:text-lg sm:w-xl sm:mx-auto md:mt-5 md:text-md lg:mx-2">
-          OMICSPRED is under active development, and we will continue to add
-          genetic scores. If you use OMICSPRED in your research, we ask that you
-          cite our submitted ASHG 2021 abstract for now (below). A full
-          manuscript is in preparation and is anticipated to be preprinted in
-          Q1 2022.{" "}
+        OMICSPRED is under active development. If you use OMICSPRED in your research, we ask that you cite our preprint (below).{" "}
         </p>
         <p className=" text-justify nmt-3 w-[100%] text-base text-gray-500 sm:mt-5 sm:text-lg sm:w-xl sm:mx-auto md:mt-5 md:text-md lg:mx-2">
-          Manuscript: Xu Y. et al. <span className="font-bold text-indigo-600">  An atlas of genetic scores to predict
-          multi-omic biomolecular traits in blood 
-          </span>. (in preparation)
+        [full citation] Xu Y, Ritchie SC, Liang Y, Timmers PRHJ, Pietzner M, Lannelongue L, Lambert SA, Tahir UA, May-Wilson S, Johansson A, Surendran P, Nath AP, Persyn E, Peters JE, Oliver-Williams C, Deng S, Prins B, Foguet C, Luan J, Bomba L, Soranzo N, Di Angelantonio E, Pirastu N, Tai ES, van Dam RM, Davenport EE, Paul DS, Yau C, Gerszten RE, Malarstig M, Danesh J, Sim X, Langenberg C, Wilson JF, Butterworth AS, Inouye M. <Href text="An atlas of genetic scores to predict multi-omic traits" href="https://www.biorxiv.org/content/10.1101/2022.04.17.488593v1" />. BioRxiv, 2022.
         </p>
-        <p className=" text-justify mt-3 w-[100%] text-base text-gray-500 sm:mt-5 sm:text-lg sm:w-xl sm:mx-auto md:mt-5 md:text-md lg:mx-2">
+        {/* <p className=" text-justify mt-3 w-[100%] text-base text-gray-500 sm:mt-5 sm:text-lg sm:w-xl sm:mx-auto md:mt-5 md:text-md lg:mx-2">
           ASHG Abstract: Yu Xu, Scott Ritchie, Maik Pietzner, Samuel Lambert,
           Sebastian May-Wilson, Artika Nath, Praveen Surendran, Åsa Johansson,
           Elodie Persyn, Loïc Lannelongue, Bram Prins, Nicola Pirastu, Dirk
@@ -99,12 +95,14 @@ const Citation = () => {
           Mälarstig, John Danesh, Adam Butterworth, Michael Inouye. <span className="font-bold text-indigo-600">
           An atlas of genetic scores to predict multi-omic biomolecular traits in blood.  
           </span> American Society of Human Genetics, 2021 (<span className="font-bold text-indigo-600">Reviwers' Choice Award</span>)
-        </p>
+        </p> */}
         <br/>
         <br/>
       
       </div>
     </div>
+
+      
   );
 };
 export default Citation;

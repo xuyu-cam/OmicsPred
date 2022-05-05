@@ -249,30 +249,19 @@ export default function Applications(props) {
 
   const dt_pathway = [
     {
-      title: "Number of phenotypes: ",
+      title: "Analysis Source: ",
       type: "Text",
-      value: "1123",
+      value: "Reactome",
     },
     {
-      title: " Cohort : ",
+      title: "Number of proteins : ",
       type: "Text",
-      value: " UK Biobank",
+      value: "2,205 in SomaScan and Olink (R2 > 0.01 in internal validation)",
     },
     {
-      title: "  Ancestry : ",
+      title: "Analysis description: ",
       type: "Text",
-      value: " White British",
-    },
-    {
-      title: "Testing Model for disease: ",
-      type: "Text",
-      value:
-        " Age as the time scale Cox regression models (y ~ omic genetic score* + strat(sex) + genotyping array + 10PCs)",
-    },
-    {
-      title: " Selection criterion: ",
-      type: "Text",
-      value: " FDR-adjusted p-value < 0.05",
+      value: "Coverage of the proteins in annotated physical entities of each of the 27 super-pathwawys.",
     },
   ];
 
@@ -452,7 +441,7 @@ export default function Applications(props) {
                         <div className="h-auto w-full">
                           <div className="w-full grid place-items-center">
                             <div className="w-[200px] p-4 rounded-md shadow-md float-left my-5 mr-5">
-                              <a href="https://app.box.com/s/e0t5v55ul588z7ls0qk5slo9lmp8yync">
+                              <a href="https://app.box.com/s/vp4sqsfcv1ouexs74rcc01szkqew15b5">
                                 {" "}
                                 <div className="text-xl text-gray-600 ">
                                   <h1 className="text-sm h-full grid place-items-center text-center">
@@ -722,21 +711,7 @@ export default function Applications(props) {
                       }
                       )
 
-
-
                       }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                     </DataGrid>

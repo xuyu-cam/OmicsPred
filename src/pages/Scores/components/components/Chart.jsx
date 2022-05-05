@@ -140,7 +140,7 @@ for (let i = 0; i < odata1.length; i++) {
       props.name_2 + " : " + study1,
       props.name_1 + " : " + study2,
       props.name_2 +
-        "_MissingRate :" +
+        "_MissingRate : " +
         Object.values(props.missed)[tooltipItems[0].dataIndex],
       ...[].map((e) => {}),
 

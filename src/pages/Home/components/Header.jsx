@@ -74,23 +74,17 @@ export default function Header() {
                 <span className="block xl:inline">
                     An atlas of genetic scores for prediction of multi-omics data
                 </span>{" "}
+
+              
               </h1>
               <p className="mt-3 text-justify text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-md lg:mx-0">
-                OMICSPRED is a resource for predicting multi-omics data
-                (proteomics, metabolomics, transcriptomics etc.) directly from
-                genotypes. To do this, we have used a single cohort (INTERVAL)
-                with extensive multi-omics data to train genetic scores using
-                machine learning. Here, you can explore and download the genetic
-                scores for a wide range of biomolecular traits in human blood as
-                well as the summary statistics of their associations with key
-                traits and diseases in the UK Biobank.
+              OMICSPRED is a resource for predicting multi-omics data (proteomics, metabolomics, transcriptomics etc.) directly from genotypes. 
+              To do this, we use extensive multi-omics data to train genetic scores using machine learning. 
+              Here, you can explore and download the genetic scores for a wide range of biomolecular traits in human blood as well as the summary statistics of their associations with key traits and diseases in the UK Biobank.
               </p>
               <p className="mt-3 text-justify text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Genetic scores were trained on the <Href text="INTERVAL cohort"  href="https://www.intervalstudy.org.uk/" />  using
-                <Href text="Bayesian Ridge regression" href="https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html"  />. Validation was performed on
-                independent individuals from other cohorts or on withheld
-                subsets of INTERVAL (more info below). Detailed methods and
-                validation steps can be found  <Href text="here" href="https://www.sciencedirect.com/science/article/pii/S2666979X21001075" /> .
+              Currently, genetic scores have been trained on the  <Href text="INTERVAL cohort"  href="https://www.intervalstudy.org.uk/" />  using  <Href text="Bayesian Ridge regression" href="https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html"  /> with validation performed on independent individuals from other cohorts or on withheld subsets of INTERVAL (more info below). 
+                Detailed methods and validation steps can be found <Href text="here" href="https://www.biorxiv.org/content/10.1101/2022.04.17.488593v1" /> .
               </p>
 
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
