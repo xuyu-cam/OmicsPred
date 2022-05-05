@@ -356,7 +356,7 @@ export default function Applications(props) {
               return isActive ? "text-indigo-600 py-4 h-[80px] " : "text-slate-800 h-full  py-4";
             }}
             reloadDocument
-            to="/Applications/"
+            to="/Applications"
           >
             PheWAS
           </NavLink>{" "}
@@ -585,10 +585,10 @@ export default function Applications(props) {
 
                   {
                     props.name == "pathway" ? (
-                      <Htext text="Explore and download identified associations in the Pathway Analysis" />
+                      <Htext text="Explore the coverage of predictable proteins in the pathways" />
 
                     ) : (
-                      <Htext text="Explore and download identified associations in the PheWAS" />
+                      <Htext text="Explore and download identified associations by Phecode" />
 
                     )
                   }

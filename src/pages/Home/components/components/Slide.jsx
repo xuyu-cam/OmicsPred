@@ -46,6 +46,7 @@ function Slide(props) {
         <div className="grid place-items-center w-full mt-3 sm:mt-0 sm:ml-3 ">
           <Link
             to={props.href}
+            target="_blank"
             className=" w-full flex items-center justify-center px-4 py-1 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-lg md:px-4"
           >
             Learn more
