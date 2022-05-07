@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useEffect} from "react";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 
@@ -17,7 +17,17 @@ import About from "./pages/About";
 import Applications from "./pages/Applications";
 import Find from "./pages/Search";
 
+
+import ReactGA from 'react-ga';
+
+/// please replace the ID with your id from google analytics
+const TRACKING_ID = "UA-XXXXX-X"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <div className="App">
       <Router>
