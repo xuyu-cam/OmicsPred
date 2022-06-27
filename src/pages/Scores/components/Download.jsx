@@ -14,7 +14,7 @@ const Download = (props) => {
               key={index}
               className="w-[200px] p-4 rounded-md shadow-md float-left my-5 mr-5"
             >
-              <a href={e.value}>
+              <a href={e.value} target="_blank">
                 {" "}
                 <div
                   key={e.title}
@@ -34,7 +34,7 @@ const Download = (props) => {
       </div>
       <div className="w-full grid place-items-center float-left">
         <h1 className="text-blue-300">
-          <a href="https://creativecommons.org/about/cclicenses/">
+          <a href="https://creativecommons.org/about/cclicenses/" target="_blank">
             <LinkIcon></LinkIcon>
             All genetic scores are provided under a CC-BY license
           </a>

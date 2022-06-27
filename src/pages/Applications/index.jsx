@@ -316,7 +316,7 @@ export default function Applications(props) {
 
   function cellRender2(data) {
     return (
-      <a href={"https://reactome.org/PathwayBrowser/#/" + data.value}>
+      <a href={"https://reactome.org/PathwayBrowser/#/" + data.value} target="_blank">
         <a className="text-indigo-600" >
           {data.value}
         </a>
@@ -356,6 +356,7 @@ export default function Applications(props) {
               return isActive ? "text-indigo-600 py-4 h-[80px] " : "text-slate-800 h-full  py-4";
             }}
             reloadDocument
+            end
             to="/Applications"
           >
             PheWAS
@@ -441,11 +442,11 @@ export default function Applications(props) {
                         <div className="h-auto w-full">
                           <div className="w-full grid place-items-center">
                             <div className="w-[200px] p-4 rounded-md shadow-md float-left my-5 mr-5">
-                              <a href="https://app.box.com/s/vp4sqsfcv1ouexs74rcc01szkqew15b5">
+                              <a href="https://app.box.com/s/vp4sqsfcv1ouexs74rcc01szkqew15b5" target="_blank">
                                 {" "}
                                 <div className="text-xl text-gray-600 ">
                                   <h1 className="text-sm h-full grid place-items-center text-center">
-                                    Download summary stats
+                                    Download analysis results
                                   </h1>
                                   <div className="text-[15px] w-full text-center  py-3 font-extrabold text-indigo-600">
                                     <CloudDownloadIcon className="text-green-500 mx-2 " />
@@ -526,7 +527,7 @@ export default function Applications(props) {
                         <div className="h-auto w-full">
                           <div className="w-full grid place-items-center">
                             <div className="w-[200px] p-4 rounded-md shadow-md float-left my-5 mr-5">
-                              <a href="https://app.box.com/s/e0t5v55ul588z7ls0qk5slo9lmp8yync">
+                              <a href="https://app.box.com/s/e0t5v55ul588z7ls0qk5slo9lmp8yync" target="_blank">
                                 {" "}
                                 <div className="text-xl text-gray-600 ">
                                   <h1 className="text-sm h-full grid place-items-center text-center">
@@ -540,7 +541,7 @@ export default function Applications(props) {
                             </div>
 
                             <div className="w-[200px] p-4 rounded-md shadow-md float-left my-5 mr-5">
-                              <a href="https://drive.google.com/drive/folders/15hE030Bq23ox0HSWq4AeSmkdGZUUoHkm?usp=sharing">
+                              <a href="https://drive.google.com/drive/folders/15hE030Bq23ox0HSWq4AeSmkdGZUUoHkm?usp=sharing" target="_blank">
                                 {" "}
                                 <div className="text-xl text-gray-600 text-justify">
                                   <h1 className="text-sm h-full grid place-items-center">
@@ -585,7 +586,7 @@ export default function Applications(props) {
 
                   {
                     props.name == "pathway" ? (
-                      <Htext text="Explore the coverage of predictable proteins in the pathways" />
+                      <Htext text="Explore the coverage of predictable proteins in biological pathways" />
 
                     ) : (
                       <Htext text="Explore and download identified associations by Phecode" />
@@ -686,7 +687,7 @@ export default function Applications(props) {
 
 
                         } else {
-                          if (c.name === "Pathway identifier") {
+                          if (c.name === "Pathway Identifier") {
                             return (
                               <Column
                                 key={c.name}
@@ -696,7 +697,7 @@ export default function Applications(props) {
                               />
                             );
                           }
-                          if (c.name !== "Pathway identifier Path") {
+                          if (c.name !== "Pathway Identifier Path") {
                             return (
                               <Column
                                 key={c.name}

@@ -84,7 +84,7 @@ const Platforms = () => {
                   and{""}
                   <Href
                     text="ORCADES"
-                    href="https://www.ed.ac.uk/usher/molecular-epidemiology/our-studies/the-orkney-complex-disease-study"
+                    href="https://www.ed.ac.uk/viking/about-us/what-we-do/our-studies"
                   ></Href>{" cohorts"}
                 </div>
               }
@@ -102,7 +102,7 @@ const Platforms = () => {
                   of INTERVAL and{" "}
                   <Href
                     text="ORCADES cohort"
-                    href="https://www.ed.ac.uk/usher/molecular-epidemiology/our-studies/the-orkney-complex-disease-study"
+                    href="https://www.ed.ac.uk/viking/about-us/what-we-do/our-studies"
                   ></Href>{" "}
                 
                 </div>
@@ -128,12 +128,12 @@ const Platforms = () => {
                   ,{" "}
                   <Href
                     text="ORCADES"
-                    href="https://www.ed.ac.uk/usher/molecular-epidemiology/our-studies/the-orkney-complex-disease-study"
+                    href="https://www.ed.ac.uk/viking/about-us/what-we-do/our-studies"
                   ></Href>{" "}
                   and{""}
                   <Href
                     text="VIKING"
-                    href="https://www.ed.ac.uk/usher/molecular-epidemiology/our-studies/viking-health-study"
+                    href="https://www.ed.ac.uk/viking/about-us/what-we-do/our-studies"
                   ></Href>{" cohorts"}
                 </div>
               }

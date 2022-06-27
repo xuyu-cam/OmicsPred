@@ -21,7 +21,7 @@ import Find from "./pages/Search";
 import ReactGA from 'react-ga';
 
 /// please replace the ID with your id from google analytics
-const TRACKING_ID = "UA-XXXXX-X"; // OUR_TRACKING_ID
+const TRACKING_ID = "UA-188536537-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 function App() {

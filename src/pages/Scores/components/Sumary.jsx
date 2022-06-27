@@ -22,19 +22,19 @@ const Sumary = (props) => {
                     {e.type == "Link" ? (
                       e.thirdlink ? (
                         <>
-                          <a href={e.link1}>
+                          <a href={e.link1} target="_blank">
                             {" "}
                             <LinkIcon className="text-blue-300 mx-2" />
                             {e.value1}
                           </a>
                      
-                          <a href={e.link2}>
+                          <a href={e.link2} target="_blank">
                             {" "}
                             <LinkIcon className="text-blue-300 mx-2" />
                             {e.value2}
                           </a>
                       
-                          <a href={e.link3}>
+                          <a href={e.link3} target="_blank">
                             {" "}
                             <LinkIcon className="text-blue-300 mx-2" />
                             {e.value3}
@@ -42,20 +42,20 @@ const Sumary = (props) => {
                         </>
                       ) : e.doublelink ? (
                         <>
-                          <a href={e.link1}>
+                          <a href={e.link1} target="_blank">
                             {" "}
                             <LinkIcon className="text-blue-300 mx-2" />
                             {e.value1}
                           </a>
                       
-                          <a href={e.link2}>
+                          <a href={e.link2} target="_blank">
                             {" "}
                             <LinkIcon className="text-blue-300 mx-2" />
                             {e.value2}
                           </a>
                         </>
                       ) : (
-                        <a href={e.link}>
+                        <a href={e.link} target="_blank">
                           {" "}
                           <LinkIcon className="text-blue-300 mx-2" />
                           {e.value}
