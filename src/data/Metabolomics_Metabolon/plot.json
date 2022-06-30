@@ -1,6 +1,6 @@
 [
     {
-        "name": "Internal",
+        "name": "INTERVAL (internal validation)",
         "title": "Internal_R2",
         "data": {
             "0": 0.461,
@@ -734,7 +734,7 @@
         "type": "_R2"
     },
     {
-        "name": "Internal",
+        "name": "INTERVAL (internal validation)",
         "title": "Internal_Rho",
         "data": {
             "0": 0.621,
@@ -1468,7 +1468,7 @@
         "type": "_Rho"
     },
     {
-        "name": "INTERVAL_Withheld",
+        "name": "INTERVAL (withheld set)",
         "title": "INTERVAL_Withheld_R2",
         "data": {
             "0": 0.43,
@@ -2202,7 +2202,7 @@
         "type": "_R2"
     },
     {
-        "name": "INTERVAL_Withheld",
+        "name": "INTERVAL (withheld set)",
         "title": "INTERVAL_Withheld_Rho",
         "data": {
             "0": 0.608,
@@ -2936,7 +2936,7 @@
         "type": "_Rho"
     },
     {
-        "name": "INTERVAL_Withheld",
+        "name": "INTERVAL (withheld set)",
         "title": "INTERVAL_Withheld_MissingRate",
         "data": {
             "0": 0.0,

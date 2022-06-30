@@ -1,6 +1,6 @@
 [
     {
-        "name": "Internal",
+        "name": "INTERVAL (internal validation)",
         "title": "Internal_R2",
         "data": {
             "0": 0.134,
@@ -149,7 +149,7 @@
         "type": "_R2"
     },
     {
-        "name": "Internal",
+        "name": "INTERVAL (internal validation)",
         "title": "Internal_Rho",
         "data": {
             "0": 0.341,

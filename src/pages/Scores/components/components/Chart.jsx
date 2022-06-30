@@ -130,10 +130,13 @@ for (let i = 0; i < odata1.length; i++) {
       if (props.tdata[i].name == "Internal_R2") {
         break;
       }
+    
+      
       metadata.push({
         name: props.tdata[i].name,
         value: props.tdata[i].data[tooltipItems[0].dataIndex],
       });
+    
     }
 
     return [
@@ -220,7 +223,7 @@ for (let i = 0; i < odata1.length; i++) {
       y: {
         title: {
           display: true,
-          text: props.name_2 + props.matrix,
+          text: props.matrix.substring(1) +" in " + props.name_2 ,
           align: "center",
         },
       },
@@ -246,7 +249,7 @@ for (let i = 0; i < odata1.length; i++) {
         max: Math.max(...data1) + 0.01 + (Math.max(...data1) * 100) / 5000,
         title: {
           display: true,
-          text: props.name_1 + props.matrix,
+          text:  props.matrix.substring(1) +" in " +  props.name_1  ,
           align: "center",
         },
       },
@@ -351,6 +354,7 @@ export default function ChartPlot(props) {
   const d = props.data.map((e) => {
     return { name: e.name };
   });
+
   const [cd, setcd] = useState(d);
   const [names, setNames] = useState(_.uniq(cd, "name"));
 
@@ -416,7 +420,6 @@ export default function ChartPlot(props) {
         console.log("just open c");
         if (e.title == event.target.value + "_MissingRate") {
           console.log("foundone");
-
           setMisseddata(e.data);
           return;
         }
