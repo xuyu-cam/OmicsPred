@@ -54,20 +54,20 @@ const ChartWithData = (props) => {
   var odata2 = Object.values(props.data_2);
   var odata1 = Object.values(props.data_1);
 
-var data2 = Object.values(props.data_2);
-var data1 = Object.values(props.data_1);
+  var data2 = Object.values(props.data_2);
+  var data1 = Object.values(props.data_1);
 
-console.log(
-  "circle the lenghts are : " + data1.length + " second " + data2.length
-);
-var counter = 0  ; 
-for (let i = 0; i < odata1.length; i++) {
-  if (odata2[i] === null || odata1[i] === null) {
-    counter ++ ; 
-    data2.splice(i-counter, 1);
-    data1.splice(i-counter, 1);
+  console.log(
+    "circle the lenghts are : " + data1.length + " second " + data2.length
+  );
+  var counter = 0;
+  for (let i = 0; i < odata1.length; i++) {
+    if (odata2[i] === null || odata1[i] === null) {
+      counter++;
+      data2.splice(i - counter, 1);
+      data1.splice(i - counter, 1);
+    }
   }
-}
 
   /*
   var odata1 = data1;
@@ -130,13 +130,11 @@ for (let i = 0; i < odata1.length; i++) {
       if (props.tdata[i].name == "Internal_R2") {
         break;
       }
-    
-      
+
       metadata.push({
         name: props.tdata[i].name,
         value: props.tdata[i].data[tooltipItems[0].dataIndex],
       });
-    
     }
 
     return [
@@ -223,7 +221,7 @@ for (let i = 0; i < odata1.length; i++) {
       y: {
         title: {
           display: true,
-          text: props.matrix.substring(1) +" in " + props.name_2 ,
+          text: props.matrix.substring(1) + " in " + props.name_2,
           align: "center",
         },
       },
@@ -238,7 +236,6 @@ for (let i = 0; i < odata1.length; i++) {
         },
         type: "linear",
         display: true,
-
         position: "right",
         grid: {
           drawOnChartArea: false,
@@ -249,7 +246,7 @@ for (let i = 0; i < odata1.length; i++) {
         max: Math.max(...data1) + 0.01 + (Math.max(...data1) * 100) / 5000,
         title: {
           display: true,
-          text:  props.matrix.substring(1) +" in " +  props.name_1  ,
+          text: props.matrix.substring(1) + " in " + props.name_1,
           align: "center",
         },
       },
@@ -404,10 +401,10 @@ export default function ChartPlot(props) {
         setdataStudy2(e.data);
       }
     });
-    if (event.target.value == "Internal") {
+    if (event.target.value == "INTERVAL (internal validation)") {
       console.log("Internal");
       props.data.map((e) => {
-        if (e.title == "Internal_R2") {
+        if (e.title == "INTERVAL (internal validation)_R2") {
           console.log("this the r2");
           let tdata = Object.values(e.data).map((c) => {
             return 0;
