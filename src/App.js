@@ -52,32 +52,32 @@ function App() {
             element={<Scores page="/Scores" name="Scores" />}
           />
           <Route
-            path="Scores/SOMALOGIC/INTERVAL"
+            path="Scores/Somalogic/INTERVAL"
             key="2"
             index="2"
             element={
               <Scores
-                page="Scores/SOMALOGIC/INTERVAL"
+                page="/Scores/Somalogic/INTERVAL"
                 name="Proteomics (Somalogic)"
               />
             }
           />
 
           <Route
-            path="Scores/OLINK/INTERVAL"
+            path="Scores/Olink/INTERVAL"
             key="3"
             index="3"
             element={
-              <Scores page="/Scores/OLINK/INTERVAL" name="Proteomics (Olink)" />
+              <Scores page="/Scores/Olink/INTERVAL" name="Proteomics (Olink)" />
             }
           />
           <Route
-            path="Scores/METABOLON/INTERVAL"
+            path="Scores/Metabolon/INTERVAL"
             key="4"
             index="4"
             element={
               <Scores
-                page="Scores/METABOLON/INTERVAL"
+                page="Scores/Metabolon/INTERVAL"
                 name="Metabolomics (Metabolon)"
               />
             }
@@ -94,50 +94,15 @@ function App() {
             }
           />
           <Route
-            path="/Scores/ILLUMINA_RNASEQ/INTERVAL"
+            path="/Scores/Illumina_RNAseq/INTERVAL"
             key="6"
             index="6"
             element={
               <Scores
-                page="/Scores/ILLUMINA_RNASEQ/INTERVAL"
+                page="/Scores/Illumina_RNAseq/INTERVAL"
                 name="Transcriptomics (Illumina RNAseq)"
               />
             }
-          />
-
-          <Route
-            path="Scores/SOMALOGIC"
-            key="2"
-            index="2"
-            element={<Menu page={"SOMALOGIC"} />}
-          />
-
-          <Route
-            path="Scores/OLINK"
-            key="2"
-            index="2"
-            element={<Menu page={"OLINK"} />}
-          />
-
-          <Route
-            path="Scores/METABOLON"
-            key="2"
-            index="2"
-            element={<Menu page={"METABOLON"} />}
-          />
-
-          <Route
-            path="Scores/Nightingale"
-            key="2"
-            index="2"
-            element={<Menu page={"Nightingale"} />}
-          />
-
-          <Route
-            path="Scores/ILLUMINA_RNASEQ"
-            key="2"
-            index="2"
-            element={<Menu page={"ILLUMINA_RNASEQ"} />}
           />
 
           <Route

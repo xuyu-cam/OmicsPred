@@ -25,11 +25,11 @@ const pages = [
   "Home",
   "Scores",
   "Applications",
+  "Submit Score",
   "FAQs",
   "Cohorts",
   "About",
   "find",
-  "SubmitScore",
 ];
 
 const NavBar = () => {
@@ -110,7 +110,7 @@ const NavBar = () => {
               }}
             >
               {pages.map((page) =>
-                page != "SubmitScore" ? (
+                page != "Submit Score" ? (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">
                       <NavLink
@@ -149,7 +149,7 @@ const NavBar = () => {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) =>
-              page != "SubmitScore" ? (
+              page != "Submit Score" ? (
                 <Button
                   key={page}
                   onClick={handleCloseScoresMenu}
