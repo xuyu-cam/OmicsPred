@@ -770,6 +770,7 @@ export default function Applications(props) {
                         allowColumnResizing={true}
                         columnAutoWidth={true}
                         showBorders={true}
+                        
                         className="max-h-[700px]"
                       >
                         <ColumnChooser enabled={true} />
