@@ -13,7 +13,9 @@ import SwitchLeftIcon from "@mui/icons-material/SwitchLeft";
 import RoutesData from "./RoutesData";
 import { NavLink, Link } from "react-router-dom";
 import { BiSubdirectoryRight } from "react-icons/bi";
-import {TbDirectionHorizontal} from "react-icons/tb";
+import { TbDirectionHorizontal } from "react-icons/tb";
+import { MdOutlineModelTraining } from "react-icons/md";
+import {IoIosArrowForward} from "react-icons/io"
 
 export function Scores(props) {
   const [open, setOpen] = useState(true);
@@ -42,7 +44,7 @@ export function Scores(props) {
     <>
       <div style={{ flex: "1 1 auto" }} className=" flex-col w-screen ">
         <div className=" nav overflow-x-scroll w-full pl-2  h-auto bg-white shadow-sm pt-[38px] fixed z-50 mt-[50px]">
-          <div className="w-full  h-[50px] w-full flex space-x-5 border-b-2 border-slate-300">
+          <div className="w-full  h-[40px] w-full flex space-x-5 border-b-2 border-b-slate-200/20 ">
             <h1 className="min-w-auto px-2 h-[80px]">
               <NavLink
                 className={({ isActive }) => {
@@ -113,10 +115,14 @@ export function Scores(props) {
 
           {props.name !== "Scores" ? (
             <div className="w-full  h-[50px] w-full flex space-x-5 ">
-              <div className="h-full w-[50px] grid place-items-center">
-                <TbDirectionHorizontal
+              <div className="h-full w-[150px] flex place-items-center">
+              
+
+                <span className="text-md text-slate-400">Training data</span>
+
+                <IoIosArrowForward
                   fontSize={"40px"}
-                  className="text-indigo-500"
+                  className="text-slate-400 pr-2"
                 />
               </div>
               <h1 className="min-w-auto px-2 h-[80px] grid place-items-center">
@@ -129,7 +135,7 @@ export function Scores(props) {
                   reloadDocument
                   to={props.page}
                 >
-                     INTERVAL
+                  INTERVAL
                 </NavLink>{" "}
               </h1>
             </div>
@@ -191,5 +197,3 @@ export function Scores(props) {
     </>
   );
 }
-
-

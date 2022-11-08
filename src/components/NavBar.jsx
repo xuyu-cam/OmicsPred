@@ -129,6 +129,8 @@ const NavBar = () => {
                     <Typography textAlign="center">
                       <a
                         className="text-md text-gray-600 text-justify "
+                        target='_blank'
+                        rel="noopener noreferrer"
                         href="https://docs.google.com/forms/d/e/1FAIpQLSdM4rAcpKGAgYECffYpgkIyN1XNkAWBou36W2HWMuPOKtZM-w/viewform?usp=sf_link"
                       >
                         {page}
@@ -173,6 +175,7 @@ const NavBar = () => {
                 >
                   <a
                     className="text-md text-gray-600 text-justify "
+                    target='_blank'
                     href="https://docs.google.com/forms/d/e/1FAIpQLSdM4rAcpKGAgYECffYpgkIyN1XNkAWBou36W2HWMuPOKtZM-w/viewform?usp=sf_link"
                   >
                     {page}

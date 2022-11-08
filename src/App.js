@@ -77,7 +77,7 @@ function App() {
             index="4"
             element={
               <Scores
-                page="Scores/Metabolon/INTERVAL"
+                page="/Scores/Metabolon/INTERVAL"
                 name="Metabolomics (Metabolon)"
               />
             }
