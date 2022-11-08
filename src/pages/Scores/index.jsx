@@ -142,7 +142,7 @@ export function Scores(props) {
           ) : null}
         </div>
 
-        <div className=" lg:flex block w-screen bg-white  absolute mt-[180px]">
+        <div className={ props.name !== "Scores" ? " lg:flex block w-screen bg-white  absolute mt-[180px]" :" lg:flex block w-screen bg-white  absolute mt-[130px]" }>
           {props.name !== "Scores" ? (
             <div
               id="leftpanel"
