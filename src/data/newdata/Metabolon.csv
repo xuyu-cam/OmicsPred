@@ -1,0 +1,728 @@
+OMICSPRED ID,Metabolon ID,Biochemical Name,Super Pathway,Sub Pathway,#SNP,Internal_R2,Internal_Rho,INTERVAL_Withheld_R2,INTERVAL_Withheld_Rho,INTERVAL_Withheld_MissingRate,ORCADES_R2,ORCADES_Rho,ORCADES_MissingRate
+OPGS002693,M15765,ethylmalonate,Amino Acid,Leucine Isoleucine and Valine Metabolism,460,0.461,0.621,0.43,0.608,0,0.333,0.533,0.189
+OPGS002694,M48434,N-acetylcitrulline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,256,0.406,0.592,0.38,0.58,0,0.382,0.572,0.203
+OPGS002695,M47651,X - 11491,,,281,0.405,0.583,,,0,0.243,0.485,0.246
+OPGS002696,M33953,N-acetylarginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,260,0.399,0.613,0.34,0.584,0,0.365,0.587,0.212
+OPGS002697,M31591,androsterone sulfate,Lipid,Steroid,247,0.394,0.501,0.353,0.468,0,0.175,0.355,0.223
+OPGS002698,M46701,X - 19141,,,352,0.378,0.59,0.336,0.561,0,0.267,0.493,0.227
+OPGS002699,M32412,butyrylcarnitine,Lipid,Fatty Acid Metabolism (also BCAA Metabolism),341,0.358,0.538,0.299,0.499,0,0.338,0.536,0.167
+OPGS002700,M52504,X - 24309,,,327,0.339,0.537,,,0,,,
+OPGS002701,M43255,N-acetyl-1-methylhistidine*,Amino Acid,Histidine Metabolism,220,0.335,0.546,0.338,0.545,0,0.349,0.544,0.214
+OPGS002702,M01566,3-aminoisobutyrate,Nucleotide,Pyrimidine Metabolism Thymine containing,126,0.325,0.529,0.296,0.509,0,0.306,0.501,0.151
+OPGS002703,M17799,ibuprofen,Xenobiotics,Drug,47,0.321,0.338,0.001,-0.049,0,,,
+OPGS002704,M34401,5-acetylamino-6-formylamino-3-methyluracil,Xenobiotics,Xanthine Metabolism,208,0.312,0.568,0.158,0.39,0,0.249,0.463,0.067
+OPGS002705,M43249,N-delta-acetylornithine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,225,0.293,0.539,0.169,0.418,0,0.117,0.315,0.24
+OPGS002706,M33973,epiandrosterone sulfate,Lipid,Steroid,186,0.291,0.403,0.267,0.377,0,0.118,0.26,0.188
+OPGS002707,M46624,X - 12798,,,191,0.285,0.472,0.258,0.444,0,0.214,0.417,0.152
+OPGS002708,M46588,X - 12063,,,331,0.275,0.492,,,0,0.221,0.447,0.227
+OPGS002709,M37209,4-androsten-3alpha17alpha-diol monosulfate (3),Lipid,Steroid,275,0.272,0.502,0.243,0.474,0,0.169,0.411,0.251
+OPGS002710,M52544,X - 24348,,,242,0.26,0.481,,,0,,,
+OPGS002711,M46968,X - 21792,,,250,0.257,0.467,,,0,0.205,0.43,0.168
+OPGS002712,M37186,5alpha-androstan-3alpha17beta-diol monosulfate (1),Lipid,Steroid,189,0.257,0.448,0.225,0.416,0,0.145,0.349,0.259
+OPGS002713,M32390,N-acetyltyrosine,Amino Acid,Phenylalanine and Tyrosine Metabolism,227,0.25,0.486,0.139,0.365,0,0.199,0.445,0.22
+OPGS002714,M52983,glycochenodeoxycholate glucuronide (1),Lipid,Primary Bile Acid Metabolism,237,0.249,0.441,0.233,0.425,0,0.143,0.335,0.215
+OPGS002715,M47640,X - 22379,,,168,0.249,0.412,,,0,,,
+OPGS002716,M32586,bilirubin (EE)*,Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,154,0.242,0.437,0.169,0.37,0,0.184,0.396,0.084
+OPGS002717,M02137,biliverdin,Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,145,0.241,0.425,0.075,0.225,0,0.228,0.43,0.083
+OPGS002718,M43807,bilirubin (ZZ),Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,141,0.234,0.427,0.176,0.397,0,0.176,0.382,0.092
+OPGS002719,M46493,X - 21448,,,138,0.216,0.402,,,0,0.162,0.356,0.094
+OPGS002720,M35172,orotidine,Nucleotide,Pyrimidine Metabolism Orotate containing,94,0.211,0.197,0.167,0.202,0,0.058,0.13,0.234
+OPGS002721,M33950,N-acetylphenylalanine,Amino Acid,Phenylalanine and Tyrosine Metabolism,211,0.209,0.456,0.127,0.362,0,0.268,0.526,0.213
+OPGS002722,M46517,X - 16946,,,138,0.209,0.396,,,0,0.152,0.347,0.094
+OPGS002723,M46503,X - 21458,,,114,0.204,0.395,,,0,,,
+OPGS002724,M15716,imidazole lactate,Amino Acid,Histidine Metabolism,160,0.2,0.434,0.16,0.408,0,0.149,0.381,0.194
+OPGS002725,M46603,X - 11530,,,129,0.2,0.391,,,0,0.135,0.332,0.101
+OPGS002726,M40685,methionylalanine,Peptide,Dipeptide,122,0.198,0.42,,,0,,,
+OPGS002727,M46914,X - 11522,,,123,0.198,0.384,,,0,0.139,0.328,0.106
+OPGS002728,M46894,X - 12748,,,260,0.195,0.383,,,0,,,
+OPGS002729,M38168,16a-hydroxy DHEA 3-sulfate,Lipid,Steroid,164,0.194,0.355,0.205,0.377,0,0.142,0.283,0.14
+OPGS002730,M48757,N-acetylkynurenine (2),Amino Acid,Tryptophan Metabolism,149,0.193,0.438,0.171,0.407,0,0.154,0.389,0.174
+OPGS002731,M47653,X - 11593,,,181,0.186,0.441,,,0,,,
+OPGS002732,M40459,escitalopram,Xenobiotics,Drug,2,0.184,0.251,,,0,,,
+OPGS002733,M46516,X - 21471,,,220,0.179,0.409,0.132,0.354,0,0.136,0.328,0.268
+OPGS002734,M42450,1-stearoyl-2-arachidonoyl-GPC (18:0/20:4),Lipid,Phospholipid Metabolism,114,0.178,0.403,0.131,0.367,0,,,
+OPGS002735,M47112,etiocholanolone glucuronide,Lipid,Steroid,129,0.174,0.362,0.143,0.326,0,0.088,0.253,0.155
+OPGS002736,M32599,glycocholenate sulfate*,Lipid,Secondary Bile Acid Metabolism,203,0.172,0.405,0.165,0.402,0,0.172,0.41,0.207
+OPGS002737,M41888,succinimide,Xenobiotics,Chemical,105,0.169,0.34,0.166,0.341,0,0.128,0.323,0.105
+OPGS002738,M32562,pregnen-diol disulfate*,Lipid,Steroid,120,0.166,0.378,0.129,0.339,0,0.066,0.255,0.275
+OPGS002739,M47788,X - 13431,,,169,0.165,0.388,0.149,0.379,0,0.111,0.311,0.136
+OPGS002740,M33946,N-acetylhistidine,Amino Acid,Histidine Metabolism,126,0.162,0.385,0.121,0.336,0,0.168,0.36,0.238
+OPGS002741,M44878,methionine sulfone,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,186,0.161,0.388,0.08,0.27,0,0.118,0.347,0.258
+OPGS002742,M22154,bradykinin,Peptide,Polypeptide,50,0.161,0.404,0.032,0.176,0,,,
+OPGS002743,M46599,X - 11440,,,112,0.159,0.343,,,0,,,
+OPGS002744,M47391,X - 22145,,,102,0.155,0.39,,,0,,,
+OPGS002745,M33441,isobutyrylcarnitine,Amino Acid,Leucine Isoleucine and Valine Metabolism,83,0.154,0.356,0.149,0.36,0,0.169,0.366,0.096
+OPGS002746,M37191,5alpha-androstan-3beta17beta-diol monosulfate (1),Lipid,Steroid,117,0.149,0.33,,,0,,,
+OPGS002747,M33228,1-arachidonoyl-GPC (20:4n6)*,Lipid,Lysolipid,105,0.146,0.368,0.101,0.325,0,,,
+OPGS002748,M46681,X - 16935,,,212,0.146,0.354,0.122,0.315,0,0.103,0.299,0.184
+OPGS002749,M46486,X - 21441,,,151,0.146,0.361,0.121,0.333,0,0.075,0.256,0.232
+OPGS002750,M37183,5alpha-androstan-3alpha17alpha-diol monosulfate,Lipid,Steroid,102,0.146,0.367,0.126,0.348,0,0.13,0.339,0.373
+OPGS002751,M52465,1-palmitoyl-2-docosahexaenoyl-GPE (16:0/22:6)*,Lipid,Phospholipid Metabolism,89,0.145,0.373,0.092,0.307,0,,,
+OPGS002752,M20675,15-anhydroglucitol (15-AG),Carbohydrate,Glycolysis Gluconeogenesis and Pyruvate Metabolism,104,0.144,0.295,0.093,0.232,0,0.053,0.19,0.183
+OPGS002753,M32827,andro steroid monosulfate (1)*,Lipid,Steroid,228,0.142,0.341,0.159,0.356,0,0.1,0.28,0.189
+OPGS002754,M47718,X - 12688,,,164,0.142,0.362,,,0,,,
+OPGS002755,M47417,X - 22162,,,65,0.141,0.301,0.137,0.3,0,0.123,0.271,0.154
+OPGS002756,M52464,1-palmitoyl-2-arachidonoyl-GPE (16:0/20:4)*,Lipid,Phospholipid Metabolism,91,0.139,0.359,0.088,0.296,0,,,
+OPGS002757,M37190,5alpha-androstan-3beta17beta-diol disulfate,Lipid,Steroid,130,0.135,0.321,0.121,0.304,0,0.045,0.184,0.2
+OPGS002758,M37058,succinylcarnitine,Energy,TCA Cycle,179,0.134,0.37,0.101,0.33,0,0.082,0.292,0.14
+OPGS002759,M43343,2-aminooctanoate,Lipid,Fatty Acid Amino,136,0.134,0.348,0.072,0.257,0,0.151,0.384,0.199
+OPGS002760,M47695,X - 12117,,,56,0.132,0.317,0.104,0.285,0,0.09,0.284,0.089
+OPGS002761,M46367,X - 11905,,,156,0.132,0.348,,,0,,,
+OPGS002762,M15586,maltose,Carbohydrate,Glycogen Metabolism,99,0.131,0.351,0.116,0.32,0,0.0,-0.024,0.444
+OPGS002763,M05086,dimethylglycine,Amino Acid,Glycine Serine and Threonine Metabolism,93,0.129,0.301,0.12,0.285,0,0.066,0.227,0.14
+OPGS002764,M52462,1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4),Lipid,Phospholipid Metabolism,101,0.129,0.34,0.092,0.305,0,,,
+OPGS002765,M33983,tauro-beta-muricholate,Lipid,Primary Bile Acid Metabolism,79,0.128,0.208,0.122,0.239,0,,,
+OPGS002766,M01587,N-acetylleucine,Amino Acid,Leucine Isoleucine and Valine Metabolism,129,0.128,0.327,0.07,0.233,0,0.274,0.474,0.209
+OPGS002767,M41487,phenylalanylarginine,Peptide,Dipeptide,22,0.127,0.354,0.033,0.173,0,,,
+OPGS002768,M46548,3-methylglutarylcarnitine (2),Amino Acid,Lysine Metabolism,101,0.125,0.356,0.122,0.358,0,0.106,0.322,0.149
+OPGS002769,M35678,hexadecanedioate,Lipid,Fatty Acid Dicarboxylate,168,0.124,0.337,0.103,0.317,0,0.044,0.214,0.208
+OPGS002770,M52447,1-stearoyl-2-arachidonoyl-GPE (18:0/20:4),Lipid,Phospholipid Metabolism,91,0.124,0.337,0.077,0.277,0,,,
+OPGS002771,M44664,glutarylcarnitine (C5),Amino Acid,Lysine Metabolism,123,0.124,0.344,0.106,0.331,0,0.114,0.346,0.073
+OPGS002772,M43488,N-acetylcarnosine,Peptide,Dipeptide Derivative,132,0.124,0.34,0.086,0.307,0,0.083,0.279,0.053
+OPGS002773,M37185,5alpha-androstan-3alpha17beta-diol monosulfate (2),Lipid,Steroid,65,0.121,0.333,0.102,0.312,0,0.037,0.182,0.338
+OPGS002774,M46512,X - 21467,,,156,0.119,0.334,0.098,0.312,0,0.089,0.286,0.224
+OPGS002775,M46455,X - 21410,,,300,0.116,0.311,,,0,0.092,0.267,0.24
+OPGS002776,M00443,aspartate,Amino Acid,Alanine and Aspartate Metabolism,105,0.115,0.346,0.074,0.272,0,0.005,0.071,0.095
+OPGS002777,M52975,glycodeoxycholate sulfate,Lipid,Secondary Bile Acid Metabolism,142,0.114,0.327,0.095,0.306,0,0.075,0.253,0.239
+OPGS002778,M15500,carnitine,Lipid,Carnitine Metabolism,80,0.113,0.319,0.084,0.304,0,0.159,0.386,0.15
+OPGS002779,M46515,X - 21470,,,135,0.113,0.321,0.071,0.258,0,0.057,0.226,0.259
+OPGS002780,M52689,1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)*,Lipid,Plasmalogen,90,0.113,0.326,0.096,0.305,0,,,
+OPGS002781,M46674,X - 21607,,,113,0.111,0.311,0.077,0.25,0,0.128,0.343,0.248
+OPGS002782,M37202,4-androsten-3beta17beta-diol disulfate (1),Lipid,Steroid,99,0.11,0.318,0.079,0.272,0,0.036,0.18,0.253
+OPGS002783,M46742,X - 21668,,,97,0.104,0.206,,,0,,,
+OPGS002784,M46458,X - 12511,,,102,0.103,0.306,,,0,,,
+OPGS002785,M02134,flavin adenine dinucleotide (FAD),Cofactors and Vitamins,Riboflavin Metabolism,85,0.103,0.306,0.068,0.228,0,0.047,0.222,0.176
+OPGS002786,M35669,tetradecanedioate,Lipid,Fatty Acid Dicarboxylate,123,0.103,0.298,0.09,0.289,0,0.055,0.232,0.228
+OPGS002787,M52865,X - 24544,,,161,0.102,0.294,0.089,0.262,0,0.094,0.274,0.112
+OPGS002788,M48441,4-hydroxychlorothalonil,Xenobiotics,Chemical,101,0.102,0.301,0.072,0.252,0,0.033,0.148,0.158
+OPGS002789,M42449,1-palmitoyl-2-linoleoyl-GPE (16:0/18:2),Lipid,Phospholipid Metabolism,86,0.102,0.307,0.102,0.311,0,,,
+OPGS002790,M46443,X - 11442,,,67,0.1,0.278,,,0,0.073,0.236,0.104
+OPGS002791,M33387,2-arachidonoyl-GPC (20:4)*,Lipid,Lysolipid,79,0.1,0.304,,,0,,,
+OPGS002792,M15681,4-guanidinobutanoate,Amino Acid,Guanidino and Acetamido Metabolism,83,0.1,0.314,0.029,0.165,0,0.135,0.355,0.193
+OPGS002793,M42087,indoleacetylglutamine,Amino Acid,Tryptophan Metabolism,77,0.1,0.304,0.047,0.215,0,0.078,0.272,0.377
+OPGS002794,M47211,X - 14095,,,56,0.099,0.257,,,0,,,
+OPGS002795,M00058,glycine,Amino Acid,Glycine Serine and Threonine Metabolism,78,0.098,0.313,0.086,0.305,0,0.125,0.362,0.064
+OPGS002796,M35136,5-methyluridine (ribothymidine),Nucleotide,Pyrimidine Metabolism Uracil containing,109,0.096,0.322,0.08,0.292,0,0.152,0.384,0.156
+OPGS002797,M15685,5-hydroxylysine,Amino Acid,Lysine Metabolism,57,0.096,0.33,0.048,0.206,0,0.257,0.504,0.088
+OPGS002798,M47671,X - 18921,,,105,0.095,0.296,0.077,0.266,0,0.077,0.28,0.162
+OPGS002799,M22137,homoarginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,85,0.094,0.302,0.055,0.233,0,0.065,0.267,0.082
+OPGS002800,M46144,methyl glucopyranoside (alpha + beta),Xenobiotics,Food Component/Plant,37,0.094,0.197,0.079,0.168,0,0.065,0.134,0.162
+OPGS002801,M46471,X - 12824,,,124,0.093,0.291,,,0,,,
+OPGS002802,M52466,1-stearoyl-2-docosahexaenoyl-GPE (18:0/22:6)*,Lipid,Phospholipid Metabolism,67,0.092,0.292,0.044,0.211,0,,,
+OPGS002803,M46604,X - 11538,,,121,0.092,0.291,,,0,,,
+OPGS002804,M52974,glycochenodeoxycholate sulfate,Lipid,Primary Bile Acid Metabolism,79,0.092,0.291,0.072,0.259,0,0.038,0.186,0.241
+OPGS002805,M01898,proline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,56,0.092,0.283,0.04,0.191,0,0.165,0.366,0.232
+OPGS002806,M33132,X - 11787,,,114,0.091,0.314,0.052,0.231,0,0.119,0.343,0.228
+OPGS002807,M52686,1-palmitoyl-2-dihomo-linolenoyl-GPE (16:0/20:3)*,Lipid,Phospholipid Metabolism,73,0.089,0.294,,,0,,,
+OPGS002808,M46360,X - 11441,,,61,0.089,0.261,,,0,0.067,0.222,0.115
+OPGS002809,M46655,X - 14626,,,90,0.089,0.267,,,0,,,
+OPGS002810,M47929,X - 12707,,,91,0.088,0.312,0.065,0.26,0,0.094,0.308,0.209
+OPGS002811,M32328,hexanoylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),68,0.088,0.268,0.073,0.251,0,0.055,0.234,0.162
+OPGS002812,M31850,butyrylglycine,Lipid,Fatty Acid Metabolism (also BCAA Metabolism),103,0.087,0.274,,,0,,,
+OPGS002813,M42027,histidylalanine,Peptide,Dipeptide,27,0.087,0.297,,,0,,,
+OPGS002814,M00485,spermidine,Amino Acid,Polyamine Metabolism,65,0.086,0.296,0.094,0.302,0,0.0,-0.01,0.492
+OPGS002815,M36747,deoxycarnitine,Lipid,Carnitine Metabolism,68,0.086,0.324,0.067,0.291,0,0.143,0.368,0.221
+OPGS002816,M46601,X - 11470,,,227,0.086,0.261,0.066,0.24,0,0.07,0.26,0.247
+OPGS002817,M48992,X - 23293,,,95,0.085,0.28,,,0,,,
+OPGS002818,M52280,X - 24241,,,38,0.083,0.283,,,0,0.022,0.149,0.184
+OPGS002819,M52719,phosphatidylcholine (16:0/22:5n3 18:1/20:4)*,Lipid,Phospholipid Metabolism,66,0.083,0.277,0.037,0.199,0,,,
+OPGS002820,M47132,5alpha-androstan-3alpha 17beta-diol-17-glucosiduronate,Lipid,Steroid,33,0.082,0.274,0.06,0.233,0,,,
+OPGS002821,M37496,N-acetylputrescine,Amino Acid,Polyamine Metabolism,84,0.082,0.272,0.101,0.313,0,0.068,0.244,0.024
+OPGS002822,M43333,carboxyibuprofen,Xenobiotics,Drug,2,0.081,0.13,0.001,0.008,0,,,
+OPGS002823,M32342,adenosine 5'-monophosphate (AMP),Nucleotide,Purine Metabolism Adenine containing,84,0.081,0.284,0.058,0.235,0,0.006,0.083,0.44
+OPGS002824,M01558,4-acetamidobutanoate,Amino Acid,Polyamine Metabolism,83,0.081,0.258,0.042,0.207,0,0.049,0.213,0.036
+OPGS002825,M34420,bradykinin des-arg(9),Peptide,Polypeptide,9,0.081,0.271,0.014,0.115,0,,,
+OPGS002826,M46460,X - 11444,,,140,0.08,0.277,0.074,0.262,0,0.047,0.21,0.136
+OPGS002827,M34424,5-acetylamino-6-amino-3-methyluracil,Xenobiotics,Xanthine Metabolism,74,0.08,0.32,0.034,0.219,0,0.065,0.227,0.027
+OPGS002828,M34396,choline phosphate,Lipid,Phospholipid Metabolism,111,0.079,0.284,0.044,0.228,0,0.014,0.115,0.288
+OPGS002829,M01110,arachidonate (20:4n6),Lipid,Polyunsaturated Fatty Acid (n3 and n6),64,0.079,0.263,0.036,0.186,0,0.061,0.236,0.062
+OPGS002830,M46410,X - 21365,,,88,0.079,0.237,,,0,,,
+OPGS002831,M27710,N-acetylglycine,Amino Acid,Glycine Serine and Threonine Metabolism,70,0.078,0.289,0.073,0.274,0,0.063,0.251,0.1
+OPGS002832,M52670,X - 24438,,,59,0.078,0.28,,,0,,,
+OPGS002833,M32807,taurocholenate sulfate,Lipid,Secondary Bile Acid Metabolism,80,0.077,0.264,0.071,0.261,0,0.027,0.16,0.188
+OPGS002834,M52720,phosphatidylcholine (18:0/20:5 16:0/22:5n6)*,Lipid,Phospholipid Metabolism,63,0.075,0.262,0.043,0.2,0,,,
+OPGS002835,M43256,N-acetyl-3-methylhistidine*,Amino Acid,Histidine Metabolism,55,0.075,0.247,0.059,0.205,0,0.04,0.163,0.291
+OPGS002836,M32350,1-methylimidazoleacetate,Amino Acid,Histidine Metabolism,60,0.075,0.301,0.066,0.297,0,0.101,0.324,0.183
+OPGS002837,M52449,1-stearoyl-2-arachidonoyl-GPI (18:0/20:4),Lipid,Phospholipid Metabolism,72,0.075,0.264,0.059,0.252,0,,,
+OPGS002838,M52988,adipoylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),61,0.075,0.265,0.067,0.258,0,0.056,0.229,0.279
+OPGS002839,M46707,X - 17653,,,83,0.074,0.266,0.067,0.254,0,0.063,0.23,0.265
+OPGS002840,M46368,X - 18914,,,77,0.074,0.26,,,0,0.054,0.21,0.156
+OPGS002841,M48491,sphingomyelin (d18:1/20:1 d18:2/20:0)*,Lipid,Sphingolipid Metabolism,53,0.073,0.271,0.063,0.249,0,,,
+OPGS002842,M53013,glycosyl-N-palmitoyl-sphingosine,Lipid,Sphingolipid Metabolism,54,0.073,0.272,0.049,0.225,0,,,
+OPGS002843,M52613,1-(1-enyl-stearoyl)-2-arachidonoyl-GPC (P-18:0/20:4),Lipid,Plasmalogen,64,0.073,0.261,,,0,,,
+OPGS002844,M35436,hexanoylglycine,Lipid,Fatty Acid Metabolism(Acyl Glycine),51,0.073,0.239,0.068,0.248,0,0.04,0.198,0.118
+OPGS002845,M46225,pyroglutamine*,Amino Acid,Glutamate Metabolism,60,0.071,0.254,0.042,0.204,0,0.051,0.213,0.1
+OPGS002846,M33936,octanoylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),69,0.071,0.241,0.06,0.224,0,0.069,0.255,0.145
+OPGS002847,M43258,acisoga,Amino Acid,Polyamine Metabolism,64,0.071,0.251,0.069,0.251,0,0.079,0.275,0.219
+OPGS002848,M47872,X - 17340,,,54,0.071,0.264,,,0,0.126,0.351,0.148
+OPGS002849,M47801,X - 16071,,,115,0.07,0.27,,,0,,,
+OPGS002850,M52446,1-stearoyl-2-linoleoyl-GPE (18:0/18:2)*,Lipid,Phospholipid Metabolism,73,0.07,0.254,0.06,0.238,0,,,
+OPGS002851,M15745,methylsuccinate,Amino Acid,Leucine Isoleucine and Valine Metabolism,106,0.07,0.221,0.028,0.149,0,0.068,0.208,0.198
+OPGS002852,M52713,1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1)*,Lipid,Plasmalogen,42,0.07,0.261,0.064,0.254,0,,,
+OPGS002853,M01505,orotate,Nucleotide,Pyrimidine Metabolism Orotate containing,78,0.07,0.259,0.047,0.216,0,0.146,0.366,0.141
+OPGS002854,M38102,oleoyl ethanolamide,Lipid,Endocannabinoid,53,0.069,0.184,0.055,0.152,0,0.024,0.139,0.113
+OPGS002855,M52718,1-palmityl-2-arachidonoyl-GPC (O-16:0/20:4)*,Lipid,Phospholipid Metabolism,63,0.069,0.249,,,0,,,
+OPGS002856,M52716,1-(1-enyl-palmitoyl)-2-palmitoyl-GPC (P-16:0/16:0)*,Lipid,Plasmalogen,51,0.068,0.27,0.067,0.27,0,,,
+OPGS002857,M46325,1-arachidonoyl-GPA (20:4),Lipid,Lysolipid,58,0.067,0.247,0.055,0.227,0,,,
+OPGS002858,M31932,propionylglycine,Lipid,Fatty Acid Metabolism (also BCAA Metabolism),63,0.067,0.262,0.053,0.236,0,0.053,0.225,0.048
+OPGS002859,M35186,1-arachidonoyl-GPE (20:4n6)*,Lipid,Lysolipid,68,0.067,0.244,0.031,0.175,0,,,
+OPGS002860,M35631,1-palmitoyl-GPE (16:0),Lipid,Lysolipid,53,0.066,0.247,0.051,0.225,0,,,
+OPGS002861,M00605,uracil,Nucleotide,Pyrimidine Metabolism Uracil containing,78,0.066,0.251,0.045,0.204,0,0.021,0.119,0.359
+OPGS002862,M37207,4-androsten-3alpha17alpha-diol monosulfate (2),Lipid,Steroid,59,0.066,0.23,0.055,0.199,0,0.039,0.166,0.339
+OPGS002863,M52468,1-stearoyl-2-linoleoyl-GPI (18:0/18:2),Lipid,Phospholipid Metabolism,59,0.066,0.25,0.046,0.227,0,,,
+OPGS002864,M46115,21-hydroxypregnenolone disulfate,Lipid,Steroid,81,0.066,0.245,0.041,0.202,0,0.062,0.234,0.309
+OPGS002865,M46285,X - 21283,,,37,0.065,0.207,,,0,,,
+OPGS002866,M33959,N-acetyltryptophan,Amino Acid,Tryptophan Metabolism,77,0.064,0.249,0.035,0.184,0,0.112,0.331,0.169
+OPGS002867,M01417,kynurenate,Amino Acid,Tryptophan Metabolism,39,0.064,0.238,0.044,0.216,0,0.065,0.238,0.051
+OPGS002868,M38165,palmitoyl ethanolamide,Lipid,Endocannabinoid,44,0.063,0.146,0.047,0.129,0,,,
+OPGS002869,M46663,X - 11334,,,58,0.063,0.251,,,0,,,
+OPGS002870,M01600,phosphoethanolamine,Lipid,Phospholipid Metabolism,81,0.062,0.249,0.045,0.223,0,0.001,0.036,0.432
+OPGS002871,M33904,X - 12459,,,58,0.062,0.217,,,0,,,
+OPGS002872,M44563,1-eicosapentaenoyl-GPC (20:5)*,Lipid,Lysolipid,53,0.061,0.243,,,0,,,
+OPGS002873,M46652,X - 14658,,,59,0.061,0.234,,,0,,,
+OPGS002874,M33997,campesterol,Lipid,Sterol,16,0.06,0.24,0.068,0.253,0,0.106,0.323,0.312
+OPGS002875,M46904,X - 21735,,,59,0.06,0.222,,,0,,,
+OPGS002876,M12017,3-methoxytyrosine,Amino Acid,Phenylalanine and Tyrosine Metabolism,48,0.06,0.238,0.02,0.129,0,0.035,0.175,0.188
+OPGS002877,M43330,2-hydroxyibuprofen,Xenobiotics,Drug,1,0.06,0.124,0.0,-0.0,0,,,
+OPGS002878,M42398,1-stearoyl-GPE (18:0),Lipid,Lysolipid,51,0.06,0.235,0.043,0.206,0,,,
+OPGS002879,M43591,N2N5-diacetylornithine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,66,0.06,0.235,0.051,0.213,0,0.012,0.114,0.258
+OPGS002880,M47821,X - 17337,,,68,0.059,0.242,,,0,0.043,0.203,0.309
+OPGS002881,M52049,X - 24020,,,63,0.058,0.24,,,0,,,
+OPGS002882,M34389,1-methylxanthine,Xenobiotics,Xanthine Metabolism,54,0.058,0.271,0.08,0.296,0,0.023,0.143,0.019
+OPGS002883,M02125,taurine,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,77,0.058,0.238,0.039,0.203,0,0.003,-0.048,0.481
+OPGS002884,M47114,ferulic acid 4-sulfate,Xenobiotics,Food Component/Plant,71,0.058,0.24,0.046,0.21,0,,,
+OPGS002885,M46223,linoleoylcarnitine*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),73,0.057,0.217,0.052,0.224,0,0.061,0.233,0.123
+OPGS002886,M46997,X - 12822,,,61,0.057,0.237,0.018,0.125,0,0.044,0.216,0.098
+OPGS002887,M46390,X - 11308,,,79,0.057,0.228,0.044,0.206,0,0.06,0.217,0.228
+OPGS002888,M42463,sphingomyelin (d18:1/14:0 d16:1/16:0)*,Lipid,Sphingolipid Metabolism,58,0.057,0.222,0.047,0.214,0,,,
+OPGS002889,M36752,N6-acetyllysine,Amino Acid,Lysine Metabolism,58,0.056,0.225,0.016,0.12,0,0.103,0.269,0.121
+OPGS002890,M49583,X - 23705,,,55,0.056,0.223,,,0,,,
+OPGS002891,M19263,1-palmitoyl-2-oleoyl-GPE (16:0/18:1),Lipid,Phospholipid Metabolism,46,0.056,0.225,0.05,0.214,0,,,
+OPGS002892,M32452,propionylcarnitine,Lipid,Fatty Acid Metabolism (also BCAA Metabolism),34,0.054,0.216,0.041,0.206,0,0.077,0.269,0.235
+OPGS002893,M52699,1-stearoyl-2-docosapentaenoyl-GPC (18:0/22:5n3)*,Lipid,Phospholipid Metabolism,44,0.054,0.223,,,0,,,
+OPGS002894,M33962,bradykinin hydroxy-pro(3),Peptide,Polypeptide,12,0.054,0.213,0.008,0.076,0,,,
+OPGS002895,M00512,asparagine,Amino Acid,Alanine and Aspartate Metabolism,38,0.053,0.218,0.025,0.152,0,0.087,0.261,0.237
+OPGS002896,M32578,X - 11261,,,34,0.053,0.223,,,0,0.026,0.17,0.088
+OPGS002897,M43231,6-oxopiperidine-2-carboxylic acid,Amino Acid,Lysine Metabolism,30,0.053,0.176,0.028,0.136,0,0.044,0.159,0.2
+OPGS002898,M46677,X - 16654,,,57,0.053,0.212,,,0,0.049,0.218,0.298
+OPGS002899,M52463,1-palmitoyl-2-eicosapentaenoyl-GPC (16:0/20:5)*,Lipid,Phospholipid Metabolism,49,0.053,0.215,,,0,,,
+OPGS002900,M48009,X - 17357,,,37,0.053,0.23,0.041,0.197,0,0.026,0.164,0.243
+OPGS002901,M49228,X - 23369,,,89,0.052,0.228,,,0,0.046,0.22,0.483
+OPGS002902,M49647,X - 23749,,,24,0.052,0.221,,,0,,,
+OPGS002903,M49704,X - 23314,,,21,0.052,0.165,,,0,0.056,0.149,0.19
+OPGS002904,M34214,1-arachidonoyl-GPI (20:4)*,Lipid,Lysolipid,58,0.051,0.217,0.027,0.167,0,,,
+OPGS002905,M01604,urate,Nucleotide,Purine Metabolism (Hypo)Xanthine/Inosine containing,83,0.051,0.211,0.048,0.208,0,0.034,0.172,0.096
+OPGS002906,M47013,X - 16570,,,40,0.051,0.225,,,0,0.059,0.244,0.075
+OPGS002907,M46700,X - 18922,,,51,0.05,0.214,0.044,0.207,0,0.027,0.163,0.255
+OPGS002908,M49592,X - 11315,,,32,0.05,0.215,0.02,0.129,0,0.057,0.192,0.094
+OPGS002909,M52671,X - 24439,,,31,0.049,0.21,,,0,,,
+OPGS002910,M52636,X - 24422,,,26,0.049,0.208,0.046,0.197,0,0.037,0.199,0.077
+OPGS002911,M34395,1-methylurate,Xenobiotics,Xanthine Metabolism,44,0.049,0.225,0.026,0.165,0,0.022,0.136,0.068
+OPGS002912,M35160,oleoylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),51,0.049,0.203,0.04,0.199,0,0.045,0.209,0.118
+OPGS002913,M46294,X - 21285,,,75,0.049,0.209,,,0,,,
+OPGS002914,M37432,N-acetyl-beta-alanine,Nucleotide,Pyrimidine Metabolism Uracil containing,28,0.048,0.188,0.009,0.091,0,0.029,0.162,0.107
+OPGS002915,M48490,sphingomyelin (d18:1/20:0 d16:1/22:0)*,Lipid,Sphingolipid Metabolism,37,0.048,0.225,0.06,0.264,0,,,
+OPGS002916,M03141,betaine,Amino Acid,Glycine Serine and Threonine Metabolism,40,0.048,0.223,0.037,0.211,0,0.065,0.255,0.125
+OPGS002917,M52495,sphingomyelin (d18:1/21:0 d17:1/22:0 d16:1/23:0)*,Lipid,Sphingolipid Metabolism,39,0.048,0.219,0.044,0.216,0,,,
+OPGS002918,M44681,palmitoylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),51,0.048,0.21,0.036,0.197,0,0.038,0.205,0.137
+OPGS002919,M35159,cysteine-glutathione disulfide,Amino Acid,Glutathione Metabolism,34,0.048,0.201,0.028,0.155,0,0.006,0.104,0.559
+OPGS002920,M33937,alpha-hydroxyisovalerate,Amino Acid,Leucine Isoleucine and Valine Metabolism,40,0.047,0.23,,,0,,,
+OPGS002921,M52687,1-oleoyl-2-linoleoyl-GPE (18:1/18:2)*,Lipid,Phospholipid Metabolism,43,0.047,0.209,0.055,0.23,0,,,
+OPGS002922,M34409,stearoylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),45,0.047,0.213,0.035,0.192,0,0.037,0.201,0.178
+OPGS002923,M00587,gluconate,Xenobiotics,Food Component/Plant,25,0.047,0.118,0.033,0.086,0,0.041,0.09,0.2
+OPGS002924,M46633,X - 12844,,,35,0.047,0.213,0.046,0.214,0,0.045,0.22,0.257
+OPGS002925,M44876,gamma-CEHC,Cofactors and Vitamins,Tocopherol Metabolism,58,0.046,0.21,0.043,0.219,0,0.03,0.176,0.172
+OPGS002926,M47652,X - 11549,,,57,0.046,0.201,,,0,,,
+OPGS002927,M46634,X - 12846,,,45,0.046,0.197,,,0,0.017,0.135,0.178
+OPGS002928,M37198,5alpha-pregnan-3beta20alpha-diol disulfate,Lipid,Steroid,52,0.046,0.222,0.041,0.199,0,0.01,0.115,0.346
+OPGS002929,M38170,pregnenolone sulfate,Lipid,Steroid,43,0.046,0.208,0.033,0.176,0,0.044,0.213,0.209
+OPGS002930,M46417,X - 13866,,,57,0.046,0.208,0.038,0.196,0,0.049,0.221,0.07
+OPGS002931,M18467,eicosapentaenoate (EPA; 20:5n3),Lipid,Polyunsaturated Fatty Acid (n3 and n6),44,0.045,0.201,0.021,0.143,0,0.01,0.09,0.045
+OPGS002932,M37210,4-androsten-3beta17beta-diol monosulfate (2),Lipid,Steroid,44,0.045,0.208,0.041,0.201,0,0.023,0.156,0.045
+OPGS002933,M52450,1-palmitoyl-2-linoleoyl-GPI (16:0/18:2),Lipid,Phospholipid Metabolism,38,0.044,0.199,0.03,0.171,0,,,
+OPGS002934,M52705,1-oleoyl-2-dihomo-linolenoyl-GPC (18:1/20:3)*,Lipid,Phospholipid Metabolism,62,0.044,0.216,,,0,,,
+OPGS002935,M32425,dehydroisoandrosterone sulfate (DHEA-S),Lipid,Steroid,47,0.044,0.184,0.033,0.168,0,0.016,0.104,0.213
+OPGS002936,M33871,1-dihomo-linoleoyl-GPC (20:2)*,Lipid,Lysolipid,41,0.044,0.206,,,0,,,
+OPGS002937,M48011,X - 17359,,,42,0.044,0.193,,,0,0.054,0.218,0.333
+OPGS002938,M32815,2-arachidonoyl-GPE (20:4)*,Lipid,Lysolipid,47,0.044,0.209,,,0,,,
+OPGS002939,M38178,cis-4-decenoyl carnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),51,0.044,0.185,0.043,0.189,0,0.071,0.256,0.176
+OPGS002940,M53010,lactosyl-N-palmitoyl-sphingosine,Lipid,Sphingolipid Metabolism,49,0.044,0.201,0.034,0.191,0,,,
+OPGS002941,M52684,1-palmitoyl-2-linolenoyl-GPC (16:0/18:3)*,Lipid,Phospholipid Metabolism,34,0.043,0.201,,,0,,,
+OPGS002942,M15140,kynurenine,Amino Acid,Tryptophan Metabolism,40,0.043,0.202,0.015,0.128,0,0.026,0.151,0.125
+OPGS002943,M45452,2-palmitoyl-GPE (16:0)*,Lipid,Lysolipid,46,0.043,0.201,,,0,,,
+OPGS002944,M46366,X - 18249,,,51,0.043,0.194,,,0,0.024,0.151,0.157
+OPGS002945,M37196,5alpha-pregnan-3beta20beta-diol monosulfate (1),Lipid,Steroid,44,0.043,0.227,0.043,0.219,0,0.018,0.128,0.023
+OPGS002946,M34407,isovalerylcarnitine,Amino Acid,Leucine Isoleucine and Valine Metabolism,50,0.043,0.2,0.038,0.197,0,0.032,0.162,0.2
+OPGS002947,M32619,pregn steroid monosulfate*,Lipid,Steroid,41,0.043,0.203,0.032,0.173,0,0.033,0.168,0.317
+OPGS002948,M44630,1-dihomo-linolenoyl-GPE (20:3n3 or 6)*,Lipid,Lysolipid,36,0.042,0.206,,,0,,,
+OPGS002949,M52738,1-stearoyl-2-meadoyl-GPC (18:0/20:3n9)*,Lipid,Phospholipid Metabolism,40,0.041,0.184,,,0,,,
+OPGS002950,M12129,beta-hydroxyisovalerate,Amino Acid,Leucine Isoleucine and Valine Metabolism,37,0.041,0.205,0.022,0.15,0,0.015,0.092,0.135
+OPGS002951,M19503,stearoyl sphingomyelin (d18:1/18:0),Lipid,Sphingolipid Metabolism,26,0.041,0.191,0.046,0.212,0,,,
+OPGS002952,M33821,1-dihomo-linolenoyl-GPC (20:3n3 or 6)*,Lipid,Lysolipid,63,0.04,0.198,,,0,,,
+OPGS002953,M00594,nicotinamide,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,51,0.04,0.191,0.027,0.165,0,0.002,-0.033,0.51
+OPGS002954,M52453,1-oleoyl-2-linoleoyl-GPC (18:1/18:2)*,Lipid,Phospholipid Metabolism,41,0.04,0.193,,,0,,,
+OPGS002955,M46970,X - 17676,,,26,0.04,0.176,0.03,0.147,0,0.033,0.155,0.231
+OPGS002956,M52433,sphingomyelin (d18:1/15:0 d16:1/17:0)*,Lipid,Sphingolipid Metabolism,38,0.04,0.194,0.027,0.164,0,,,
+OPGS002957,M18368,cys-gly oxidized,Amino Acid,Glutathione Metabolism,27,0.04,0.169,0.024,0.139,0,0.029,0.167,0.185
+OPGS002958,M52454,1-palmitoyl-2-dihomo-linolenoyl-GPC (16:0/20:3n3 or 6)*,Lipid,Phospholipid Metabolism,61,0.04,0.2,0.043,0.224,0,,,
+OPGS002959,M37529,sphingomyelin (d18:1/18:1 d18:2/18:0),Lipid,Sphingolipid Metabolism,39,0.039,0.194,0.034,0.186,0,,,
+OPGS002960,M33941,decanoylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),51,0.039,0.177,0.033,0.165,0,0.079,0.27,0.137
+OPGS002961,M52629,1-stearoyl-2-dihomo-linolenoyl-GPC (18:0/20:3n3 or 6)*,Lipid,Phospholipid Metabolism,69,0.039,0.193,,,0,,,
+OPGS002962,M32198,acetylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),20,0.038,0.189,0.032,0.18,0,0.074,0.259,0.2
+OPGS002963,M52669,1-palmitoyl-2-oleoyl-GPI (16:0/18:1)*,Lipid,Phospholipid Metabolism,30,0.038,0.189,0.026,0.165,0,,,
+OPGS002964,M44633,1-docosahexaenoyl-GPE (22:6)*,Lipid,Lysolipid,39,0.037,0.184,,,0,,,
+OPGS002965,M12032,4-acetamidophenol,Xenobiotics,Drug,2,0.037,0.1,0.0,-0.0,0,0.002,-0.015,0.0
+OPGS002966,M48980,tigloylglycine,Amino Acid,Leucine Isoleucine and Valine Metabolism,20,0.037,0.187,,,0,,,
+OPGS002967,M32698,X - 11381,,,19,0.037,0.174,0.032,0.17,0,,,
+OPGS002968,M32405,indolepropionate,Amino Acid,Tryptophan Metabolism,23,0.036,0.166,0.027,0.152,0,0.02,0.104,0.435
+OPGS002969,M37097,tryptophan betaine,Amino Acid,Tryptophan Metabolism,66,0.036,0.177,0.027,0.148,0,0.033,0.14,0.076
+OPGS002970,M46616,X - 12411,,,16,0.036,0.159,0.047,0.164,0,0.018,0.102,0.125
+OPGS002971,M52467,1-palmitoyl-2-arachidonoyl-GPI (16:0/20:4)*,Lipid,Phospholipid Metabolism,29,0.036,0.176,0.021,0.137,0,,,
+OPGS002972,M52737,1-palmitoyl-2-meadoyl-GPC (16:0/20:3n9)*,Lipid,Phospholipid Metabolism,37,0.036,0.172,,,0,,,
+OPGS002973,M52434,palmitoyl dihydrosphingomyelin (d18:0/16:0)*,Lipid,Sphingolipid Metabolism,24,0.035,0.181,0.028,0.173,0,,,
+OPGS002974,M01498,N6N6N6-trimethyllysine,Amino Acid,Lysine Metabolism,22,0.035,0.163,0.015,0.105,0,0.045,0.202,0.091
+OPGS002975,M00590,hypotaurine,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,45,0.035,0.177,0.034,0.185,0,0.012,0.106,0.4
+OPGS002976,M46977,X - 15503,,,26,0.035,0.191,0.024,0.154,0,0.043,0.215,0.077
+OPGS002977,M52603,12-dilinoleoyl-GPC (18:2/18:2),Lipid,Phospholipid Metabolism,34,0.035,0.181,0.021,0.149,0,,,
+OPGS002978,M33952,myristoylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),39,0.034,0.183,0.026,0.167,0,0.029,0.184,0.154
+OPGS002979,M46172,5alpha-pregnan-3(alpha or beta)20beta-diol disulfate,Lipid,Steroid,27,0.034,0.189,0.04,0.19,0,0.02,0.142,0.222
+OPGS002980,M52683,1-palmitoleoyl-2-linoleoyl-GPC (16:1/18:2)*,Lipid,Phospholipid Metabolism,31,0.034,0.181,,,0,,,
+OPGS002981,M37231,1-docosapentaenoyl-GPC (22:5n3)*,Lipid,Lysolipid,31,0.034,0.19,,,0,,,
+OPGS002982,M47715,X - 12681,,,25,0.033,0.18,,,0,,,
+OPGS002983,M37203,4-androsten-3beta17beta-diol disulfate (2),Lipid,Steroid,36,0.033,0.178,0.026,0.163,0,0.032,0.159,0.167
+OPGS002984,M33949,gamma-glutamylglycine,Peptide,Gamma-glutamyl Amino Acid,39,0.033,0.178,0.024,0.159,0,0.078,0.296,0.051
+OPGS002985,M48993,X - 23294,,,45,0.033,0.174,,,0,0.019,0.123,0.333
+OPGS002986,M35437,isobutyrylglycine,Amino Acid,Leucine Isoleucine and Valine Metabolism,26,0.033,0.174,0.011,0.108,0,0.029,0.16,0.0
+OPGS002987,M32620,glycolithocholate sulfate*,Lipid,Secondary Bile Acid Metabolism,23,0.033,0.176,0.037,0.192,0,0.026,0.15,0.261
+OPGS002988,M41220,2-stearoyl-GPE (18:0)*,Lipid,Lysolipid,28,0.033,0.175,0.017,0.137,0,,,
+OPGS002989,M49635,X - 23737,,,18,0.033,0.172,,,0,,,
+OPGS002990,M32497,10-undecenoate (11:1n1),Lipid,Medium Chain Fatty Acid,46,0.033,0.157,0.033,0.154,0,0.045,0.146,0.348
+OPGS002991,M46673,X - 16576,,,28,0.033,0.206,0.022,0.179,0,0.04,0.196,0.143
+OPGS002992,M33384,salicyluric glucuronide*,Xenobiotics,Drug,3,0.032,0.104,0.0,-0.035,0,0.0,0.012,0.0
+OPGS002993,M01567,vanillylmandelate (VMA),Amino Acid,Phenylalanine and Tyrosine Metabolism,19,0.032,0.177,0.023,0.156,0,0.019,0.166,0.263
+OPGS002994,M42574,glycohyocholate,Lipid,Secondary Bile Acid Metabolism,22,0.032,0.166,0.015,0.117,0,0.022,0.15,0.136
+OPGS002995,M37184,5alpha-androstan-3alpha17beta-diol disulfate,Lipid,Steroid,35,0.032,0.168,0.027,0.159,0,0.011,0.078,0.4
+OPGS002996,M15705,cystathionine,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,11,0.032,0.077,0.037,0.049,0,0.008,0.039,0.091
+OPGS002997,M42446,1-palmitoyl-2-linoleoyl-GPC (16:0/18:2),Lipid,Phospholipid Metabolism,31,0.032,0.173,0.019,0.143,0,,,
+OPGS002998,M22130,phenyllactate (PLA),Amino Acid,Phenylalanine and Tyrosine Metabolism,20,0.031,0.183,0.025,0.167,0,0.038,0.199,0.3
+OPGS002999,M35639,vanillate,Xenobiotics,Food Component/Plant,1,0.031,0.07,,,0,,,
+OPGS003000,M42448,1-stearoyl-2-oleoyl-GPE (18:0/18:1),Lipid,Phospholipid Metabolism,34,0.031,0.168,0.031,0.163,0,,,
+OPGS003001,M37506,palmitoyl sphingomyelin (d18:1/16:0),Lipid,Sphingolipid Metabolism,18,0.031,0.168,0.017,0.134,0,,,
+OPGS003002,M01648,serine,Amino Acid,Glycine Serine and Threonine Metabolism,22,0.03,0.172,0.02,0.147,0,0.072,0.259,0.045
+OPGS003003,M46597,X - 11429,,,19,0.03,0.159,,,0,,,
+OPGS003004,M36754,octadecanedioate,Lipid,Fatty Acid Dicarboxylate,43,0.03,0.17,0.032,0.177,0,0.009,0.099,0.186
+OPGS003005,M15772,ribitol,Carbohydrate,Pentose Metabolism,32,0.03,0.149,0.024,0.133,0,0.068,0.218,0.062
+OPGS003006,M00063,cholesterol,Lipid,Sterol,19,0.03,0.165,0.019,0.135,0,0.022,0.167,0.053
+OPGS003007,M00607,trans-urocanate,Amino Acid,Histidine Metabolism,28,0.03,0.178,0.034,0.195,0,0.01,0.103,0.107
+OPGS003008,M01899,quinolinate,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,29,0.03,0.175,0.019,0.141,0,0.004,0.058,0.207
+OPGS003009,M37211,4-androsten-3beta17beta-diol monosulfate (1),Lipid,Steroid,39,0.03,0.146,0.021,0.124,0,0.004,0.012,0.256
+OPGS003010,M02829,N-formylmethionine,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,22,0.03,0.128,0.018,0.115,0,0.046,0.212,0.136
+OPGS003011,M52677,1-(1-enyl-palmitoyl)-2-linoleoyl-GPE (P-16:0/18:2)*,Lipid,Plasmalogen,27,0.03,0.161,0.012,0.109,0,,,
+OPGS003012,M01638,arginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,23,0.03,0.155,0.009,0.087,0,0.012,0.113,0.217
+OPGS003013,M46602,X - 11478,,,29,0.029,0.165,0.036,0.174,0,0.026,0.154,0.483
+OPGS003014,M52700,1-stearoyl-2-docosapentaenoyl-GPC (18:0/22:5n6)*,Lipid,Phospholipid Metabolism,16,0.029,0.175,,,0,,,
+OPGS003015,M46388,X - 21343,,,26,0.029,0.143,,,0,,,
+OPGS003016,M52710,1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6)*,Lipid,Phospholipid Metabolism,27,0.029,0.159,0.023,0.154,0,,,
+OPGS003017,M21133,4-hydroxybenzoate,Xenobiotics,Benzoate Metabolism,3,0.029,0.041,0.0,-0.0,0,,,
+OPGS003018,M47670,X - 18899,,,28,0.028,0.152,0.017,0.119,0,0.009,0.084,0.286
+OPGS003019,M52451,1-oleoyl-2-linoleoyl-GPI (18:1/18:2)*,Lipid,Phospholipid Metabolism,26,0.028,0.16,0.024,0.156,0,,,
+OPGS003020,M01589,N-acetylmethionine,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,8,0.028,0.071,0.001,0.009,0,0.001,0.025,0.25
+OPGS003021,M33161,2-methoxyacetaminophen glucuronide*,Xenobiotics,Drug,1,0.028,0.096,0.001,0.001,0,0.0,0.013,0.0
+OPGS003022,M47347,X - 18889,,,20,0.027,0.134,,,0,,,
+OPGS003023,M37187,5alpha-androstan-3beta17alpha-diol disulfate,Lipid,Steroid,17,0.027,0.163,0.022,0.141,0,0.008,0.072,0.235
+OPGS003024,M46643,X - 13529,,,17,0.027,0.141,,,0,,,
+OPGS003025,M46706,X - 17469,,,35,0.027,0.155,,,0,,,
+OPGS003026,M49557,X - 23680,,,16,0.026,0.156,0.029,0.166,0,0.037,0.198,0.125
+OPGS003027,M15679,xanthurenate,Amino Acid,Tryptophan Metabolism,17,0.026,0.154,0.013,0.103,0,0.011,0.112,0.118
+OPGS003028,M46456,X - 21411,,,35,0.026,0.147,,,0,0.086,0.281,0.314
+OPGS003029,M32417,docosatrienoate (22:3n3),Lipid,Polyunsaturated Fatty Acid (n3 and n6),23,0.026,0.146,0.025,0.146,0,0.016,0.106,0.043
+OPGS003030,M30460,1-methylhistidine,Amino Acid,Histidine Metabolism,21,0.026,0.146,0.009,0.087,0,0.012,0.1,0.381
+OPGS003031,M46356,X - 21312,,,51,0.026,0.153,0.008,0.085,0,0.019,0.152,0.157
+OPGS003032,M01585,N-acetylalanine,Amino Acid,Alanine and Aspartate Metabolism,6,0.026,0.049,0.01,0.028,0,0.001,-0.01,0.333
+OPGS003033,M46657,X - 14939,,,33,0.025,0.155,0.02,0.134,0,0.011,0.079,0.364
+OPGS003034,M33230,1-palmitoleoyl-GPC (16:1)*,Lipid,Lysolipid,14,0.025,0.159,0.012,0.111,0,,,
+OPGS003035,M36594,1-linoleoyl-GPI (18:2)*,Lipid,Lysolipid,25,0.025,0.153,0.02,0.145,0,,,
+OPGS003036,M02132,citrulline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,16,0.025,0.155,0.009,0.096,0,0.004,0.057,0.0
+OPGS003037,M18349,indolelactate,Amino Acid,Tryptophan Metabolism,17,0.025,0.158,0.011,0.107,0,0.014,0.118,0.118
+OPGS003038,M52500,1-margaroyl-2-linoleoyl-GPC (17:0/18:2)*,Lipid,Phospholipid Metabolism,30,0.025,0.155,,,0,,,
+OPGS003039,M46656,X - 14662,,,10,0.024,0.146,,,0,0.011,0.077,0.3
+OPGS003040,M48187,N-acetyltaurine,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,12,0.024,0.147,0.005,0.061,0,0.009,0.097,0.083
+OPGS003041,M46798,1-oleoyl-2-linoleoyl-glycerol (18:1/18:2),Lipid,Diacylglycerol,32,0.024,0.142,0.022,0.143,0,,,
+OPGS003042,M52611,1-stearoyl-2-docosahexaenoyl-GPC (18:0/22:6),Lipid,Phospholipid Metabolism,21,0.024,0.141,0.017,0.131,0,,,
+OPGS003043,M33822,1-docosahexaenoyl-GPC (22:6)*,Lipid,Lysolipid,16,0.024,0.144,,,0,,,
+OPGS003044,M46971,X - 21795,,,26,0.024,0.166,,,0,,,
+OPGS003045,M52715,1-(1-enyl-palmitoyl)-2-myristoyl-GPC (P-16:0/14:0)*,Lipid,Plasmalogen,11,0.023,0.151,,,0,,,
+OPGS003046,M46994,X - 17367,,,17,0.023,0.155,0.019,0.135,0,0.009,0.11,0.0
+OPGS003047,M47031,2-methoxyacetaminophen sulfate*,Xenobiotics,Drug,1,0.023,0.075,0.001,0.022,0,0.001,-0.018,0.0
+OPGS003048,M46398,X - 21353,,,21,0.023,0.143,0.011,0.101,0,0.012,0.127,0.19
+OPGS003049,M27718,creatine,Amino Acid,Creatine Metabolism,8,0.023,0.144,0.016,0.122,0,0.017,0.113,0.0
+OPGS003050,M47642,X - 12101,,,28,0.023,0.141,0.017,0.124,0,0.015,0.13,0.214
+OPGS003051,M37482,17alpha-hydroxypregnenolone sulfate,Lipid,Steroid,25,0.023,0.118,0.018,0.096,0,0.011,0.086,0.32
+OPGS003052,M46608,X - 11880,,,32,0.023,0.151,0.025,0.156,0,0.025,0.163,0.188
+OPGS003053,M36850,taurolithocholate 3-sulfate,Lipid,Secondary Bile Acid Metabolism,17,0.023,0.14,0.021,0.136,0,0.01,0.113,0.059
+OPGS003054,M46295,X - 21286,,,12,0.023,0.148,0.011,0.108,0,0.023,0.155,0.25
+OPGS003055,M37076,N-acetylserine,Amino Acid,Glycine Serine and Threonine Metabolism,7,0.023,0.057,0.007,0.023,0,0.003,0.034,0.143
+OPGS003056,M01494,5-oxoproline,Amino Acid,Glutathione Metabolism,12,0.023,0.14,0.015,0.115,0,0.029,0.169,0.167
+OPGS003057,M52698,1-adrenoyl-GPC (22:4)*,Lipid,Lysolipid,24,0.022,0.14,,,0,,,
+OPGS003058,M52615,sphingomyelin (d18:1/17:0 d17:1/18:0 d19:1/16:0),Lipid,Sphingolipid Metabolism,13,0.022,0.152,0.015,0.124,0,,,
+OPGS003059,M46355,X - 09789,,,27,0.022,0.145,,,0,0.015,0.118,0.111
+OPGS003060,M33969,stearidonate (18:4n3),Lipid,Polyunsaturated Fatty Acid (n3 and n6),21,0.022,0.146,0.015,0.121,0,0.005,0.068,0.0
+OPGS003061,M00059,histidine,Amino Acid,Histidine Metabolism,3,0.022,0.08,0.004,0.035,0,0.015,0.073,0.0
+OPGS003062,M32377,N-acetylneuraminate,Carbohydrate,Aminosugar Metabolism,14,0.022,0.079,0.016,0.071,0,0.066,0.111,0.071
+OPGS003063,M42374,2-aminobutyrate,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,16,0.022,0.144,0.008,0.091,0,0.017,0.141,0.0
+OPGS003064,M46662,X - 15492,,,11,0.022,0.145,,,0,0.018,0.136,0.182
+OPGS003065,M47687,X - 12100,,,14,0.022,0.136,0.003,0.051,0,0.012,0.128,0.0
+OPGS003066,M27731,ribonate,Carbohydrate,Pentose Metabolism,23,0.022,0.149,0.009,0.103,0,0.014,0.129,0.174
+OPGS003067,M47709,X - 12339,,,9,0.022,0.144,,,0,,,
+OPGS003068,M49637,X - 23739,,,15,0.021,0.126,0.012,0.104,0,0.052,0.186,0.4
+OPGS003069,M46799,1-oleoyl-3-linoleoyl-glycerol (18:1/18:2),Lipid,Diacylglycerol,22,0.021,0.139,0.02,0.141,0,,,
+OPGS003070,M35107,isovalerylglycine,Amino Acid,Leucine Isoleucine and Valine Metabolism,11,0.021,0.134,0.012,0.11,0,0.023,0.143,0.0
+OPGS003071,M31943,3-hydroxysebacate,Lipid,Fatty Acid Monohydroxy,25,0.021,0.127,0.019,0.122,0,0.013,0.111,0.36
+OPGS003072,M40708,pregnanediol-3-glucuronide,Lipid,Steroid,17,0.021,0.142,0.02,0.14,0,0.027,0.143,0.353
+OPGS003073,M52475,1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (P-18:0/20:4)*,Lipid,Plasmalogen,21,0.021,0.153,0.012,0.101,0,,,
+OPGS003074,M52452,1-stearoyl-2-linoleoyl-GPC (18:0/18:2)*,Lipid,Phospholipid Metabolism,26,0.021,0.141,0.012,0.118,0,,,
+OPGS003075,M52673,1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)*,Lipid,Plasmalogen,19,0.021,0.141,0.004,0.059,0,,,
+OPGS003076,M48043,X - 18603,,,12,0.021,0.141,,,0,,,
+OPGS003077,M52630,1-(1-enyl-palmitoyl)-2-docosahexaenoyl-GPC (P-16:0/22:6)*,Lipid,Plasmalogen,13,0.021,0.13,,,0,,,
+OPGS003078,M46500,X - 02249,,,15,0.021,0.125,,,0,,,
+OPGS003079,M31912,glycolithocholate,Lipid,Secondary Bile Acid Metabolism,28,0.02,0.126,0.015,0.113,0,0.0,0.017,0.464
+OPGS003080,M39592,S-methylcysteine,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,16,0.02,0.123,0.016,0.124,0,0.016,0.133,0.25
+OPGS003081,M31548,DSGEGDFXAEGGGVR*,Peptide,Fibrinogen Cleavage Peptide,1,0.02,0.073,0.001,0.02,0,,,
+OPGS003082,M46648,X - 13891,,,31,0.02,0.137,,,0,,,
+OPGS003083,M47702,X - 12127,,,8,0.02,0.147,,,0,0.0,-0.016,0.0
+OPGS003084,M48067,X - 22764,,,26,0.02,0.117,,,0,0.03,0.154,0.192
+OPGS003085,M42381,gamma-CEHC glucuronide*,Cofactors and Vitamins,Tocopherol Metabolism,17,0.02,0.133,,,0,0.009,0.095,0.176
+OPGS003086,M52748,1-(1-enyl-stearoyl)-2-linoleoyl-GPE (P-18:0/18:2)*,Lipid,Plasmalogen,20,0.02,0.128,0.007,0.083,0,,,
+OPGS003087,M46459,X - 01911,,,17,0.02,0.138,,,0,,,
+OPGS003088,M52633,1-palmitoyl-2-linoleoyl-glycerol (16:0/18:2)*,Lipid,Diacylglycerol,24,0.02,0.132,0.008,0.088,0,,,
+OPGS003089,M46710,X - 17690,,,24,0.02,0.134,0.009,0.09,0,0.009,0.1,0.042
+OPGS003090,M46318,X - 12714,,,57,0.02,0.144,0.016,0.127,0,0.003,0.069,0.561
+OPGS003091,M01124,myo-inositol,Lipid,Inositol Metabolism,22,0.02,0.132,0.01,0.091,0,0.001,0.033,0.091
+OPGS003092,M46519,X - 21474,,,7,0.019,0.129,,,0,,,
+OPGS003093,M48052,X - 17612,,,16,0.019,0.132,0.003,0.045,0,0.007,0.079,0.25
+OPGS003094,M48857,glycerophosphoglycerol,Lipid,Glycerolipid Metabolism,10,0.019,0.087,,,0,,,
+OPGS003095,M00606,uridine,Nucleotide,Pyrimidine Metabolism Uracil containing,11,0.019,0.132,0.009,0.099,0,0.047,0.209,0.091
+OPGS003096,M22194,pyroglutamylglutamine,Peptide,Dipeptide,42,0.019,0.131,,,0,,,
+OPGS003097,M46613,X - 12216,,,14,0.019,0.115,0.006,0.065,0,0.009,0.092,0.357
+OPGS003098,M02730,gamma-glutamylglutamine,Peptide,Gamma-glutamyl Amino Acid,7,0.019,0.129,0.004,0.057,0,0.009,0.099,0.143
+OPGS003099,M00053,glutamine,Amino Acid,Glutamate Metabolism,9,0.019,0.135,0.006,0.079,0,0.021,0.147,0.0
+OPGS003100,M34397,1-arachidonylglycerol (20:4),Lipid,Monoacylglycerol,12,0.019,0.131,0.033,0.165,0,,,
+OPGS003101,M52717,1-palmityl-2-oleoyl-GPC (O-16:0/18:1)*,Lipid,Phospholipid Metabolism,16,0.019,0.146,,,0,,,
+OPGS003102,M52090,X - 24061,,,13,0.019,0.135,,,0,,,
+OPGS003103,M47026,X - 21849,,,21,0.018,0.119,,,0,,,
+OPGS003104,M27513,indoleacetate,Amino Acid,Tryptophan Metabolism,15,0.018,0.117,0.012,0.106,0,0.015,0.107,0.067
+OPGS003105,M48255,arabonate/xylonate,Carbohydrate,Pentose Metabolism,8,0.018,0.126,0.003,0.049,0,0.006,0.081,0.0
+OPGS003106,M46966,X - 12126,,,9,0.018,0.11,,,0,0.018,0.119,0.444
+OPGS003107,M36808,dimethylarginine (SDMA + ADMA),Amino Acid,Urea cycle; Arginine and Proline Metabolism,18,0.018,0.133,0.006,0.083,0,0.022,0.135,0.111
+OPGS003108,M52701,1-(1-enyl-oleoyl)-GPC (P-18:1)*,Lipid,Lysoplasmalogen,8,0.018,0.125,,,0,,,
+OPGS003109,M36600,1-linoleoyl-GPE (18:2)*,Lipid,Lysolipid,23,0.018,0.119,0.015,0.121,0,,,
+OPGS003110,M22138,homocitrulline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,19,0.018,0.132,0.012,0.104,0,0.035,0.19,0.053
+OPGS003111,M52863,X - 24542,,,17,0.018,0.139,,,0,0.02,0.124,0.118
+OPGS003112,M01516,sarcosine (N-Methylglycine),Amino Acid,Glycine Serine and Threonine Metabolism,16,0.018,0.132,0.008,0.098,0,0.061,0.249,0.188
+OPGS003113,M45675,1-docosapentaenoyl-GPC (22:5n6)*,Lipid,Lysolipid,8,0.018,0.125,,,0,,,
+OPGS003114,M52707,1-myristoyl-2-linoleoyl-GPC (14:0/18:2)*,Lipid,Phospholipid Metabolism,17,0.018,0.128,,,0,,,
+OPGS003115,M34445,sphingosine 1-phosphate,Lipid,Sphingolipid Metabolism,12,0.018,0.122,0.011,0.111,0,0.004,-0.057,0.25
+OPGS003116,M52478,1-(1-enyl-palmitoyl)-2-oleoyl-GPC (P-16:0/18:1)*,Lipid,Plasmalogen,11,0.018,0.13,0.011,0.103,0,,,
+OPGS003117,M22053,3-hydroxydecanoate,Lipid,Fatty Acid Monohydroxy,16,0.018,0.117,0.012,0.103,0,0.029,0.174,0.188
+OPGS003118,M52474,1-(1-enyl-palmitoyl)-GPC (P-16:0)*,Lipid,Lysoplasmalogen,17,0.017,0.128,0.007,0.087,0,,,
+OPGS003119,M33955,1-palmitoyl-GPC (16:0),Lipid,Lysolipid,11,0.017,0.12,0.003,0.052,0,,,
+OPGS003120,M46203,2-docosahexaenoyl-GPC (22:6)*,Lipid,Lysolipid,10,0.017,0.12,,,0,,,
+OPGS003121,M19130,12-dipalmitoyl-GPC (16:0/16:0),Lipid,Phospholipid Metabolism,18,0.017,0.129,0.027,0.169,0,,,
+OPGS003122,M45095,2-methylbutyrylcarnitine (C5),Amino Acid,Leucine Isoleucine and Valine Metabolism,5,0.017,0.116,0.01,0.101,0,0.012,0.11,0.2
+OPGS003123,M15650,N1-methyladenosine,Nucleotide,Purine Metabolism Adenine containing,15,0.017,0.126,0.011,0.105,0,0.008,0.091,0.133
+OPGS003124,M52616,1-palmitoyl-2-stearoyl-GPC (16:0/18:0),Lipid,Phospholipid Metabolism,11,0.017,0.124,0.014,0.131,0,,,
+OPGS003125,M52610,1-palmitoyl-2-docosahexaenoyl-GPC (16:0/22:6),Lipid,Phospholipid Metabolism,12,0.017,0.116,0.011,0.105,0,,,
+OPGS003126,M47006,X - 21829,,,7,0.017,0.128,0.013,0.118,0,0.018,0.14,0.0
+OPGS003127,M48493,sphingomyelin (d18:1/22:1 d18:2/22:0 d16:1/24:1)*,Lipid,Sphingolipid Metabolism,11,0.017,0.125,0.022,0.144,0,,,
+OPGS003128,M45404,N-acetylalliin,Xenobiotics,Food Component/Plant,13,0.017,0.121,0.013,0.106,0,0.003,0.04,0.231
+OPGS003129,M46260,X - 11564,,,7,0.017,0.125,,,0,,,
+OPGS003130,M48130,N6-succinyladenosine,Nucleotide,Purine Metabolism Adenine containing,11,0.017,0.105,,,0,0.002,0.048,0.091
+OPGS003131,M46384,X - 21339,,,16,0.017,0.127,0.016,0.117,0,0.026,0.156,0.25
+OPGS003132,M35482,2-methylmalonyl carnitine,Lipid,Fatty Acid Synthesis,11,0.016,0.121,0.02,0.137,0,0.006,0.086,0.182
+OPGS003133,M46728,X - 21659,,,7,0.016,0.119,,,0,,,
+OPGS003134,M46626,X - 12739,,,24,0.016,0.126,,,0,0.006,0.083,0.208
+OPGS003135,M46266,X - 15486,,,16,0.016,0.121,0.019,0.136,0,0.022,0.143,0.062
+OPGS003136,M47888,1-eicosapentaenoyl-GPE (20:5)*,Lipid,Lysolipid,17,0.016,0.119,,,0,,,
+OPGS003137,M37459,ergothioneine,Xenobiotics,Food Component/Plant,31,0.016,0.118,0.009,0.096,0,0.014,0.115,0.258
+OPGS003138,M42420,erythronate*,Carbohydrate,Aminosugar Metabolism,14,0.016,0.122,0.007,0.089,0,0.011,0.096,0.071
+OPGS003139,M47153,sphingomyelin (d18:1/24:1 d18:2/24:0)*,Lipid,Sphingolipid Metabolism,4,0.016,0.045,0.001,-0.002,0,,,
+OPGS003140,M39603,ethyl glucuronide,Xenobiotics,Chemical,1,0.016,0.106,0.004,-0.061,0,,,
+OPGS003141,M38637,cinnamoylglycine,Xenobiotics,Food Component/Plant,12,0.016,0.141,0.022,0.155,0,0.036,0.19,0.0
+OPGS003142,M37200,5alpha-pregnan-3beta20alpha-diol monosulfate (2),Lipid,Steroid,7,0.016,0.141,0.016,0.135,0,0.007,0.091,0.0
+OPGS003143,M32197,3-(4-hydroxyphenyl)lactate,Amino Acid,Phenylalanine and Tyrosine Metabolism,17,0.015,0.119,0.009,0.098,0,0.027,0.185,0.412
+OPGS003144,M47905,X - 12026,,,7,0.015,0.114,0.009,0.089,0,0.007,0.074,0.0
+OPGS003145,M02831,adenosine 3'5'-cyclic monophosphate (cAMP),Nucleotide,Purine Metabolism Adenine containing,10,0.015,0.12,,,0,,,
+OPGS003146,M44877,N-palmitoyl-sphingosine (d18:1/16:0),Lipid,Sphingolipid Metabolism,8,0.015,0.102,0.005,0.073,0,,,
+OPGS003147,M52769,X - 24452,,,18,0.015,0.127,,,0,,,
+OPGS003148,M46259,X - 21258,,,20,0.015,0.117,0.014,0.112,0,0.002,0.023,0.15
+OPGS003149,M17747,sphingosine,Lipid,Sphingolipid Metabolism,8,0.015,0.119,0.001,0.039,0,,,
+OPGS003150,M35718,dihomo-linolenate (20:3n3 or n6),Lipid,Polyunsaturated Fatty Acid (n3 and n6),16,0.015,0.114,0.007,0.075,0,0.003,0.047,0.25
+OPGS003151,M52634,1-palmitoyl-3-linoleoyl-glycerol (16:0/18:2)*,Lipid,Diacylglycerol,16,0.014,0.107,0.009,0.098,0,,,
+OPGS003152,M52497,1-pentadecanoyl-2-linoleoyl-GPC (15:0/18:2)*,Lipid,Phospholipid Metabolism,20,0.014,0.114,,,0,,,
+OPGS003153,M01806,retinol (Vitamin A),Cofactors and Vitamins,Vitamin A Metabolism,6,0.014,0.111,0.002,0.045,0,0.001,0.049,0.167
+OPGS003154,M01301,lysine,Amino Acid,Lysine Metabolism,14,0.014,0.106,0.005,0.072,0,0.023,0.144,0.143
+OPGS003155,M52697,1-oleoyl-2-docosahexaenoyl-GPC (18:1/22:6)*,Lipid,Phospholipid Metabolism,7,0.014,0.112,0.005,0.074,0,,,
+OPGS003156,M34400,17-dimethylurate,Xenobiotics,Xanthine Metabolism,4,0.014,0.105,0.001,0.044,0,0.001,0.01,0.5
+OPGS003157,M47478,X - 10458,,,8,0.014,0.109,0.003,0.047,0,0.002,-0.05,0.25
+OPGS003158,M36746,2-hydroxy-3-methylvalerate,Amino Acid,Leucine Isoleucine and Valine Metabolism,13,0.014,0.125,0.009,0.099,0,0.031,0.156,0.154
+OPGS003159,M32504,docosapentaenoate (n3 DPA; 22:5n3),Lipid,Polyunsaturated Fatty Acid (n3 and n6),19,0.014,0.11,0.012,0.1,0,0.009,0.089,0.0
+OPGS003160,M46640,X - 15469,,,5,0.014,0.089,,,0,0.01,0.098,0.0
+OPGS003161,M46510,X - 12544,,,4,0.014,0.068,0.0,-0.01,0,0.0,0.008,0.25
+OPGS003162,M52281,2-hydroxybutyrate/2-hydroxyisobutyrate,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,8,0.014,0.113,0.007,0.084,0,0.014,0.126,0.0
+OPGS003163,M46672,X - 17325,,,6,0.014,0.116,,,0,0.022,0.159,0.0
+OPGS003164,M01414,3-phosphoglycerate,Carbohydrate,Glycolysis Gluconeogenesis and Pyruvate Metabolism,15,0.014,0.113,0.011,0.111,0,0.001,0.033,0.4
+OPGS003165,M01303,malate,Energy,TCA Cycle,17,0.014,0.121,0.011,0.108,0,0.0,0.029,0.118
+OPGS003166,M02761,thyroxine,Amino Acid,Phenylalanine and Tyrosine Metabolism,12,0.014,0.106,0.007,0.081,0,0.008,0.081,0.167
+OPGS003167,M47739,X - 22475,,,2,0.014,0.106,,,0,,,
+OPGS003168,M52083,X - 24054,,,19,0.014,0.111,,,0,,,
+OPGS003169,M46972,X - 21796,,,11,0.014,0.095,0.011,0.105,0,0.036,0.183,0.182
+OPGS003170,M47978,X - 13846,,,30,0.014,0.108,0.014,0.105,0,,,
+OPGS003171,M37104,cyclo(leu-pro),Peptide,Dipeptide,19,0.014,0.11,,,0,,,
+OPGS003172,M01114,deoxycholate,Lipid,Secondary Bile Acid Metabolism,5,0.013,0.111,0.002,0.044,0,0.007,0.069,0.2
+OPGS003173,M46690,X - 18901,,,3,0.013,0.106,0.007,0.083,0,0.0,0.003,0.0
+OPGS003174,M47992,X - 16649,,,1,0.013,0.101,0.0,-0.013,0,0.003,0.06,0.0
+OPGS003175,M31539,O-acetylhomoserine,Amino Acid,Glycine Serine and Threonine Metabolism,3,0.013,0.079,,,0,0.0,-0.007,0.333
+OPGS003176,M46618,X - 12442,,,5,0.013,0.107,,,0,,,
+OPGS003177,M46497,X - 02269,,,4,0.013,0.106,,,0,,,
+OPGS003178,M47348,X - 22102,,,13,0.013,0.091,,,0,,,
+OPGS003179,M22116,4-methyl-2-oxopentanoate,Amino Acid,Leucine Isoleucine and Valine Metabolism,7,0.013,0.108,0.005,0.076,0,0.0,-0.003,0.286
+OPGS003180,M34428,1-palmitoyl-GPA (16:0),Lipid,Lysolipid,9,0.013,0.076,0.016,0.065,0,,,
+OPGS003181,M33140,X - 11795,,,3,0.013,0.057,0.014,0.057,0,0.001,0.061,0.0
+OPGS003182,M15704,pimelate (heptanedioate),Lipid,Fatty Acid Dicarboxylate,1,0.013,0.093,0.0,0.006,0,,,
+OPGS003183,M46683,X - 16944,,,5,0.013,0.107,,,0,0.003,0.043,0.0
+OPGS003184,M37253,2-hydroxyglutarate,Lipid,Fatty Acid Dicarboxylate,8,0.013,0.114,,,0,0.005,0.074,0.0
+OPGS003185,M47933,X - 12715,,,11,0.013,0.1,,,0,,,
+OPGS003186,M48885,arabitol/xylitol,Carbohydrate,Pentose Metabolism,4,0.012,0.101,0.002,0.045,0,0.0,0.013,0.0
+OPGS003187,M49679,X - 23780,,,10,0.012,0.091,0.018,0.096,0,0.03,0.122,0.0
+OPGS003188,M47118,2-palmitoleoyl-GPC (16:1)*,Lipid,Lysolipid,3,0.012,0.104,0.009,0.096,0,,,
+OPGS003189,M36593,2-linoleoyl-GPE (18:2)*,Lipid,Lysolipid,16,0.012,0.093,,,0,,,
+OPGS003190,M32445,3-methylxanthine,Xenobiotics,Xanthine Metabolism,5,0.012,0.095,0.012,0.103,0,0.019,0.106,0.4
+OPGS003191,M00513,creatinine,Amino Acid,Creatine Metabolism,4,0.012,0.097,0.0,0.025,0,0.0,0.019,0.25
+OPGS003192,M22036,2-hydroxyoctanoate,Lipid,Fatty Acid Monohydroxy,19,0.012,0.092,0.013,0.102,0,0.037,0.174,0.316
+OPGS003193,M52690,1-linoleoyl-GPA (18:2)*,Lipid,Lysolipid,9,0.012,0.083,0.009,0.041,0,,,
+OPGS003194,M45413,O-sulfo-L-tyrosine,Xenobiotics,Chemical,9,0.012,0.089,0.002,0.04,0,0.013,0.112,0.0
+OPGS003195,M38116,indole-3-carboxylic acid,Amino Acid,Tryptophan Metabolism,3,0.012,0.058,0.002,0.022,0,0.002,0.035,0.0
+OPGS003196,M52470,1-palmitoyl-2-palmitoleoyl-GPC (16:0/16:1)*,Lipid,Phospholipid Metabolism,5,0.012,0.103,0.004,0.069,0,,,
+OPGS003197,M33961,1-stearoyl-GPC (18:0),Lipid,Lysolipid,5,0.012,0.096,0.002,0.04,0,,,
+OPGS003198,M33364,gamma-glutamylthreonine*,Peptide,Gamma-glutamyl Amino Acid,5,0.012,0.094,0.004,0.067,0,0.011,0.106,0.0
+OPGS003199,M52612,1-(1-enyl-stearoyl)-2-oleoyl-GPC (P-18:0/18:1),Lipid,Plasmalogen,4,0.012,0.096,,,0,,,
+OPGS003200,M01284,threonine,Amino Acid,Glycine Serine and Threonine Metabolism,6,0.012,0.1,0.006,0.072,0,0.005,0.076,0.333
+OPGS003201,M15990,glycerophosphorylcholine (GPC),Lipid,Phospholipid Metabolism,5,0.012,0.103,0.001,0.027,0,0.0,0.011,0.0
+OPGS003202,M37063,gamma-glutamylalanine,Peptide,Gamma-glutamyl Amino Acid,3,0.012,0.088,0.006,0.083,0,0.0,0.007,0.333
+OPGS003203,M52435,sphingomyelin (d18:2/23:0 d18:1/23:1 d17:1/24:1)*,Lipid,Sphingolipid Metabolism,5,0.012,0.11,0.012,0.097,0,,,
+OPGS003204,M48047,X - 18886,,,9,0.012,0.106,0.006,0.089,0,0.001,0.028,0.444
+OPGS003205,M40473,hydantoin-5-propionic acid,Amino Acid,Histidine Metabolism,3,0.012,0.098,0.002,0.036,0,0.003,0.044,0.0
+OPGS003206,M46982,X - 11838,,,1,0.012,0.059,,,0,,,
+OPGS003207,M40730,imidazole propionate,Amino Acid,Histidine Metabolism,12,0.011,0.102,0.008,0.098,0,0.004,0.07,0.167
+OPGS003208,M41374,phenylalanylalanine,Peptide,Dipeptide,1,0.011,0.096,0.003,0.058,0,,,
+OPGS003209,M35114,7-methylguanine,Nucleotide,Purine Metabolism Guanine containing,5,0.011,0.074,0.003,0.053,0,0.0,-0.01,0.0
+OPGS003210,M52682,1-(1-enyl-palmitoyl)-2-linoleoyl-GPC (P-16:0/18:2)*,Lipid,Plasmalogen,8,0.011,0.096,0.006,0.08,0,,,
+OPGS003211,M33173,2-hydroxyacetaminophen sulfate*,Xenobiotics,Drug,1,0.011,0.051,0.0,0.001,0,,,
+OPGS003212,M46594,X - 11372,,,15,0.011,0.099,,,0,0.022,0.153,0.133
+OPGS003213,M32397,3-hydroxy-2-ethylpropionate,Amino Acid,Leucine Isoleucine and Valine Metabolism,6,0.011,0.104,0.006,0.076,0,0.0,0.017,0.333
+OPGS003214,M48996,X - 23297,,,5,0.011,0.089,,,0,0.009,0.097,0.0
+OPGS003215,M43847,glycerol 3-phosphate,Lipid,Glycerolipid Metabolism,4,0.011,0.1,0.003,0.055,0,0.012,0.114,0.0
+OPGS003216,M45951,1-linolenoyl-GPC (18:3)*,Lipid,Lysolipid,3,0.011,0.084,0.005,0.078,0,,,
+OPGS003217,M52053,X - 24024,,,4,0.011,0.098,,,0,,,
+OPGS003218,M01572,glycerate,Carbohydrate,Glycolysis Gluconeogenesis and Pyruvate Metabolism,5,0.011,0.084,0.002,0.03,0,0.025,0.125,0.0
+OPGS003219,M01591,N-acetylvaline,Amino Acid,Leucine Isoleucine and Valine Metabolism,3,0.011,0.03,0.002,0.013,0,0.001,-0.007,0.0
+OPGS003220,M31787,3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF),Lipid,Fatty Acid Dicarboxylate,6,0.011,0.103,0.005,0.082,0,0.008,0.1,0.0
+OPGS003221,M44526,3-methyl-2-oxobutyrate,Amino Acid,Leucine Isoleucine and Valine Metabolism,6,0.011,0.1,0.007,0.09,0,0.005,0.039,0.0
+OPGS003222,M00054,tryptophan,Amino Acid,Tryptophan Metabolism,4,0.011,0.093,0.002,0.041,0,0.001,0.062,0.0
+OPGS003223,M48492,behenoyl sphingomyelin (d18:1/22:0)*,Lipid,Sphingolipid Metabolism,4,0.01,0.091,0.007,0.075,0,,,
+OPGS003224,M46363,X - 21319,,,13,0.01,0.1,0.013,0.104,0,0.006,0.087,0.538
+OPGS003225,M42582,pyruvate,Carbohydrate,Glycolysis Gluconeogenesis and Pyruvate Metabolism,6,0.01,0.096,,,0,,,
+OPGS003226,M43374,indolin-2-one,Xenobiotics,Food Component/Plant,7,0.01,0.099,0.007,0.076,0,0.02,0.133,0.714
+OPGS003227,M42382,S-adenosylhomocysteine (SAH),Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,4,0.01,0.094,0.005,0.06,0,0.002,0.048,0.25
+OPGS003228,M00554,adenine,Nucleotide,Purine Metabolism Adenine containing,11,0.01,0.098,0.001,0.028,0,0.0,-0.011,0.182
+OPGS003229,M49461,X - 23585,,,5,0.01,0.072,,,0,0.011,0.07,0.0
+OPGS003230,M52282,2-methylcitrate/homocitrate,Energy,TCA Cycle,1,0.01,0.074,,,0,,,
+OPGS003231,M01437,succinate,Energy,TCA Cycle,3,0.01,0.094,0.0,0.035,0,0.0,0.027,0.333
+OPGS003232,M47959,X - 13553,,,2,0.01,0.083,0.0,-0.008,0,0.0,0.009,0.0
+OPGS003233,M52476,1-(1-enyl-stearoyl)-2-docosahexaenoyl-GPE (P-18:0/22:6)*,Lipid,Plasmalogen,2,0.01,0.091,,,0,,,
+OPGS003234,M34399,37-dimethylurate,Xenobiotics,Xanthine Metabolism,4,0.01,0.092,0.001,0.035,0,0.006,0.087,0.5
+OPGS003235,M43761,2-aminoheptanoate,Lipid,Fatty Acid Amino,5,0.01,0.087,0.002,0.051,0,0.008,0.07,0.2
+OPGS003236,M46705,X - 17438,,,5,0.01,0.082,0.005,0.05,0,0.006,0.095,0.0
+OPGS003237,M45453,1-myristoyl-GPC (14:0),Lipid,Lysolipid,6,0.01,0.093,,,0,,,
+OPGS003238,M20699,erythritol,Xenobiotics,Food Component/Plant,8,0.01,0.068,0.007,0.064,0,0.015,0.098,0.0
+OPGS003239,M01299,tyrosine,Amino Acid,Phenylalanine and Tyrosine Metabolism,9,0.009,0.09,0.003,0.043,0,0.014,0.128,0.0
+OPGS003240,M35157,N6-carbamoylthreonyladenosine,Nucleotide,Purine Metabolism Adenine containing,4,0.009,0.078,0.0,0.011,0,0.004,-0.019,0.25
+OPGS003241,M52605,sphinganine-1-phosphate,Lipid,Sphingolipid Metabolism,3,0.009,0.088,0.008,0.088,0,0.0,-0.024,0.0
+OPGS003242,M36602,1-oleoyl-GPI (18:1)*,Lipid,Lysolipid,3,0.009,0.086,0.006,0.083,0,,,
+OPGS003243,M00055,beta-alanine,Nucleotide,Pyrimidine Metabolism Uracil containing,5,0.009,0.117,0.009,0.115,0,0.038,0.195,0.2
+OPGS003244,M43264,3-hydroxybutyrylcarnitine (1),Lipid,Fatty Acid Metabolism(Acyl Carnitine),3,0.009,0.101,0.006,0.072,0,0.014,0.111,0.0
+OPGS003245,M47000,X - 17327,,,8,0.009,0.085,,,0,0.004,0.049,0.125
+OPGS003246,M27738,threonate,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,5,0.009,0.071,0.004,0.036,0,0.02,0.097,0.2
+OPGS003247,M46628,X - 12472,,,16,0.009,0.09,,,0,0.003,0.041,0.25
+OPGS003248,M44675,docosahexaenoate (DHA; 22:6n3),Lipid,Polyunsaturated Fatty Acid (n3 and n6),7,0.009,0.092,0.006,0.072,0,0.0,0.012,0.0
+OPGS003249,M52672,1-(1-enyl-palmitoyl)-2-docosahexaenoyl-GPE (P-16:0/22:6)*,Lipid,Plasmalogen,2,0.009,0.097,,,0,,,
+OPGS003250,M48207,X - 22850,,,2,0.009,0.067,,,0,,,
+OPGS003251,M32398,sebacate (decanedioate),Lipid,Fatty Acid Dicarboxylate,9,0.009,0.059,0.009,0.073,0,0.006,0.084,0.222
+OPGS003252,M32457,3-hydroxylaurate,Lipid,Fatty Acid Monohydroxy,6,0.009,0.084,0.007,0.079,0,0.01,0.097,0.0
+OPGS003253,M39609,16-hydroxypalmitate,Lipid,Fatty Acid Monohydroxy,4,0.009,0.086,0.003,0.05,0,0.002,0.048,0.0
+OPGS003254,M01508,pantothenate,Cofactors and Vitamins,Pantothenate and CoA Metabolism,9,0.009,0.097,0.007,0.092,0,0.001,0.036,0.333
+OPGS003255,M46598,X - 11438,,,7,0.009,0.079,,,0,,,
+OPGS003256,M35637,cysteinylglycine,Amino Acid,Glutathione Metabolism,2,0.009,0.062,0.007,0.076,0,0.004,0.051,0.0
+OPGS003257,M52704,1-(1-enyl-stearoyl)-2-docosahexaenoyl-GPC (P-18:0/22:6)*,Lipid,Plasmalogen,2,0.009,0.087,,,0,,,
+OPGS003258,M48841,p-cresol-glucuronide*,Amino Acid,Phenylalanine and Tyrosine Metabolism,7,0.009,0.074,0.006,0.059,0,0.002,0.028,0.143
+OPGS003259,M20694,oxalate (ethanedioate),Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,5,0.009,0.066,0.004,0.043,0,0.029,0.146,0.2
+OPGS003260,M46704,X - 17269,,,1,0.009,0.077,,,0,0.0,-0.04,0.0
+OPGS003261,M48989,X - 23291,,,1,0.009,0.048,,,0,,,
+OPGS003262,M34419,1-linoleoyl-GPC (18:2),Lipid,Lysolipid,2,0.009,0.075,0.002,0.05,0,,,
+OPGS003263,M34404,137-trimethylurate,Xenobiotics,Xanthine Metabolism,8,0.009,0.089,0.008,0.094,0,0.011,0.085,0.125
+OPGS003264,M48782,C-glycosyltryptophan,Amino Acid,Tryptophan Metabolism,12,0.008,0.085,0.002,0.047,0,0.001,0.049,0.5
+OPGS003265,M46962,X - 12701,,,6,0.008,0.099,0.011,0.102,0,,,
+OPGS003266,M02734,gamma-glutamyltyrosine,Peptide,Gamma-glutamyl Amino Acid,11,0.008,0.087,0.001,0.027,0,0.011,0.102,0.0
+OPGS003267,M44560,1-eicosenoyl-GPC (20:1)*,Lipid,Lysolipid,2,0.008,0.088,,,0,,,
+OPGS003268,M47787,X - 14838,,,2,0.008,0.092,,,0,,,
+OPGS003269,M36095,thymol sulfate,Xenobiotics,Food Component/Plant,8,0.008,0.071,0.012,0.078,0,0.007,0.051,0.25
+OPGS003270,M39831,eicosanodioate,Lipid,Fatty Acid Dicarboxylate,6,0.008,0.092,0.01,0.101,0,0.01,0.092,0.167
+OPGS003271,M46364,X - 12847,,,6,0.008,0.084,0.005,0.065,0,0.005,0.065,0.0
+OPGS003272,M33009,homostachydrine*,Xenobiotics,Food Component/Plant,12,0.008,0.092,0.008,0.087,0,0.009,0.091,0.25
+OPGS003273,M15958,phenylacetate,Amino Acid,Phenylalanine and Tyrosine Metabolism,3,0.008,0.074,,,0,0.001,-0.007,0.0
+OPGS003274,M46590,X - 07765,,,1,0.008,0.034,0.0,0.009,0,0.001,0.015,0.0
+OPGS003275,M35257,2-linoleoyl-GPC (18:2)*,Lipid,Lysolipid,2,0.008,0.071,,,0,,,
+OPGS003276,M01645,laurate (12:0),Lipid,Medium Chain Fatty Acid,2,0.008,0.041,0.0,-0.014,0,0.003,0.062,0.0
+OPGS003277,M52483,X - 24295,,,2,0.008,0.076,,,0,0.001,0.02,0.0
+OPGS003278,M48394,pregnanolone/allopregnanolone sulfate,Lipid,Steroid,1,0.008,0.075,0.0,0.001,0,0.0,-0.024,0.0
+OPGS003279,M18245,gamma-glutamylhistidine,Peptide,Gamma-glutamyl Amino Acid,1,0.008,0.056,0.002,0.026,0,0.004,0.061,0.0
+OPGS003280,M48022,X - 17677,,,7,0.008,0.07,,,0,,,
+OPGS003281,M00566,phenylpyruvate,Amino Acid,Phenylalanine and Tyrosine Metabolism,2,0.008,0.076,0.005,0.07,0,0.002,0.039,0.5
+OPGS003282,M46403,X - 21358,,,6,0.008,0.069,,,0,,,
+OPGS003283,M33939,N-acetylthreonine,Amino Acid,Glycine Serine and Threonine Metabolism,2,0.008,0.074,0.004,0.054,0,0.0,0.032,0.0
+OPGS003284,M20693,tartronate (hydroxymalonate),Xenobiotics,Bacterial/Fungal,4,0.008,0.07,0.004,0.039,0,0.02,0.117,0.0
+OPGS003285,M48050,X - 18938,,,7,0.008,0.073,,,0,,,
+OPGS003286,M48445,2-methoxyresorcinol sulfate,Xenobiotics,Chemical,1,0.008,0.061,0.0,0.006,0,0.0,-0.012,0.0
+OPGS003287,M48997,isoeugenol sulfate,Xenobiotics,Food Component/Plant,1,0.007,0.048,0.0,0.006,0,,,
+OPGS003288,M22001,3-hydroxyoctanoate,Lipid,Fatty Acid Monohydroxy,3,0.007,0.068,0.003,0.053,0,0.015,0.113,0.0
+OPGS003289,M47909,X - 12170,,,17,0.007,0.082,,,0,0.01,0.099,0.529
+OPGS003290,M01643,fumarate,Energy,TCA Cycle,11,0.007,0.087,0.006,0.094,0,0.002,0.047,0.091
+OPGS003291,M40008,isoleucylglycine,Peptide,Dipeptide,1,0.007,0.063,0.0,0.006,0,,,
+OPGS003292,M52872,X - 24551,,,1,0.007,0.045,,,0,,,
+OPGS003293,M01563,chenodeoxycholate,Lipid,Primary Bile Acid Metabolism,2,0.007,0.069,0.004,0.064,0,0.0,0.014,0.5
+OPGS003294,M32388,dodecanedioate,Lipid,Fatty Acid Dicarboxylate,12,0.007,0.07,0.006,0.068,0,0.012,0.105,0.417
+OPGS003295,M48698,6-hydroxyindole sulfate,Xenobiotics,Chemical,2,0.007,0.063,0.003,0.061,0,0.006,0.056,0.5
+OPGS003296,M52773,X - 24456,,,1,0.007,0.054,0.0,-0.011,0,,,
+OPGS003297,M46607,X - 11849,,,2,0.007,0.073,0.007,0.087,0,0.0,0.0,0.0
+OPGS003298,M00064,phenylalanine,Amino Acid,Phenylalanine and Tyrosine Metabolism,3,0.007,0.084,0.002,0.053,0,0.01,0.088,0.0
+OPGS003299,M46960,sulfate*,Xenobiotics,Chemical,4,0.007,0.082,0.005,0.064,0,0.008,0.092,0.0
+OPGS003300,M15506,choline,Lipid,Phospholipid Metabolism,11,0.007,0.089,0.004,0.08,0,0.004,-0.06,0.182
+OPGS003301,M33442,pseudouridine,Nucleotide,Pyrimidine Metabolism Uracil containing,4,0.007,0.067,0.003,0.055,0,0.001,0.014,0.0
+OPGS003302,M45456,1-arachidoyl-GPC (20:0),Lipid,Lysolipid,3,0.007,0.085,,,0,,,
+OPGS003303,M52278,X - 24240,,,2,0.007,0.069,,,0,,,
+OPGS003304,M47011,X - 21834,,,6,0.007,0.057,0.003,0.049,0,0.004,0.001,0.0
+OPGS003305,M36776,7-alpha-hydroxy-3-oxo-4-cholestenoate (7-Hoca),Lipid,Sterol,1,0.007,0.047,0.003,0.056,0,0.009,0.079,0.0
+OPGS003306,M52438,1-stearoyl-2-oleoyl-GPC (18:0/18:1),Lipid,Phospholipid Metabolism,3,0.007,0.079,0.006,0.08,0,,,
+OPGS003307,M35253,2-palmitoyl-GPC (16:0)*,Lipid,Lysolipid,8,0.007,0.082,0.001,0.027,0,,,
+OPGS003308,M47997,X - 17346,,,1,0.006,0.066,,,0,,,
+OPGS003309,M19132,12-distearoyl-GPC (18:0/18:0),Lipid,Phospholipid Metabolism,4,0.006,0.072,,,0,,,
+OPGS003310,M49681,X - 23782,,,9,0.006,0.063,0.004,0.055,0,0.002,0.031,0.222
+OPGS003311,M46610,X - 12007,,,2,0.006,0.075,0.003,0.048,0,0.001,0.057,0.5
+OPGS003312,M37181,4-allylphenol sulfate,Xenobiotics,Food Component/Plant,4,0.006,0.072,0.006,0.078,0,0.001,0.046,0.0
+OPGS003313,M33934,gamma-glutamyl-epsilon-lysine,Peptide,Gamma-glutamyl Amino Acid,2,0.006,0.071,0.003,0.043,0,0.003,0.067,0.0
+OPGS003314,M15749,3-phenylpropionate (hydrocinnamate),Amino Acid,Phenylalanine and Tyrosine Metabolism,2,0.006,0.061,0.005,0.066,0,0.009,0.069,0.0
+OPGS003315,M46371,X - 21327,,,1,0.006,0.046,0.003,0.037,0,0.004,0.046,0.0
+OPGS003316,M46473,X - 15497,,,4,0.006,0.058,,,0,,,
+OPGS003317,M01432,2-hydroxyphenylacetate,Amino Acid,Phenylalanine and Tyrosine Metabolism,2,0.006,0.081,0.011,0.099,0,0.009,0.106,0.0
+OPGS003318,M48076,X - 22771,,,1,0.006,0.059,0.0,-0.011,0,0.001,0.011,0.0
+OPGS003319,M46695,X - 18913,,,1,0.006,0.066,0.006,0.072,0,0.017,0.116,0.0
+OPGS003320,M46111,O-methylcatechol sulfate,Xenobiotics,Benzoate Metabolism,1,0.006,0.063,0.002,0.034,0,0.006,0.083,0.0
+OPGS003321,M46898,X - 21729,,,1,0.006,0.06,,,0,0.006,0.065,0.0
+OPGS003322,M32458,oleamide,Lipid,Fatty Acid Amide,7,0.006,0.045,0.001,-0.012,0,,,
+OPGS003323,M34093,hyocholate,Lipid,Secondary Bile Acid Metabolism,1,0.006,0.054,0.0,0.006,0,0.0,0.024,0.0
+OPGS003324,M52766,X - 24449,,,2,0.006,0.04,,,0,,,
+OPGS003325,M48081,X - 22776,,,1,0.006,0.058,0.0,-0.014,0,0.005,-0.048,0.0
+OPGS003326,M27719,galactonate,Carbohydrate,Fructose Mannose and Galactose Metabolism,5,0.006,0.061,0.005,0.055,0,0.001,0.009,0.0
+OPGS003327,M37092,gamma-glutamyl-2-aminobutyrate,Peptide,Gamma-glutamyl Amino Acid,4,0.006,0.079,,,0,0.003,0.05,0.0
+OPGS003328,M32489,caproate (6:0),Lipid,Medium Chain Fatty Acid,2,0.006,0.051,0.002,0.022,0,0.005,0.077,0.0
+OPGS003329,M01107,allantoin,Nucleotide,Purine Metabolism (Hypo)Xanthine/Inosine containing,7,0.006,0.069,0.006,0.081,0,0.001,0.028,0.143
+OPGS003330,M46409,X - 21364,,,4,0.006,0.072,0.007,0.082,0,0.017,0.119,0.0
+OPGS003331,M46592,X - 11299,,,5,0.006,0.064,0.004,0.049,0,0.0,-0.04,0.4
+OPGS003332,M46649,X - 14568,,,1,0.006,0.03,,,0,,,
+OPGS003333,M00060,leucine,Amino Acid,Leucine Isoleucine and Valine Metabolism,2,0.006,0.047,0.0,-0.008,0,0.0,-0.002,0.0
+OPGS003334,M35628,1-oleoyl-GPE (18:1),Lipid,Lysolipid,1,0.006,0.063,0.004,0.057,0,,,
+OPGS003335,M37431,N-methylproline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,2,0.006,0.074,0.005,0.051,0,0.002,0.046,0.0
+OPGS003336,M49521,X - 23644,,,3,0.006,0.065,0.005,0.066,0,0.004,0.05,0.0
+OPGS003337,M52461,1-palmitoyl-2-oleoyl-GPC (16:0/18:1),Lipid,Phospholipid Metabolism,2,0.005,0.075,0.003,0.063,0,,,
+OPGS003338,M18392,theobromine,Xenobiotics,Xanthine Metabolism,3,0.005,0.069,0.006,0.073,0,0.002,0.05,0.333
+OPGS003339,M47716,X - 12686,,,1,0.005,0.069,,,0,,,
+OPGS003340,M46991,X - 12814,,,4,0.005,0.071,,,0,,,
+OPGS003341,M42489,2-hydroxydecanoate,Lipid,Fatty Acid Monohydroxy,1,0.005,0.068,0.006,0.068,0,0.01,0.088,0.0
+OPGS003342,M43424,dimethyl sulfone,Xenobiotics,Chemical,1,0.005,0.028,0.0,0.007,0,,,
+OPGS003343,M34534,laurylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),4,0.005,0.069,0.003,0.047,0,0.016,0.118,0.0
+OPGS003344,M01649,valine,Amino Acid,Leucine Isoleucine and Valine Metabolism,1,0.005,0.059,0.0,0.011,0,0.006,0.067,0.0
+OPGS003345,M47901,X - 11485,,,1,0.005,0.066,,,0,,,
+OPGS003346,M47800,X - 15666,,,1,0.005,0.062,0.001,0.012,0,0.0,0.002,0.0
+OPGS003347,M47971,X - 13729,,,1,0.005,0.037,0.003,0.034,0,0.004,0.047,0.0
+OPGS003348,M53127,X - 24699,,,2,0.005,0.071,,,0,0.01,0.107,0.0
+OPGS003349,M37455,glycerophosphoethanolamine,Lipid,Phospholipid Metabolism,1,0.005,0.073,0.0,0.011,0,0.001,0.017,0.0
+OPGS003350,M46689,X - 17145,,,2,0.005,0.065,,,0,0.002,0.032,0.5
+OPGS003351,M46666,X - 15728,,,1,0.005,0.057,0.0,0.001,0,0.0,0.008,0.0
+OPGS003352,M33935,piperine,Xenobiotics,Food Component/Plant,1,0.005,0.067,0.003,0.056,0,0.001,0.033,0.0
+OPGS003353,M47804,X - 16580,,,3,0.005,0.048,0.003,0.048,0,0.003,0.033,0.0
+OPGS003354,M46632,X - 14056,,,1,0.005,0.05,0.0,-0.011,0,,,
+OPGS003355,M52126,X - 24097,,,2,0.005,0.065,,,0,,,
+OPGS003356,M27447,1-linoleoylglycerol (18:2),Lipid,Monoacylglycerol,1,0.005,0.051,0.001,0.013,0,,,
+OPGS003357,M46142,mannitol/sorbitol,Carbohydrate,Fructose Mannose and Galactose Metabolism,1,0.005,0.032,0.0,0.014,0,0.002,0.05,0.0
+OPGS003358,M31555,pyridoxate,Cofactors and Vitamins,Vitamin B6 Metabolism,1,0.005,0.039,0.0,0.004,0,0.0,-0.006,0.0
+OPGS003359,M48407,dopamine sulfate (2),Amino Acid,Phenylalanine and Tyrosine Metabolism,2,0.005,0.071,0.001,0.039,0,0.01,0.102,0.0
+OPGS003360,M48715,eugenol sulfate,Xenobiotics,Food Component/Plant,1,0.005,0.042,0.0,-0.006,0,0.0,-0.018,0.0
+OPGS003361,M48428,pyrraline,Xenobiotics,Food Component/Plant,1,0.005,0.043,0.0,0.009,0,0.0,-0.002,0.0
+OPGS003362,M36738,gamma-glutamylglutamate,Peptide,Gamma-glutamyl Amino Acid,1,0.005,0.051,0.001,0.024,0,0.002,0.036,0.0
+OPGS003363,M47993,X - 17010,,,1,0.005,0.062,0.002,0.038,0,0.0,-0.006,0.0
+OPGS003364,M18254,paraxanthine,Xenobiotics,Xanthine Metabolism,1,0.005,0.067,0.004,0.072,0,0.007,0.096,0.0
+OPGS003365,M49617,1-lignoceroyl-GPC (24:0),Lipid,Lysolipid,2,0.005,0.059,0.006,0.066,0,,,
+OPGS003366,M39270,1-(1-enyl-palmitoyl)-GPE (P-16:0)*,Lipid,Lysoplasmalogen,1,0.005,0.052,0.0,-0.0,0,,,
+OPGS003367,M49515,X - 23639,,,1,0.005,0.064,0.005,0.064,0,0.003,0.048,0.0
+OPGS003368,M46621,X - 12524,,,1,0.005,0.066,,,0,0.004,0.068,0.0
+OPGS003369,M38399,910-DiHOME,Lipid,Fatty Acid Dihydroxy,1,0.005,0.055,0.0,0.009,0,0.001,0.033,0.0
+OPGS003370,M40469,N1-Methyl-2-pyridone-5-carboxamide,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,1,0.005,0.056,0.003,0.067,0,,,
+OPGS003371,M01101,homovanillate (HVA),Amino Acid,Phenylalanine and Tyrosine Metabolism,1,0.005,0.058,0.0,0.039,0,0.0,0.036,0.0
+OPGS003372,M46612,X - 12206,,,2,0.005,0.059,,,0,0.019,0.15,0.0
+OPGS003373,M32401,trigonelline (N'-methylnicotinate),Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,1,0.005,0.041,0.0,0.003,0,0.0,0.008,0.0
+OPGS003374,M04968,alpha-ketobutyrate,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,1,0.005,0.056,0.0,0.018,0,0.001,-0.007,0.0
+OPGS003375,M36103,p-cresol sulfate,Amino Acid,Phenylalanine and Tyrosine Metabolism,1,0.005,0.036,0.0,-0.01,0,,,
+OPGS003376,M21184,1-oleoylglycerol (18:1),Lipid,Monoacylglycerol,1,0.005,0.059,0.0,0.01,0,,,
+OPGS003377,M01642,caprate (10:0),Lipid,Medium Chain Fatty Acid,1,0.005,0.041,0.0,0.008,0,0.0,-0.011,0.0
+OPGS003378,M46646,X - 13835,,,1,0.004,0.051,,,0,0.001,-0.04,0.0
+OPGS003379,M36099,4-ethylphenylsulfate,Xenobiotics,Benzoate Metabolism,1,0.004,0.075,0.004,0.073,0,0.003,0.049,0.0
+OPGS003380,M52304,cis-aconitate,Energy,TCA Cycle,1,0.004,0.067,,,0,,,
+OPGS003381,M47225,X - 14314,,,1,0.004,0.061,,,0,,,
+OPGS003382,M21025,iminodiacetate (IDA),Xenobiotics,Chemical,1,0.004,0.062,0.0,0.009,0,0.0,0.018,0.0
+OPGS003383,M38667,3-methylglutaconate,Amino Acid,Leucine Isoleucine and Valine Metabolism,1,0.004,0.071,,,0,,,
+OPGS003384,M52703,1-stearyl-GPC (O-18:0)*,Lipid,Lyso-phospho-ether,2,0.004,0.061,,,0,,,
+OPGS003385,M43802,guanidinoacetate,Amino Acid,Creatine Metabolism,1,0.004,0.056,0.004,0.068,0,0.005,0.064,0.0
+OPGS003386,M32394,pyroglutamylvaline,Peptide,Dipeptide,1,0.004,0.051,,,0,,,
+OPGS003387,M46727,X - 21658,,,1,0.004,0.056,,,0,,,
+OPGS003388,M42459,sphingomyelin (d18:2/16:0 d18:1/16:1)*,Lipid,Sphingolipid Metabolism,1,0.004,0.059,0.002,0.049,0,,,
+OPGS003389,M52025,X - 23997,,,1,0.004,0.022,0.0,0.003,0,0.0,-0.003,0.0
+OPGS003390,M46358,X - 12212,,,1,0.004,0.061,,,0,0.007,0.09,0.0
+OPGS003391,M33447,palmitoleate (16:1n7),Lipid,Long Chain Fatty Acid,1,0.004,0.047,0.003,0.044,0,0.019,0.126,0.0
+OPGS003392,M35428,tiglylcarnitine,Amino Acid,Leucine Isoleucine and Valine Metabolism,1,0.004,0.067,0.005,0.074,0,0.015,0.129,0.0
+OPGS003393,M48258,1-oleoyl-GPC (18:1),Lipid,Lysolipid,1,0.004,0.057,0.001,0.036,0,,,
+OPGS003394,M00542,3-hydroxybutyrate (BHBA),Lipid,Ketone Bodies,1,0.004,0.021,0.0,0.002,0,,,
+OPGS003395,M18394,theophylline,Xenobiotics,Xanthine Metabolism,1,0.004,0.039,0.0,0.003,0,,,
+OPGS003396,M01552,erucate (22:1n9),Lipid,Long Chain Fatty Acid,1,0.004,0.026,0.0,-0.012,0,0.003,-0.037,0.0
+OPGS003397,M46740,X - 21666,,,1,0.004,0.058,,,0,,,
+OPGS003398,M01769,cortisone,Lipid,Steroid,1,0.004,0.046,0.0,-0.011,0,0.003,-0.081,0.0
+OPGS003399,M47087,1-nonadecanoyl-GPC (19:0),Lipid,Lysolipid,1,0.004,0.053,,,0,,,
+OPGS003400,M17769,sphinganine,Lipid,Sphingolipid Metabolism,1,0.004,0.068,0.001,0.036,0,0.004,0.055,0.0
+OPGS003401,M19324,1-stearoyl-GPI (18:0),Lipid,Lysolipid,1,0.004,0.06,0.0,0.025,0,,,
+OPGS003402,M33972,10-nonadecenoate (19:1n9),Lipid,Long Chain Fatty Acid,1,0.004,0.053,0.0,-0.003,0,,,
+OPGS003403,M44872,gamma-glutamylmethionine,Peptide,Gamma-glutamyl Amino Acid,1,0.004,0.045,0.001,0.021,0,0.004,0.063,0.0
+OPGS003404,M52473,gamma-tocopherol/beta-tocopherol,Cofactors and Vitamins,Tocopherol Metabolism,1,0.004,0.057,0.001,0.039,0,0.002,0.074,0.0
+OPGS003405,M18497,taurocholate,Lipid,Primary Bile Acid Metabolism,1,0.004,0.051,0.0,-0.013,0,0.0,-0.02,0.0
+OPGS003406,M52437,sphingomyelin (d18:2/24:1 d18:1/24:2)*,Lipid,Sphingolipid Metabolism,1,0.004,0.033,0.0,-0.011,0,,,
+OPGS003407,M18281,2-hydroxyhippurate (salicylurate),Xenobiotics,Benzoate Metabolism,1,0.004,0.043,0.0,0.019,0,0.004,-0.068,0.0
+OPGS003408,M42095,palmitic amide,Lipid,Fatty Acid Amide,1,0.004,0.032,,,0,,,
+OPGS003409,M18476,glycocholate,Lipid,Primary Bile Acid Metabolism,1,0.004,0.045,0.0,-0.007,0,0.0,-0.01,0.0
+OPGS003410,M52614,1-(1-enyl-stearoyl)-2-oleoyl-GPE (P-18:0/18:1),Lipid,Plasmalogen,1,0.004,0.048,0.0,-0.003,0,,,
+OPGS003411,M52502,X - 24307,,,1,0.004,0.044,0.0,-0.002,0,0.001,-0.01,0.0
+OPGS003412,M36098,4-vinylphenol sulfate,Xenobiotics,Benzoate Metabolism,2,0.004,0.059,0.002,0.042,0,0.0,0.014,0.0
+OPGS003413,M22185,N-acetylaspartate (NAA),Amino Acid,Alanine and Aspartate Metabolism,1,0.004,0.057,0.001,0.038,0,0.004,0.059,0.0
+OPGS003414,M52477,1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)*,Lipid,Plasmalogen,1,0.004,0.058,0.004,0.056,0,,,
+OPGS003415,M47154,sphingomyelin (d18:2/14:0 d18:1/14:1)*,Lipid,Sphingolipid Metabolism,1,0.004,0.054,0.001,0.02,0,,,
+OPGS003416,M00569,caffeine,Xenobiotics,Xanthine Metabolism,1,0.004,0.04,0.0,-0.002,0,,,
+OPGS003417,M22176,cysteine s-sulfate,Amino Acid,Methionine Cysteine SAM and Taurine Metabolism,1,0.003,0.035,0.0,-0.024,0,0.0,-0.015,0.0
+OPGS003418,M01644,heptanoate (7:0),Lipid,Medium Chain Fatty Acid,1,0.003,0.044,,,0,,,
+,,,,,,,,,,,,,

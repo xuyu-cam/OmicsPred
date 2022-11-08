@@ -1,0 +1,33 @@
+
+[
+    {
+        "title": "Number of genes: ",
+        "type": "Number",
+        "value": "13,668"
+    },
+    {
+        "title": "Training cohort: ",
+        "type": "Link",
+        "value": "INTERVAL" ,
+        "link" :"https://www.intervalstudy.org.uk/"
+    },
+    {
+        "title": "Training sample size: ",
+        "type": "Number",
+        "value": "4,136"
+    },
+    {
+        "title": "Independent validation subset:",
+        "type": "Link",
+        "link" : "https://www.intervalstudy.org.uk/" ,
+        "value": "INTERVAL withheld subset (12,958 genes; 598 participants)" 
+
+    },
+    
+
+    {
+        "title": "Evaluation Metric: ",
+        "type": "Text",
+        "value": "Spearman correlation coefficient (Rho), Variance explained (R2)"
+    }
+]

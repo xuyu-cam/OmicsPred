@@ -29,6 +29,7 @@ const pages = [
   "Cohorts",
   "About",
   "find",
+  "SubmitScore",
 ];
 
 const NavBar = () => {
@@ -67,17 +68,9 @@ const NavBar = () => {
   const isactivestyle = { color: "blue" };
 
   return (
-    <MyAppBar
-      position="fixed"
-      
-      className="bg-white shadow-none"
-    >
-      <Container
-        maxWidth="xl"
-        
-        className="bg-white shadow-none"
-      >
-        <Toolbar disableGutters >
+    <MyAppBar position="fixed" className="bg-white shadow-none">
+      <Container maxWidth="xl" className="bg-white shadow-none">
+        <Toolbar disableGutters>
           <Typography
             variant="h6"
             noWrap
@@ -116,21 +109,34 @@ const NavBar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">
-                    <NavLink
-                      className="text-md text-gray-600 text-justify "
-                      to={page === "Home" ? "/" : "/" + page}
-                      style={({ isActive }) =>
-                        isActive ? isactivestyle : undefined
-                      }
-                    >
-                      {page}
-                    </NavLink>
-                  </Typography>
-                </MenuItem>
-              ))}
+              {pages.map((page) =>
+                page != "SubmitScore" ? (
+                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center">
+                      <NavLink
+                        className="text-md text-gray-600 text-justify "
+                        to={page === "Home" ? "/" : "/" + page}
+                        style={({ isActive }) =>
+                          isActive ? isactivestyle : undefined
+                        }
+                      >
+                        {page}
+                      </NavLink>
+                    </Typography>
+                  </MenuItem>
+                ) : (
+                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center">
+                      <a
+                        className="text-md text-gray-600 text-justify "
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdM4rAcpKGAgYECffYpgkIyN1XNkAWBou36W2HWMuPOKtZM-w/viewform?usp=sf_link"
+                      >
+                        {page}
+                      </a>
+                    </Typography>
+                  </MenuItem>
+                )
+              )}
             </Menu>
           </Box>
           <Typography
@@ -142,23 +148,38 @@ const NavBar = () => {
             <img src={logo} className="w-[50px] h-[50px]" />
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseScoresMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
-              >
-                <NavLink
-                  className="text-md text-gray-600 text-justify "
-                  to={page == "Home" ? "/" : "/" + page}
-                  style={({ isActive }) =>
-                    isActive ? isactivestyle : undefined
-                  }
+            {pages.map((page) =>
+              page != "SubmitScore" ? (
+                <Button
+                  key={page}
+                  onClick={handleCloseScoresMenu}
+                  sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  {page}
-                </NavLink>
-              </Button>
-            ))}
+                  <NavLink
+                    className="text-md text-gray-600 text-justify "
+                    to={page == "Home" ? "/" : "/" + page}
+                    style={({ isActive }) =>
+                      isActive ? isactivestyle : undefined
+                    }
+                  >
+                    {page}
+                  </NavLink>
+                </Button>
+              ) : (
+                <Button
+                  key={page}
+                  onClick={handleCloseScoresMenu}
+                  sx={{ my: 2, color: "white", display: "block" }}
+                >
+                  <a
+                    className="text-md text-gray-600 text-justify "
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdM4rAcpKGAgYECffYpgkIyN1XNkAWBou36W2HWMuPOKtZM-w/viewform?usp=sf_link"
+                  >
+                    {page}
+                  </a>
+                </Button>
+              )
+            )}
           </Box>
         </Toolbar>
       </Container>

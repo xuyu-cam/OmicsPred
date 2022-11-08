@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Number of proteins: ",
+        "type": "Number",
+        "value": "2,384"
+    },
+    {
+        "title": "Training cohort: ",
+        "type": "Link",
+        "value": "INTERVAL" ,
+        "link" :"https://www.intervalstudy.org.uk/"
+    },
+    {
+        "title": "Training sample size: ",
+        "type": "Number",
+        "value": "3,175"
+    },
+    {
+        "title": "External validation in cohort 1:",
+        "type": "Link",
+        "value": "FENLAND (European; 2,129 proteins; 8,832 participants)",
+        "link" :"https://www.mrc-epid.cam.ac.uk/research/studies/fenland/"
+    },
+
+    {
+        "title": "External validation in cohort 2:",
+        "type": "Link",
+        "value": "MEC (2,070 proteins) - Chinese (CN; N=602), Indian (IN; N=585) and Malay (MA; N=588)",
+        "link" :"https://blog.nus.edu.sg/sphs/multiethnic-cohort/"
+    },
+
+    {
+        "title": "External validation in cohort 3:",
+        "type": "Link",
+        "value": "JHS (African American; 820 proteins; 1,852 participants) ",
+        "link" :"https://blog.nus.edu.sg/sphs/multiethnic-cohort/"
+    },
+    {
+        "title": "Evaluation Metric: ",
+        "type": "Text",
+        "value": "Spearman correlation coefficient (Rho), Variance explained (R2)"
+    }
+]

@@ -1,0 +1,54 @@
+
+[
+    {
+        "title": "Number of metabolic traits: ",
+        "type": "Number",
+        "value": "141"
+    },
+    {
+        "title": "Training cohort: ",
+        "type": "Link",
+        "value": "INTERVAL" ,
+        "link" :"https://www.intervalstudy.org.uk/"
+    },
+    {
+        "title": "Training sample size: ",
+        "type": "Number",
+        "value": "37,359"
+    },
+
+    {
+        "title": "External validation cohort 1:",
+        "type": "Link",
+        "link" : "https://www.ukbiobank.ac.uk/" ,
+        "value": "UK Biobank (European; 141 traits; 116,830 participants)"
+    },
+
+    {
+        "title": "External validation cohort 2:",
+        "type": "Link",
+        "link" : "https://www.ed.ac.uk/viking/about-us/what-we-do/our-studies" ,
+        "value": "ORCADES (European; 141 traits; 1,884 participants)"
+    },
+
+    {
+        "title": "External validation cohort 3:",
+        "type": "Link",
+        "link" : "https://www.ed.ac.uk/viking/about-us/what-we-do/our-studies" ,
+        "value": "VIKING (European; 141 traits; 2,046 participants)"
+    },
+
+    {
+        "title": "External validation in cohort 4:",
+        "type": "Link",
+        "value": "MEC (139 traits) - Chinese (CN; N=1,019), Indian (IN; N=677) and Malay (MA; N=659)",
+        "link" :"https://blog.nus.edu.sg/sphs/multiethnic-cohort/"
+    },
+
+    
+    {
+        "title": "Evaluation Metric: ",
+        "type": "Text",
+        "value": "Spearman correlation coefficient (Rho), Variance explained (R2)"
+    }
+]

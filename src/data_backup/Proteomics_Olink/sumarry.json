@@ -1,0 +1,37 @@
+
+[
+    {
+        "title": "Number of proteins: ",
+        "type": "Number",
+        "value": "308"
+    },
+    {
+        "title": "Training cohort: ",
+        "type": "Link",
+        "value": "INTERVAL" ,
+        "link" :"https://www.intervalstudy.org.uk/"
+    },
+    {
+        "title": "Training sample size: ",
+        "type": "Number",
+        "value": "4,822"
+    },
+    {
+        "title": "External validation cohort 1:",
+        "type": "Link",
+        "link" : "https://pubmed.ncbi.nlm.nih.gov/20568910/" ,
+        "value": "NSPHS (European; 302 proteins; 872 participants)" 
+    },
+    {
+        "title": "External validation cohort 2:",
+        "type": "Link",
+        "link" : "https://www.ed.ac.uk/viking/about-us/what-we-do/our-studies" ,
+        "value": "ORCADES (European; 301 proteins; 1052 participants)"
+    },
+
+    {
+        "title": "Evaluation Metric: ",
+        "type": "Text",
+        "value": "Spearman correlation coefficient (Rho), Variance Explained (R2)"
+    }
+]
