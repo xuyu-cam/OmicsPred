@@ -9,7 +9,7 @@ import "./App.css";
 import { BottomNavigation } from "@mui/material";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Scores, Menu } from "./pages/Scores";
+import { Scores } from "./pages/Scores";
 import "./index.scss";
 import FAQs from "./pages/FAQs";
 import Cohorts from "./pages/Cohorts";
