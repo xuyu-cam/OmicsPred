@@ -131,7 +131,7 @@ const NavBar = () => {
                         className="text-md text-gray-600 text-justify "
                         target='_blank'
                         rel="noopener noreferrer"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdM4rAcpKGAgYECffYpgkIyN1XNkAWBou36W2HWMuPOKtZM-w/viewform?usp=sf_link"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSczfyF7Rx5qVeTZcXlgfBlMBocPMg42c3Lmlh0jYQKdizRN5Q/viewform?usp=sf_link"
                       >
                         {page}
                       </a>
@@ -176,7 +176,7 @@ const NavBar = () => {
                   <a
                     className="text-md text-gray-600 text-justify "
                     target='_blank'
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdM4rAcpKGAgYECffYpgkIyN1XNkAWBou36W2HWMuPOKtZM-w/viewform?usp=sf_link"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSczfyF7Rx5qVeTZcXlgfBlMBocPMg42c3Lmlh0jYQKdizRN5Q/viewform?usp=sf_link"
                   >
                     {page}
                   </a>
