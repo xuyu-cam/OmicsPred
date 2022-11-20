@@ -16,7 +16,6 @@ import Cohorts from "./pages/Cohorts";
 import About from "./pages/About";
 import Applications from "./pages/Applications";
 import Find from "./pages/Search";
-import SubmitScores from "./pages/SubmitScores";
 
 import ReactGA from "react-ga";
 
@@ -33,18 +32,15 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route path="/Applications" element={<Applications name="" />} />
           <Route
             path="/Applications/pathway"
             element={<Applications name="pathway" />}
           />
-
           <Route path="/FAQs" element={<FAQs />} />
           <Route path="/find" element={<Find />} />
           <Route path="Cohorts" element={<Cohorts />} />
           <Route path="/About" element={<About />} />
-
           <Route
             path="Scores/"
             key="1"
@@ -62,7 +58,6 @@ function App() {
               />
             }
           />
-
           <Route
             path="Scores/Olink/INTERVAL"
             key="3"
@@ -104,12 +99,13 @@ function App() {
               />
             }
           />
-
           <Route
-            path="/SubmitScore"
-            key="7"
-            index="7"
-            element={<SubmitScores />}
+            path="/SubmitScores"
+            index="10"
+            key="10"
+            element={
+              <ExternalLink href="https://forms.gle/KLZGbvurrftF5vo46" />
+            }
           />
         </Routes>
         <NavBar />
@@ -117,5 +113,10 @@ function App() {
     </div>
   );
 }
+
+const ExternalLink = ({ href, children }) => {
+  window.location.replace(href);
+  return null;
+};
 
 export default App;
