@@ -15,6 +15,8 @@ import DirectionsIcon from "@mui/icons-material/Directions";
 
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
 
+import Href from "../Home/components/components/Href";
+
 import Particles from "react-tsparticles";
 
 export default function FAQs() {
@@ -34,6 +36,15 @@ export default function FAQs() {
     console.log(container);
   };
 
+  const answer1 = () => {
+    return (
+      <>
+      The machine learning method Bayesian Ridge(BR), that based on individual - level genotype data, was used to construct genetic scores of biomolecular traits in the Atlas. The selection of BR is based on the results in one of our previous studies that benchmarked the performance of a variety of representative genetic scoring methods for the construction of numerous continuous molecular traits, and demonstrated BR was the top performing method in terms of both efficacy and efficiency.
+      </>
+    )
+  };
+
+
   const data = [
     {
       title: "What can we do with these genetic score models?",
@@ -43,12 +54,12 @@ export default function FAQs() {
     {
       title: "How can I download model files of these genetic scores?",
       type: " General questions",
-      text: "You can find a download link (named 'Download model files') on the Score page of each platform. Following the link, you will be directed to a cloud drive page where we hosted model files of all  the considerred traits for the platform. There is a \"Download\"   bottom at right-top corner of the page, which will allow you to  download all the model files in bulk. Or you can choose the model  file of a trait you are intersted in and download the particular  model file in a similar way. Please note that you can only download model files of gene expression traits in bulk as we have compressed them to a single file. ",
+      text: "You can find a download link (named 'Download model files') on the Score page of each platform. Following the link, you will be directed to a cloud drive page where we hosted model files of all the considerred traits for the platform. There is a \"Download\" bottom at right-top corner of the page, which will allow you to  download all the model files in bulk.",
     },
     {
       title: " What method was used for genetic score development and why?",
       type: "Genetic score development",
-      text: "The machine learning method Bayesian Ridge(BR), that based on individual - level genotype data, was used to construct genetic scores of biomolecular traits in the Atlas.The selection of BR is based on the results in one of our previous studies that benchmarked the performance of a variety of representative genetic scoring methods for the construction of numerous continuous molecular traits, and demonstrated BR was the top performing method in terms of both efficacy and efficiency. ",
+      text: answer1,
     },
     {
       title:
@@ -64,7 +75,7 @@ export default function FAQs() {
     {
       title: " How was the external validation done?",
       type: "Genetic score development",
-      text: " The genetic score model trained with INTERVAL training samples for a trait was used to calculate genetic scores of the validation samples (external cohorts or withheld INTERVAL samples). Then R2 score and Spearman correlation coefficient were calculated using the predicted scores of these samples against their acutal trait levels.",
+      text: "The genetic score model trained with INTERVAL training samples for a trait was used to calculate genetic scores of the validation samples (external cohorts or withheld INTERVAL samples). Then R2 score and Spearman correlation coefficient were calculated using the predicted scores of these samples against their acutal trait levels.",
     },
   ];
 
