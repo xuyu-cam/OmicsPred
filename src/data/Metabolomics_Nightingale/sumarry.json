@@ -21,7 +21,7 @@
         "title": "External validation cohort 1:",
         "type": "Link",
         "link" : "https://www.ukbiobank.ac.uk/" ,
-        "value": "UK Biobank (European; 141 traits; 116,830 participants)"
+        "value": "UK Biobank (European; 141 traits; 98,245 participants)"
     },
 
     {
@@ -41,7 +41,7 @@
     {
         "title": "External validation in cohort 4:",
         "type": "Link",
-        "value": "MEC (139 traits) - Chinese (CN; N=1,019), Indian (IN; N=677) and Malay (MA; N=659)",
+        "value": "MEC (139 traits) - Chinese (CN; N=1,067), Indian (IN; N=654) and Malay (MA; N=634)",
         "link" :"https://blog.nus.edu.sg/sphs/multiethnic-cohort/"
     },
 
