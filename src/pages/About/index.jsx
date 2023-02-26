@@ -26,6 +26,7 @@ const About = () => {
 
 
       <br /><Href text="Wellcome Sanger Institute" href="https://www.sanger.ac.uk/" />: Lorenzo Bomba, Emma E Davenport, Nicole Soranzo
+      <br /><Href text="European Molecular Biology Laboratory, European Bioinformatics Institute" href="https://www.ebi.ac.uk/"/>: Helen Parkinson
       <br /><Href text="Imperial College London" href="https://www.imperial.ac.uk/" />: James E. Peters
       <br /><Href text="Immunology, Genetics and Pathology, IGP, Uppsala University" href="https://igp.uu.se/" /> : Åsa Johansson
       <br /><Href text="University of Oxford" href="https://www.ox.ac.uk/" />: Christopher Yau

@@ -43,7 +43,7 @@ const Platforms = () => {
             <Slide
               logo={soma_img}
               text="Proteomics (plasma) "
-              href="/Scores/Somalogic"
+              href="/Scores/Somalogic/INTERVAL"
               discription={
                 <div>
                   {" "}
@@ -72,7 +72,7 @@ const Platforms = () => {
             {" "}
             <Slide
               logo={olink_img}
-              href="/Scores/Olink"
+              href="/Scores/Olink/INTERVAL"
               text="Proteomics (plasma)"
               discription={
                 <div>
@@ -94,7 +94,7 @@ const Platforms = () => {
             {" "}
             <Slide
               logo={meta_img}
-              href="/Scores/Metabolon"
+              href="/Scores/Metabolon/INTERVAL"
               text="Metabolomics (plasma)"
               discription={
                 <div>
@@ -117,7 +117,7 @@ const Platforms = () => {
             <Slide
               logo={night_img}
               text="Metabolomics (serum)"
-              href="Scores/nightingale"
+              href="Scores/nightingale/INTERVAL"
               discription={
                 <div>
                    Genetic scores for 141 metabolic traits, validated on{" "}
@@ -142,7 +142,7 @@ const Platforms = () => {
           <div className="min-w-[345px] h-[100%] flex-grow-0  px-5 float-left  p-6 ">
             {" "}
             <Slide
-              href="Scores/Illumina_RNAseq"
+              href="Scores/Illumina_RNAseq/INTERVAL"
               logo={rna_img}
               text="Transcriptomics (whole blood)"
               discription="13,668 gene expression genetic scores, validated on a withheld subset of INTERVAL."

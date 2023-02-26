@@ -1,5 +1,6 @@
 [
-    { "title": "Download results ", "type": "Link", "value": "https://app.box.com/s/7j7233otah0yxl4rypqx44wzsj7xywxp" },
-    { "title": "Download model files", "type": "Link", "value": "https://app.box.com/s/z86fg93jg5gwdmmu4xn6u287mre2g5o7" },
-    { "title": "Download variant info of all models", "type": "Link", "value": "https://app.box.com/s/eac8psw30dxh9evwu9z0bj8hncru2ioa" }
+    { "title": "Validation results ", "type": "Link", "value": "https://app.box.com/s/7j7233otah0yxl4rypqx44wzsj7xywxp" },
+    { "title": "Model files", "type": "Link", "value": "https://app.box.com/s/z86fg93jg5gwdmmu4xn6u287mre2g5o7" },
+    { "title": "Model variant info", "type": "Link", "value": "https://app.box.com/s/eac8psw30dxh9evwu9z0bj8hncru2ioa" },
+    { "title": "GWAS summary stats", "type": "Link", "value": "https://app.box.com/s/u3flbp13zjydegrxjb2uepagp1vb6bj2" }
 ]
