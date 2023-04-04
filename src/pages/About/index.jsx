@@ -14,6 +14,12 @@ const About = () => {
         text={<div>The OmicsPred Atlas development was led by <Href text="Yu Xu" href="mailto:yx322@medschl.cam.ac.uk"></Href>, under the supervison of <Href text="Michael Inouye" href="https://www.inouyelab.org/home/people" /> at the Department of Public Health and Primary Care, University of Cambridge.</div>}
       />
       <Container
+        title="Citation"
+        text={<div>If you use OMICSPRED in your research, we ask that you cite our publication:
+          <br />
+                  <br />[Full Citation] Xu Y, Ritchie SC, Liang Y, Timmers PRHJ, Pietzner M, Lannelongue L, Lambert SA, Tahir UA, May-Wilson S, Foguet C, Johansson A, Surendran P, Nath AP, Persyn E, Peters JE, Oliver-Williams C, Deng S, Prins B, Luan J, Bomba L, Soranzo N, Di Angelantonio E, Pirastu N, Tai ES, van Dam RM, Parkinson H, Davenport EE, Paul DS, Yau C, Gerszten RE, Malarstig M, Danesh J, Sim X, Langenberg C, Wilson JF, Butterworth AS, Inouye M. <b>An atlas of genetic scores to predict multi-omic traits</b>. Nature (2023). https://doi.org/10.1038/s41586-023-05844-9. <Href text="Article Link" href="https://www.nature.com/articles/s41586-023-05844-9" /></div>} 
+      />
+      <Container
       title="Our Collaborators"
       text={<div> <Href text="InouyeLab" href="https://www.inouyelab.org/" />: <Href text="Scott C. Ritchie" href="https://orcid.org/0000-0002-8454-9548" />, <Href text="Samuel Lambert" href="https://www.phpc.cam.ac.uk/people/ceu-group/ceu-research-staff/sam-lambert/" />, Loïc Lannelongue, Artika Nath, Elodie Persyn, Carles Foguet
       <br /> <Href text="Department of Public Health and Primary Care, University of Cambridge:" href="https://www.phpc.cam.ac.uk/ceu/" /> Bram Prins, Praveen Surendran, Dirk Paul, Emanuele Di Angelantonio, Adam Butterworth, John Danesh
