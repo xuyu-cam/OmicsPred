@@ -24,7 +24,7 @@ import { NavLink } from "react-router-dom";
 import ScoresHtext from "./components/ScoresHtext";
 import Sumary from "../Scores/components/Sumary";
 
-import data1 from "./data/metabolon_plot.json";
+import data1 from "./data/all_omics_assoc_sum.json";
 import data1_1 from "./data/phecode.json";
 
 import data2 from "./data/pathway.json";
