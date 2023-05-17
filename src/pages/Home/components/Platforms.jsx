@@ -55,7 +55,7 @@ const Platforms = () => {
                   ,
                   <Href
                     text="MEC"
-                    href="https://blog.nus.edu.sg/sphs/multiethnic-cohort/"
+                    href="https://blog.nus.edu.sg/sphs/"
                   ></Href>{" "}
                   and
                   <Href
