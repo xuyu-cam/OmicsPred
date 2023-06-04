@@ -17,16 +17,16 @@ import About from "./pages/About";
 import Applications from "./pages/Applications";
 import Find from "./pages/Search";
 
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 /// please replace the ID with your id from google analytics
-const TRACKING_ID = "UA-188536537-1"; // OUR_TRACKING_ID
+const TRACKING_ID = "G-W6WTTV63GG"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+ /// useEffect(() => {
+ ///   ReactGA.pageview(window.location.pathname + window.location.search);
+ /// }, []);
   return (
     <div className="App">
       <Router>
