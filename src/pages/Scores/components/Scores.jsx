@@ -28,6 +28,8 @@ import Tooltip from "@mui/material/Tooltip";
 import { styled } from "@mui/material/styles";
 import { tooltipClasses } from "@mui/material/Tooltip";
 
+import ScoresTool from "./ScoresTool";
+
 import AssistantPhotoIcon from "@mui/icons-material/AssistantPhoto";
 
 function createData(rsid, chr, pos, effect_allele, other_allele, effect) {
@@ -86,8 +88,8 @@ const ScoresHome = (props) => {
                       rsid
                       </h1></TableCell>
                   </LightTooltip>{" "}
-                  <LightTooltip title="Chromosome code" arrow placement="top">
-                    <TableCell align="center"> <h1 className="font-bold">chr</h1></TableCell>
+                  <LightTooltip title="Chromosome name" arrow placement="top">
+                    <TableCell align="center"><h1 className="font-bold">chr</h1></TableCell>
                   </LightTooltip>{" "}
                   <LightTooltip
                     title="Base-pair coordinate (GRCh37)"
@@ -136,27 +138,39 @@ const ScoresHome = (props) => {
           </TableContainer>
         </div>
         <div className="w-full px-5 md:px-10 my-5">
-          <h1 className="font-bold">Where :</h1>
-          <h1>
-            <span className="mr-5 text-indigo-600">rsid</span>rsID
-          </h1>
-          <h1>
-            <span className="mr-5 text-indigo-600">chr</span>Chromosome code
-          </h1>
-          <h1>
-            <span className="mr-5 text-indigo-600">pos</span>Base-pair
+          <h1 className="font-bold mb-2">Where :</h1>
+          <div>
+            <Typography className="text-xl text-gray-600 text-justify">
+              - <span className="text-indigo-600">rsid</span>: rsID
+            </Typography>
+          </div>
+          <div>
+            <Typography className="text-xl text-gray-600 text-justify">
+              - <span className="text-indigo-600">chr</span>: Chromosome name
+            </Typography>
+          </div>
+          <div>
+            <Typography className="text-xl text-gray-600 text-justify">
+              - <span className="text-indigo-600">pos</span>: Base-pair
             coordinate (GRCh37)
-          </h1>
-          <h1>
-            <span className="mr-5 text-indigo-600">effect_allele</span>Effect
+            </Typography>
+          </div>
+          <div>
+            <Typography className="text-xl text-gray-600 text-justify">
+              - <span className="text-indigo-600">effect_allele</span>: Effect
             allele with regard to the dosage of a variant
-          </h1>
-          <h1>
-            <span className="mr-5 text-indigo-600">other_allele</span>The other allele
-          </h1>
-          <h1>
-            <span className="mr-5 text-indigo-600">effect</span>Effect size of the variant
-          </h1>
+            </Typography>
+          </div>
+          <div>
+            <Typography className="text-xl text-gray-600 text-justify">
+              - <span className="text-indigo-600">other_allele</span>: The other allele
+            </Typography>
+          </div>
+          <div>
+            <Typography className="text-xl text-gray-600 text-justify">
+              - <span className="text-indigo-600">effect</span>: Effect size of the variant
+            </Typography>
+          </div>
         </div>
         <Htext text="What does a genetic score model look like in the Atlas?" />
         <div className="w-full px-5 md:px-10 my-5">
@@ -168,63 +182,45 @@ const ScoresHome = (props) => {
 
           <div>
             <div className="w-full lg:w-[80%]">
-              <div className="highlight bg-gray-600 text text-sm rounded-lg">
+              <div className="bg-gray-600 text text-sm rounded-lg">
                 <pre className="highlight">
                   <code>
                     <span className="o">$</span> plink2 <br />
                     <span className="nt"> --bfile</span>{" "}
-                    <span class="k">{"${"}</span>
+                    <span className="k">{"${"}</span>
                     <span className="nv">bed_file</span>
                     <span className="k">{"}"}</span> <br />
                     <span className="nt"> --score</span>{" "}
-                    <span class="k">{"${"}</span>
-                    <span class="nv">model_file</span>
-                    <span class="k">{"}"}</span> 1 4 6 header list-variants{" "}
-                    <span class="nv">cols</span>
-                    <span class="o">=</span>scoresums <br />
-                    <span class="nt"> --out</span> <span class="k">{"${"}</span>
-                    <span class="nv">results</span>
-                    <span class="k">{"}"}</span>
+                    <span className="k">{"${"}</span>
+                    <span className="nv">model_file</span>
+                    <span className="k">{"}"}</span> 1 4 6 header list-variants{" "}
+                    <span className="nv">cols</span>
+                    <span className="o">=</span>scoresums <br />
+                    <span className="nt"> --out</span> <span className="k">{"${"}</span>
+                    <span className="nv">results</span>
+                    <span className="k">{"}"}</span>
                   </code>
                 </pre>
               </div>
             </div>
           </div>
-          <br />
-
-          <Typography className="text-xl text-gray-600 text-justify">
-            <code className=" py-1">
-              {" "}
-              <code className="text-blue-400  font-bold">
-                {" "}
-                <AssistantPhotoIcon /> bed_file:{" "}
-              </code>{" "}
-              Plink bed file of genetic data in a new cohort
-            </code>
-
-            <br />
-
-            <code className=" py-1">
-              {" "}
-              <code className="text-blue-400 font-bold">
-                {" "}
-                <AssistantPhotoIcon /> model_file:{" "}
-              </code>
-              Path for a genetic model file downloaded from the Atlas
-            </code>
-
-            <br />
-
-            <code className=" py-1">
-              {" "}
-              <code className="text-blue-400 font-bold">
-                {" "}
-                <AssistantPhotoIcon /> results:{" "}
-              </code>
-              Result file path{" "}
-            </code>
-          </Typography>
+          <div className="mt-3">
+            <Typography className="text-xl text-gray-600 text-justify">
+                - <code className="text-sm p-1"><span className="nv">bed_file</span></code>: Plink bed file of genetic data in a new cohort
+            </Typography>
+          </div>
+          <div>
+            <Typography className="text-xl text-gray-600 text-justify">
+                - <code className="text-sm p-1"><span className="nv">model_file</span></code>: Path for a genetic model file downloaded from the Atlas
+            </Typography>
+          </div>
+          <div>
+            <Typography className="text-xl text-gray-600 text-justify">
+                - <code className="text-sm p-1"><span className="nv">results</span></code>: Result file path
+            </Typography>
+          </div>
         </div>
+        <ScoresTool />
       </div>
     </>
   );
