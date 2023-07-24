@@ -58,9 +58,9 @@ const LightTooltip = styled(({ className, ...props }) => (
 const ScoresHome = (props) => {
   return (
     <>
-      <div className="h-auto max-w-full pb-10 lg:px-32 pr-3 md:pr-10">
+      <div className="h-auto max-w-full pb-10 lg:px-32 pr-3 md:pr-10 ">
         <Htext text="What is a genetic score?"/>
-        <div className="w-full pr-10 pl-5 md:pl-10">
+        <div className="w-full lg:w-[80%] pr-10 pl-5 md:pl-10">
           <Typography className="text-xl text-gray-600 text-justify">
             A genetic score, also called a polygenic score (PGS), polygenic risk
             score (PRS), genetic risk score, or genome-wide score, is a number
@@ -172,7 +172,7 @@ const ScoresHome = (props) => {
             </Typography>
           </div>
         </div>
-        <Htext text="What does a genetic score model look like in the Atlas?" />
+        <Htext text="How can you calculate genetic scores on your own samples with OmicsPred score models?" />
         <div className="w-full px-5 md:px-10 my-5">
           <Typography className="text-xl text-gray-600 text-justify">
             An easy way to calculate genetic scores of a new cohort is to use{" "}
