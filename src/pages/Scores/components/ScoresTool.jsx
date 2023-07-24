@@ -32,6 +32,8 @@ const rows = [
     createResults("...", "...", "...", "..."),
 ];
 
+const pgs_calc_version = 'v1.3.2'
+
 const LightTooltip = styled(({ className, ...props }) => (
     <Tooltip {...props} classes={{ popper: className }} />
   ))(({ theme }) => ({
@@ -258,7 +260,8 @@ export default function ScoresTool() {
                         <div className="mt-3 bg-gray-600 text text-sm rounded-lg">
                             <pre className="highlight">
                                 <code>
-                                    <span className="o">$</span> nextflow run pgscatalog/pgsc_calc -r v1.3.2 <span className="k">\</span><br />
+                                    <span className="o">$</span> nextflow run pgscatalog/pgsc_calc <span className="k">\</span><br />
+                                    <span className="nt">    -r</span> {pgs_calc_version} <span className="k">\</span><br />
                                     <span className="nt">    -profile</span> &lt;docker/singularity/conda&gt; <span className="k">\</span><br />
                                     <span className="nt">    --input</span> …/ukb_data/samplesheet.csv <span className="k">\</span><br />
                                     <span className="nt">    --scorefile</span> .../SomaScan/OPGS000001_model.txt
@@ -274,7 +277,8 @@ export default function ScoresTool() {
                         <div className="mt-3 bg-gray-600 text text-sm rounded-lg">
                             <pre className="highlight">
                                 <code>
-                                    <span className="o">$</span> nextflow run pgscatalog/pgsc_calc -r v1.3.2<span className="k">\</span><br />
+                                    <span className="o">$</span> nextflow run pgscatalog/pgsc_calc <span className="k">\</span><br />
+                                    <span className="nt">    -r</span> {pgs_calc_version} <span className="k">\</span><br />
                                     <span className="nt">    -profile</span> &lt;docker/singularity/conda&gt; <span className="k">\</span><br />
                                     <span className="nt">    --input</span> …/ukb_data/samplesheet.csv <span className="k">\</span><br />
                                     <span className="nt">    --scorefile</span> <span className="k">"</span>.../SomaScan/<span className="nv">*</span>.txt<span className="k">"</span>
