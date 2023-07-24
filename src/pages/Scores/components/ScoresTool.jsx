@@ -48,20 +48,22 @@ export default function ScoresTool() {
     const comma = <span className="text-blue-400">,</span>
     return (
         <>
-            <Htext text="Using pgs_calc to calculate genetic scores on your own cohorts  with OmicsPred" />
-            <div className="w-full lg:w-[60%] pl-5 md:px-10 my-5">
+            <Htext text="Using pgsc_calc to calculate genetic scores on your own samples with OmicsPred (use pgsc_calc compatible model files)" />
+            <div className="w-full lg:w-[80%] pl-5 md:px-10 my-5">
                 <Typography className="text-xl text-gray-600 text-justify">
                     {pgs_calc_label} is a tool to calculate genetic scores on any cohorts with individual-level genetic data using any genetic score models, including the genetic score model files in OmicsPred.
                 </Typography>
+                <br/>
                 <Typography className="text-xl text-gray-600 text-justify">
-                    Full documentation of the tool is publicly accessible via this page:<br/><Href text="https://pgsc-calc.readthedocs.io/en/latest/index.html" href="https://pgsc-calc.readthedocs.io/en/latest/index.html" />
+                    Full documentation of the tool is publicly accessible via :<Href text="this page" href="https://pgsc-calc.readthedocs.io/en/latest/index.html" />
                 </Typography>
+                <br/>
                 <Typography className="text-xl text-gray-600 text-justify">
-                    Below we show examples of how we can run {pgs_calc_label} using the released OmicsPred genetic score models on your own cohorts with genetic data.  
+                    Below we show examples of how we can run {pgs_calc_label} using the released OmicsPred genetic score models (pgsc_calc compatible version) on your own cohorts with genetic data.  
                 </Typography>
             </div>
 
-            <div className="w-full lg:w-[60%] pl-5 md:px-10 my-5">
+            <div className="w-full lg:w-[80%] pl-5 md:px-10 my-5">
                 <div className="mt-5 pt-4">
                     <h1 className="font-bold mb-4">Tools installation</h1>
                     <Typography className="text-xl text-gray-600 text-justify">
@@ -74,6 +76,7 @@ export default function ScoresTool() {
                     <Typography className="text-xl text-gray-600 text-justify">
                         Here we use <Href text="UK Biobank (UKB)" href="https://www.ukbiobank.ac.uk/"/> dataset for demonstration purpose.
                     </Typography>
+                    <br/>
                     <Typography className="text-xl text-gray-600 text-justify">
                     Firstly, we need to describe individual-level genetic data of the input dataset to be used for genetic score calculation. For instance, these are the genetic data of UKB samples in PLINK format:
                     </Typography>
@@ -117,19 +120,19 @@ export default function ScoresTool() {
                         <pre>ukb{comma}{comma}…/ukb_data/ukb_imp_v3_dedup_chrX{comma}{comma}X</pre>
                     </div>
                     <Typography className="text-xl text-gray-600 text-justify">
-                        More information on the samplesheet setup can be found in the {pgs_calc_label} documentation: <Href text="https://pgsc-calc.readthedocs.io/en/latest/reference/input.html" href="https://pgsc-calc.readthedocs.io/en/latest/reference/input.html"/>.
+                        More information on the samplesheet setup can be found in the: <Href text="pgs _calc documentation" href="https://pgsc-calc.readthedocs.io/en/latest/reference/input.html"/>.
                     </Typography>
                 </div>
 
                 <div className="mt-5 pt-4">
                     <h1 className="font-bold mb-4 ">Setting genetic score files</h1>
                     <Typography className="text-xl text-gray-600 text-justify">
-                        Then, we set up the genetic scores file(s) to be applied for genetic score calculation. Here, we have the option of calculating score on the dataset using one score file or multiple score files at once.
+                        Then, we set up the genetic scores model file(s) to be applied for genetic score calculation. Here, we have the option of calculating score on the dataset using one score file or multiple score files at once.
                     </Typography>
 
                     <div className="my-5 pb-5">
                         <Typography className="text-xl text-gray-600 text-justify">
-                            <span className="font-bold">1.</span> To set the input for <span className="font-bold">only one scoring file</span>, we can use the full path of the scoring file as follow:
+                            <span className="font-bold">1.</span> To set the input for <span className="font-bold">only one score model file</span>, we can use the full path of the score model file as follow:
                         </Typography>
                         <div className="mt-3 bg-gray-600 text text-sm rounded-lg">
                             <pre className="highlight">
@@ -142,7 +145,7 @@ export default function ScoresTool() {
 
                     <div className="my-5">
                         <Typography className="text-xl text-gray-600 text-justify">
-                            <span className="font-bold">2.</span> To set the calculation for <span className="font-bold">multiple scoring files</span> on the input dataset at once, we can enter the full path to the directory and use the wildcard character “<span className="text-red-600">*</span>” to target all the scoring files in that  directory:
+                            <span className="font-bold">2.</span> To set the calculation for <span className="font-bold">multiple score model files</span> on the input dataset at once, we can enter the full path to the directory and use the wildcard character “<span className="text-red-600">*</span>” to target all the model files in that directory:
                         </Typography>
                         <div className="mt-3 bg-gray-600 text text-sm rounded-lg">
                             <pre className="highlight">
@@ -154,9 +157,10 @@ export default function ScoresTool() {
                     </div>
 
                     <Typography className="text-xl text-gray-600 text-justify">
-                        Here we assume all the scoring files have the “<span className="font-bold">.txt</span>” extension at the end of their file names.<br/>
-                        <span className="font-bold">Note that the quotes should be used on the directory path</span> (<span className="font-bold">\"</span> might be needed to include quotes in the shell script), so the wildcard character is not interpreted by the shell. 
+                        Here we assume all the model files have the “<span className="font-bold">.txt</span>” extension at the end of their file names.<br/><br/>
+                        <span className="font-bold">Note that the quotes should be used on the directory path</span> (<span className="font-bold text-indigo-600">\"</span> might be needed to include quotes in the shell script), so the wildcard character is not interpreted by the shell. 
                     </Typography>
+                    <br/>
                     <Typography className="text-xl text-gray-600 text-justify">
                         More information on the setting of the applied genetic scores files can be found in the <Href text="pgsc_calc documentation" href="https://pgsc-calc.readthedocs.io/en/latest/how-to/multiple.html#multiple-custom-scorefiles"/>.
                     </Typography>
@@ -178,7 +182,7 @@ export default function ScoresTool() {
                     {/* Liftover parameter */}
                     <div className="my-5 pb-4">
                         <Typography className="text-xl text-gray-600 text-justify">
-                            <span className="font-bold">2.</span> Lift scoring files to match the genome build of your input sample data. It requires build information in the header of the applied scoring file(s).
+                            <span className="font-bold">2.</span> Lift genetic score model files to match the genome build of your input sample data. It requires build information in the header of the applied model file(s).
                         </Typography>
                         <div className="mt-3 bg-gray-600 text text-sm rounded-lg">
                             <pre className="highlight">
@@ -189,7 +193,7 @@ export default function ScoresTool() {
                     {/* Multiallelic parameter */}
                     <div className="my-5 pb-4">
                         <Typography className="text-xl text-gray-600 text-justify">
-                            <span className="font-bold">3.</span> Allow matches of scoring file variants to multiallelic variants in the target dataset.
+                            <span className="font-bold">3.</span> Allow matches of geneti score model file variants to multiallelic variants in the target dataset.
                         </Typography>
                         <div className="mt-3 bg-gray-600 text text-sm rounded-lg">
                             <pre className="highlight">
@@ -200,7 +204,7 @@ export default function ScoresTool() {
                     {/* Ambiguous alleles parameter */}
                     <div className="my-5 pb-4">
                         <Typography className="text-xl text-gray-600 text-justify">
-                            <span className="font-bold">4.</span> Keep matches of scoring file variants to strand-ambiguous variants (e.g. A/T and C/G SNPs) in the target dataset. This assumes the scoring file and target dataset report variants on the same strand. 
+                            <span className="font-bold">4.</span> Keep matches of genetic score model file variants to strand-ambiguous variants (e.g. A/T and C/G SNPs) in the target dataset. This assumes the model file and target dataset report variants on the same strand. 
                         </Typography>
                         <div className="mt-3 bg-gray-600 text text-sm rounded-lg">
                             <pre className="highlight">
@@ -211,7 +215,7 @@ export default function ScoresTool() {
                     {/* Minimum overlap parameter */}
                      <div className="my-5 pb-4">
                         <Typography className="text-xl text-gray-600 text-justify">
-                            <span className="font-bold">5.</span> Minimum proportion of variants present in both the scoring file and input target genomic data [<span className="text-gray-400">default:  0.75</span>]. Otherwise, the scores will not be calculated for that scoring file.
+                            <span className="font-bold">5.</span> Minimum proportion of variants present in both the genetic score model file and input target genomic data [<span className="text-gray-400">default:  0.75</span>]. Otherwise, the scores will not be calculated for that model file.
                         </Typography>
                         <div className="mt-3 bg-gray-600 text text-sm rounded-lg">
                             <pre className="highlight">
@@ -254,7 +258,7 @@ export default function ScoresTool() {
                         <div className="mt-3 bg-gray-600 text text-sm rounded-lg">
                             <pre className="highlight">
                                 <code>
-                                    <span className="o">$</span> nextflow run pgscatalog/pgsc_calc <span className="k">\</span><br />
+                                    <span className="o">$</span> nextflow run pgscatalog/pgsc_calc -r v1.3.2 <span className="k">\</span><br />
                                     <span className="nt">    -profile</span> &lt;docker/singularity/conda&gt; <span className="k">\</span><br />
                                     <span className="nt">    --input</span> …/ukb_data/samplesheet.csv <span className="k">\</span><br />
                                     <span className="nt">    --scorefile</span> .../SomaScan/OPGS000001_model.txt
@@ -270,7 +274,7 @@ export default function ScoresTool() {
                         <div className="mt-3 bg-gray-600 text text-sm rounded-lg">
                             <pre className="highlight">
                                 <code>
-                                    <span className="o">$</span> nextflow run pgscatalog/pgsc_calc <span className="k">\</span><br />
+                                    <span className="o">$</span> nextflow run pgscatalog/pgsc_calc -r v1.3.2<span className="k">\</span><br />
                                     <span className="nt">    -profile</span> &lt;docker/singularity/conda&gt; <span className="k">\</span><br />
                                     <span className="nt">    --input</span> …/ukb_data/samplesheet.csv <span className="k">\</span><br />
                                     <span className="nt">    --scorefile</span> <span className="k">"</span>.../SomaScan/<span className="nv">*</span>.txt<span className="k">"</span>
@@ -291,7 +295,7 @@ export default function ScoresTool() {
                     </div>
                     <div>
                         <Typography className="text-xl text-gray-600 text-justify">
-                            <span className="font-bold">NOTE:</span> the number of scoring files you can run on the calculator at once depends on the computational resources you allocate to the job and the sample size of the input sample dataset.
+                            <span className="font-bold">NOTE:</span> The number of genetic score model files you can run on the calculator at once depends on the computational resources you allocate to the job and the sample size of the input sample dataset. The tests were only run on the version 1.3.2 of the calculator with OmicsPred score files, so we recomend to use this version when apply OmicsPred scores.
                         </Typography>
                     </div>
                 </div>
@@ -309,7 +313,7 @@ export default function ScoresTool() {
                     </div>
                     <div>
                         <Typography className="text-xl text-gray-600 text-justify">
-                            - <span className="text-indigo-600">match/</span>: metadata on the matches between scoring files and input sample dataset
+                            - <span className="text-indigo-600">match/</span>: metadata on the matches between score model files and input sample dataset
                         </Typography>
                     </div>
                     <div className="mb-5 pb-4">
@@ -372,7 +376,7 @@ export default function ScoresTool() {
                     </div>
                     <div className="mb-5 pb-4">
                         <Typography className="text-xl text-gray-600 text-justify">
-                            - <span className="text-indigo-600">[Score NAME]_SUM</span>: reports the weighted sum of <span className="font-bold">effect_allele</span> dosages multiplied by their <span className="font-bold">effect_weight</span> for each matched variant in the scoring file (i.e. the <span className="font-bold">calculated genetic score</span> for your followup analysis).
+                            - <span className="text-indigo-600">[Score NAME]_SUM</span>: reports the weighted sum of <span className="font-bold">effect_allele</span> dosages multiplied by their <span className="font-bold">effect_weight</span> for each matched variant in the score model file (i.e. the <span className="font-bold">calculated genetic score</span> for your followup analysis).
                         </Typography>
                     </div>
 
