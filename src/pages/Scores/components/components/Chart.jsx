@@ -1,12 +1,9 @@
 import React, {
   Suspense,
   useEffect,
-  useLayoutEffect,
   useState,
   useRef,
 } from "react";
-import Papa from "papaparse";
-import { usePapaParse } from "react-papaparse";
 
 import {
   Chart as ChartJS,
@@ -49,23 +46,29 @@ ChartJS.register(
 );
 
 const ChartWithData = (props) => {
-  /// const forceUpdate = useForceUpdate();
 
   var odata2 = Object.values(props.data_2);
   var odata1 = Object.values(props.data_1);
 
-  var data2 = Object.values(props.data_2);
-  var data1 = Object.values(props.data_1);
+  var data2 = [];
+  var data1 = [];
+  var data1_array = [];
 
   console.log(
     "circle the lenghts are : " + data1.length + " second " + data2.length
   );
   var counter = 0;
+
+  // Store data points for each study as a dictionary to keep the couple index/values.
+  // The index is used to retrieve the metadata from the "tdata" variable.
   for (let i = 0; i < odata1.length; i++) {
-    if (odata2[i] === null || odata1[i] === null) {
+    if (odata2[i] != null && odata2[i] != 'undefined'
+      && odata1[i] != null && odata1[i] != 'undefined') {
       counter++;
-      data2.splice(i - counter, 1);
-      data1.splice(i - counter, 1);
+      data2[i] = odata2[i];
+      data1[i] = odata1[i];
+      // Simple array of the data1 subset in order to draw the chart
+      data1_array.push(data1[i]);
     }
   }
 
@@ -127,12 +130,18 @@ const ChartWithData = (props) => {
     var metadata = [];
 
     for (var i = 0; i < props.tdata.length; i++) {
-      if (props.tdata[i].name == "Internal_R2") {
+      let tname = props.tdata[i].name;
+      if (tname == "Internal_R2") {
         break;
       }
 
+      // Skip if it corresponds to other cohorts data
+      if (tname.includes(" R2") || tname.includes(" Rho") || tname.includes(" Missing Rate")) {
+        continue;
+      }
+
       metadata.push({
-        name: props.tdata[i].name,
+        name: tname,
         value: props.tdata[i].data[tooltipItems[0].dataIndex],
       });
     }
@@ -169,8 +178,8 @@ const ChartWithData = (props) => {
             yScaleID: "y-axis-0",
             yMin: 0.4,
             yMax: 0.5,
-            xMin: Math.max(...data1) + 0.01,
-            xMax: Math.max(...data1) + 0.01 + (Math.max(...data1) * 100) / 5000,
+            xMin: Math.max(...data1_array) + 0.01,
+            xMax: Math.max(...data1_array) + 0.01 + (Math.max(...data1_array) * 100) / 5000,
             width: "100px",
             backgroundColor: function (context) {
               const chart = context.chart;
@@ -186,9 +195,9 @@ const ChartWithData = (props) => {
             type: "line",
             width: 10,
             xMin: 0,
-            xMax: Math.max(...data1),
+            xMax: Math.max(...data1_array),
             yMin: 0,
-            yMax: Math.max(...data1),
+            yMax: Math.max(...data1_array),
             backgroundColor: "rgba(255, 99, 132, 0.25)",
           },
         ],
@@ -243,7 +252,7 @@ const ChartWithData = (props) => {
       },
       x: {
         suggestedMax: 1.05,
-        max: Math.max(...data1) + 0.01 + (Math.max(...data1) * 100) / 5000,
+        max: Math.max(...data1_array) + 0.01 + (Math.max(...data1_array) * 100) / 5000,
         title: {
           display: true,
           text: props.matrix.substring(1) + " in " + props.name_1,
@@ -302,7 +311,6 @@ const ChartWithData = (props) => {
 
   useEffect(() => {
     updatecolors();
-    ///forceUpdate();
     const chart = ChartRef.current;
     chart.update();
   }, [props.missed, props.data_2, props.data_1]);
@@ -327,8 +335,6 @@ const ChartWithData = (props) => {
     let fileName = "image.png";
     let file = convertBase64ToFile(base64Image, fileName);
     saveAs(file, fileName);
-
-    // window.open('data:application/octet-stream;base64,' + base64Image , '_blank' );
   };
 
   return (
