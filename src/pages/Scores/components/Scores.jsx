@@ -176,7 +176,7 @@ const ScoresHome = (props) => {
         <div className="w-full px-5 md:px-10 my-5">
           <Typography className="text-xl text-gray-600 text-justify">
             An easy way to calculate genetic scores of a new cohort is to use{" "}
-            <Href text="PLINK2" href="https://www.cog-genomics.org/plink/2.0/score"></Href>. Here is an example:
+            <Href text="PLINK2" href="https://www.cog-genomics.org/plink/2.0/score"></Href> (use standard model files). Here is an example:
           </Typography>
           <br />
 

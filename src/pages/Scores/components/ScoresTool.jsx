@@ -55,7 +55,7 @@ export default function ScoresTool() {
                 </Typography>
                 <br/>
                 <Typography className="text-xl text-gray-600 text-justify">
-                    Full documentation of the tool is publicly accessible via :<Href text="this page" href="https://pgsc-calc.readthedocs.io/en/latest/index.html" />
+                    Full documentation of the tool is publicly accessible via <Href text="this page" href="https://pgsc-calc.readthedocs.io/en/latest/index.html" />
                 </Typography>
                 <br/>
                 <Typography className="text-xl text-gray-600 text-justify">
@@ -127,7 +127,7 @@ export default function ScoresTool() {
                 <div className="mt-5 pt-4">
                     <h1 className="font-bold mb-4 ">Setting genetic score files</h1>
                     <Typography className="text-xl text-gray-600 text-justify">
-                        Then, we set up the genetic scores model file(s) to be applied for genetic score calculation. Here, we have the option of calculating score on the dataset using one score file or multiple score files at once.
+                        Then, we set up the genetic scores model file(s) to be applied for genetic score calculation. Here, we have the option of calculating scores on the dataset using one score file or multiple score files at once.
                     </Typography>
 
                     <div className="my-5 pb-5">
