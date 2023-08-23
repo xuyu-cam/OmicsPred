@@ -53,10 +53,8 @@ const ChartWithData = (props) => {
   var data2 = [];
   var data1 = [];
   var data1_array = [];
+  var data2_array = [];
 
-  console.log(
-    "circle the lenghts are : " + data1.length + " second " + data2.length
-  );
   var counter = 0;
 
   // Store data points for each study as a dictionary to keep the couple index/values.
@@ -69,28 +67,10 @@ const ChartWithData = (props) => {
       data1[i] = odata1[i];
       // Simple array of the data1 subset in order to draw the chart
       data1_array.push(data1[i]);
+      // Simple array of the data2 subset in order to help in drawing the chart
+      data2_array.push(data2[i]);
     }
   }
-
-  /*
-  var odata1 = data1;
-  var odata2 = data2;
-
-  console.log("the lenghts are : " + data2.length + " second " + data1.length);
-
-  data2 = data2.filter((r, i) => {
-    return odata1[i] !== null;
-  });
-
-  data1 = data1.filter((r, i) => {
-    return odata2[i] !== null;
-  });
-*/
-  console.log("the lenghts are : " + data2.length + " second " + data1.length);
-
-  //console.log("after : " , d) ;
-
-  //console.log("the datastady after : ", d);
 
   const [colors, setColors] = useState([]);
 
@@ -152,8 +132,6 @@ const ChartWithData = (props) => {
       props.name_2 +
         "_MissingRate : " +
         Object.values(props.missed)[tooltipItems[0].dataIndex],
-      ...[].map((e) => {}),
-
       ...metadata.map((e) => {
         return e.name + " : " + e.value;
       }),
@@ -176,8 +154,8 @@ const ChartWithData = (props) => {
             type: "box",
             drawTime: "beforeDatasetsDraw",
             yScaleID: "y-axis-0",
-            yMin: 0.4,
-            yMax: 0.5,
+            yMin: 0,
+            yMax: Math.max(...data2_array) + 0.01,
             xMin: Math.max(...data1_array) + 0.01,
             xMax: Math.max(...data1_array) + 0.01 + (Math.max(...data1_array) * 100) / 5000,
             width: "100px",
@@ -197,7 +175,7 @@ const ChartWithData = (props) => {
             xMin: 0,
             xMax: Math.max(...data1_array),
             yMin: 0,
-            yMax: Math.max(...data1_array),
+            yMax: Math.max(...data2_array),
             backgroundColor: "rgba(255, 99, 132, 0.25)",
           },
         ],
