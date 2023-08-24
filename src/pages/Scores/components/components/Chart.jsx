@@ -170,12 +170,12 @@ const ChartWithData = (props) => {
             },
           },
           {
-            type: "line",
+            type: "line", // x = y
             width: 10,
             xMin: 0,
             xMax: Math.max(...data1_array),
             yMin: 0,
-            yMax: Math.max(...data2_array),
+            yMax: Math.max(...data1_array),
             backgroundColor: "rgba(255, 99, 132, 0.25)",
           },
         ],
