@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import ScoresSideBar from "./components/ScoresSideBar";
 import ScoresHome from "./components/Scores";
+import Platform from "./components/Platform";
 
 import SwitchLeftIcon from "@mui/icons-material/SwitchLeft";
 
@@ -40,6 +41,8 @@ export function Scores(props) {
     }
   };
 
+  console.log(">> PROPS.name: "+props.name);
+
   return (
     <>
       <div style={{ flex: "1 1 auto" }} className=" flex-col w-screen ">
@@ -66,7 +69,7 @@ export function Scores(props) {
                     : "text-slate-800  py-4";
                 }}
                 reloadDocument
-                to="/Scores/Olink/INTERVAL"
+                to="/Scores/Olink"
               >
                 Proteomics (Olink)
               </NavLink>{" "}
@@ -113,10 +116,9 @@ export function Scores(props) {
             </h1>
           </div>
 
-          {props.name !== "Scores" ? (
+          {props.name !== "Scores" && !props.page.startsWith("/Scores/Olink") ? (
             <div className="w-full  h-[50px] w-full flex space-x-5 ">
               <div className="h-full w-[150px] flex place-items-center">
-              
 
                 <span className="text-md text-slate-400">Training data</span>
 
@@ -140,10 +142,68 @@ export function Scores(props) {
               </h1>
             </div>
           ) : null}
+
+          {props.page.startsWith("/Scores/Olink") ? (
+            <div className="w-full  h-[50px] w-full flex space-x-5 ">
+              <div className="h-full w-[150px] flex place-items-center">
+
+                <span className="text-md text-slate-400">Training data</span>
+
+                <IoIosArrowForward
+                  fontSize={"40px"}
+                  className="text-slate-400 pr-2"
+                />
+              </div>
+              {/* <h1 className="min-w-auto px-2 h-[80px] grid place-items-center"> */}
+              <h1 className="h-[50px] mt-3">
+                <NavLink
+                  className={({ isActive }) => {
+                    return isActive
+                      ? "text-indigo-600 h-[80px] py-[14px] text-center "
+                      : "text-slate-800 h-full h-[80px] py-3";
+                  }}
+                  reloadDocument
+                  to="/Scores/Olink/INTERVAL"
+                >
+                  INTERVAL
+                </NavLink>{" "}
+              </h1>
+              <h1 className="h-[50px] mt-3">-</h1>
+              {/* <h1 className="min-w-auto px-2 h-[80px] grid place-items-center"> */}
+              <h1 className="h-[50px] mt-3">
+                <NavLink
+                  className={({ isActive }) => {
+                    return isActive
+                      ? "text-indigo-600 h-[80px] py-[14px] text-center "
+                      : "text-slate-800 h-full h-[80px] py-3";
+                  }}
+                  reloadDocument
+                  to="/Scores/Olink/UKB_EUR"
+                >
+                  UKB European
+                </NavLink>{" "}
+              </h1>
+              <h1 className="h-[50px] mt-3">-</h1>
+              {/* <h1 className="min-w-auto px-2 h-[80px] grid place-items-center"> */}
+              <h1 className="h-[50px] mt-3">
+                <NavLink
+                  className={({ isActive }) => {
+                    return isActive
+                      ? "text-indigo-600 h-[80px] py-[14px] text-center "
+                      : "text-slate-800 h-full h-[80px] py-3";
+                  }}
+                  reloadDocument
+                  to="/Scores/Olink/UKB_MULTI"
+                >
+                  UKB Multi-Ancestry
+                </NavLink>{" "}
+              </h1>
+            </div>
+          ) : null}
         </div>
 
-        <div className={ props.name !== "Scores" ? " lg:flex block w-screen bg-white  absolute mt-[180px]" :" lg:flex block w-screen bg-white  absolute mt-[130px]" }>
-          {props.name !== "Scores" ? (
+        <div className={ props.name !== "Scores" && props.page !== "/Scores/Olink" ? " lg:flex block w-screen bg-white  absolute mt-[180px]" :" lg:flex block w-screen bg-white  absolute mt-[130px]" }>
+          {props.name !== "Scores" && props.page !== "/Scores/Olink" ? (
             <div
               id="leftpanel"
               className={
@@ -160,15 +220,20 @@ export function Scores(props) {
             </div>
           ) : null}
 
-          {props.name == "Scores" ? (
-            <>
-              <div className="h-screen px-0  grid place-items-center flex-1 bg-white overflow-y-scroll w-screen lg:[90vw] ">
-                <div className=" max-w-[100%] w-screen h-[100%] bg-white">
-                  <ScoresHome />
+          {props.name === "Scores" ? (
+            <div className="h-screen px-0 grid place-items-center flex-1 bg-white overflow-y-scroll w-screen lg:[90vw] ">
+              <div className=" max-w-[100%] w-screen h-[100%] bg-white">
+                <ScoresHome />
+              </div>
+            </div>
+          ) : (
+            props.page === "/Scores/Olink" ? (
+              <div className="h-screen px-0 grid place-items-center flex-1 bg-white overflow-y-scroll w-screen lg:[90vw] ">
+                <div className=" max-w-[100%] w-screen h-[calc(100vh-120px)] bg-white">
+                  <Platform platform='Olink'/>
                 </div>
               </div>
-            </>
-          ) : (
+            ): (
             <>
               <div
                 className={"overflow-y-scroll h-[calc(100vh-100px)]  " + pl}
@@ -191,7 +256,7 @@ export function Scores(props) {
                 </div>
               </div>
             </>
-          )}
+          ))}
         </div>
       </div>
     </>

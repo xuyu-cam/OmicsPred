@@ -1,0 +1,30 @@
+
+[
+    {
+        "title": "Number of proteins: ",
+        "type": "Number",
+        "value": "308"
+    },
+    {
+        "title": "Training cohort: ",
+        "type": "Link",
+        "value": "UKB" ,
+        "link" :"https://www.ukbiobank.ac.uk/"
+    },
+    {
+        "title": "Training sample size: ",
+        "type": "Number",
+        "value": ""
+    },
+    {
+        "title": "External validation cohort 1:",
+        "type": "Link",
+        "link" : "https://pubmed.ncbi.nlm.nih.gov/20568910/" ,
+        "value": "NSPHS (European; 302 proteins; 872 participants)" 
+    },
+    {
+        "title": "Evaluation Metric: ",
+        "type": "Text",
+        "value": "Spearman correlation coefficient (Rho), Variance Explained (R2)"
+    }
+]
