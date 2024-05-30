@@ -144,6 +144,10 @@ const ChartWithData = (props) => {
     plugins: {
       legend: {
         position: "top",
+        labels: {
+          boxWidth: 0,
+          boxHeight: 0
+        }
       },
       subtitle: {
         display: false,
