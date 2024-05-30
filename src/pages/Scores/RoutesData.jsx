@@ -73,13 +73,13 @@ const RoutesData = {
     download_data: DownloadData_2,
     sumarry_data: SumarryData_2,
   },
-  "Proteomics (Olink) - UKB European": {
+  "Proteomics (Olink) - UK Biobank European": {
     table_data: TableData_OLINK_UKB_EUR,
     plot_data: PlotData_OLINK_UKB_EUR,
     download_data: DownloadData_OLINK_UKB_EUR,
     sumarry_data: SumarryData_OLINK_UKB_EUR,
   },
-  "Proteomics (Olink) - UKB Multi-Ancestry": {
+  "Proteomics (Olink) - UK Biobank Multi-ancestry": {
     table_data: TableData_OLINK_UKB_MULTI,
     plot_data: PlotData_OLINK_UKB_MULTI,
     download_data: DownloadData_OLINK_UKB_MULTI,

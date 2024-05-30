@@ -180,7 +180,7 @@ export function Scores(props) {
                   reloadDocument
                   to="/Scores/Olink/UKB_EUR"
                 >
-                  UKB European
+                  UK Biobank European
                 </NavLink>{" "}
               </h1>
               <h1 className="h-[50px] mt-3">-</h1>
@@ -195,7 +195,7 @@ export function Scores(props) {
                   reloadDocument
                   to="/Scores/Olink/UKB_MULTI"
                 >
-                  UKB Multi-Ancestry
+                  UK Biobank Multi-ancestry
                 </NavLink>{" "}
               </h1>
             </div>

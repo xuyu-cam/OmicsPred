@@ -79,7 +79,7 @@ function App() {
             key="3"
             index="3"
             element={
-              <Scores page="/Scores/Olink/UKB_EUR" name="Proteomics (Olink) - UKB European" />
+              <Scores page="/Scores/Olink/UKB_EUR" name="Proteomics (Olink) - UK Biobank European" />
             }
           />
            <Route
@@ -87,7 +87,7 @@ function App() {
             key="3"
             index="3"
             element={
-              <Scores page="/Scores/Olink/UKB_MULTI" name="Proteomics (Olink) - UKB Multi-Ancestry" />
+              <Scores page="/Scores/Olink/UKB_MULTI" name="Proteomics (Olink) - UK Biobank Multi-ancestry" />
             }
           />
           <Route
