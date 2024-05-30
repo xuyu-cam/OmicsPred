@@ -302,7 +302,7 @@ export default function Applications(props) {
   const [leftColumns_1] = useState([names_1[0], names_1[1]]);
 
 
-  console.log("the f is ", f);
+  // console.log("the f is ", f);
 
   const TableRef = useRef(null);
 

@@ -41,8 +41,6 @@ export function Scores(props) {
     }
   };
 
-  console.log(">> PROPS.name: "+props.name);
-
   return (
     <>
       <div style={{ flex: "1 1 auto" }} className=" flex-col w-screen ">
