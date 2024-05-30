@@ -1,0 +1,31 @@
+
+[
+    {
+        "title": "Number of proteins: ",
+        "type": "Number",
+        "value": "2,704"
+    },
+    {
+        "title": "Training cohort: ",
+        "type": "Link",
+        "value": "UK Biobank" ,
+        "link" : "https://www.ukbiobank.ac.uk/"
+    },
+    {
+        "title": "Training sample size: ",
+        "type": "Number",
+        "value": "52,315 (Multi-ancestry)"
+    },
+    {
+        "title": "External validation cohort:",
+        "type": "Link",
+        "link" : "https://www.intervalstudy.org.uk/" ,
+        "value": " INTERVAL (European; 351 proteins, ~4800 participants)" 
+    },
+
+    {
+        "title": "Evaluation Metric: ",
+        "type": "Text",
+        "value": "Spearman correlation coefficient (Rho), Variance Explained (R2)"
+    }
+]

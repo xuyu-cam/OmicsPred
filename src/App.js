@@ -59,11 +59,35 @@ function App() {
             }
           />
           <Route
+            path="Scores/Olink"
+            key="3"
+            index="3"
+            element={
+              <Scores page="/Scores/Olink" name="Proteomics (Olink)" />
+            }
+          />
+          <Route
             path="Scores/Olink/INTERVAL"
             key="3"
             index="3"
             element={
-              <Scores page="/Scores/Olink/INTERVAL" name="Proteomics (Olink)" />
+              <Scores page="/Scores/Olink/INTERVAL" name="Proteomics (Olink) - INTERVAL" />
+            }
+          />
+           <Route
+            path="Scores/Olink/UKB_EUR"
+            key="3"
+            index="3"
+            element={
+              <Scores page="/Scores/Olink/UKB_EUR" name="Proteomics (Olink) - UK Biobank European" />
+            }
+          />
+           <Route
+            path="Scores/Olink/UKB_MULTI"
+            key="3"
+            index="3"
+            element={
+              <Scores page="/Scores/Olink/UKB_MULTI" name="Proteomics (Olink) - UK Biobank Multi-ancestry" />
             }
           />
           <Route

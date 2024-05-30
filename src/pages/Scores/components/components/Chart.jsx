@@ -144,6 +144,10 @@ const ChartWithData = (props) => {
     plugins: {
       legend: {
         position: "top",
+        labels: {
+          boxWidth: 0,
+          boxHeight: 0
+        }
       },
       subtitle: {
         display: false,
@@ -175,7 +179,7 @@ const ChartWithData = (props) => {
             xMin: 0,
             xMax: Math.max(...data1_array),
             yMin: 0,
-            yMax: Math.max(...data2_array),
+            yMax: Math.max(...data1_array),
             backgroundColor: "rgba(255, 99, 132, 0.25)",
           },
         ],
@@ -345,14 +349,37 @@ export default function ChartPlot(props) {
   const [cn, setc] = useState(n);
   const [types, setTypes] = useState(_.uniq(cn, "type"));
 
-  const [study1, setStudy1] = useState(props.data[0].name);
-  const [study2, setStudy2] = useState(props.data[2].name);
-  const [missed, setMissed] = useState(props.data[4].name);
-  const [matrix, setMatrix] = useState(props.data[0].type);
+  // Initial/default data column indexes
+  const study1_index = 0;
+  let study2_index = 2;
+  let missed_index = 4;
+  const default_type = props.data[study1_index].type;
 
-  const [datastudy1, setdataStudy1] = useState(props.data[0].data);
-  const [datastudy2, setdataStudy2] = useState(props.data[2].data);
-  const [misseddata, setMisseddata] = useState(props.data[4].data);
+  // Fetch index for the initial study2 data column
+  for (let i=1; i<props.data.length;i++) {
+    const type = props.data[i].type;
+    if (type == default_type) {
+      study2_index = i;
+      break;
+    }
+  }
+  // Fetch index for the initial study2 missing rate data column
+  for (let i=study2_index; i<props.data.length;i++) {
+    const type = props.data[i].type;
+    if (type == '_MissingRate') {
+      missed_index = i;
+      break;
+    }
+  }
+
+  const [study1, setStudy1] = useState(props.data[study1_index].name);
+  const [study2, setStudy2] = useState(props.data[study2_index].name);
+  const [missed, setMissed] = useState(props.data[missed_index].name);
+  const [matrix, setMatrix] = useState(default_type);
+
+  const [datastudy1, setdataStudy1] = useState(props.data[study1_index].data);
+  const [datastudy2, setdataStudy2] = useState(props.data[study2_index].data);
+  const [misseddata, setMisseddata] = useState(props.data[missed_index].data);
 
   const handleChange_1 = async (event) => {
     setStudy1(event.target.value);

@@ -1,0 +1,36 @@
+
+[
+    {
+        "title": "Number of proteins: ",
+        "type": "Number",
+        "value": "2612"
+    },
+    {
+        "title": "Training cohort: ",
+        "type": "Link",
+        "value": "UK Biobank" ,
+        "link" : "https://www.ukbiobank.ac.uk/"
+    },
+    {
+        "title": "Training sample size: ",
+        "type": "Number",
+        "value": "34,557 (European)"
+    },
+    {
+        "title": "Independent validation subset:",
+        "type": "Link",
+        "link" : "https://www.ukbiobank.ac.uk/" ,
+        "value": "UKB withheld set (2,612 proteins; N= 17,758) - European (EUR; N=14,322), Ad Mixed American (AMR; N=81), African (AFR; N=1,290), East Asian (EAS; N=224), South Asian (SAS; N=1013)" 
+    },
+    {
+        "title": "External validation cohort:",
+        "type": "Link",
+        "link" : "https://www.intervalstudy.org.uk/" ,
+        "value": " INTERVAL (European; 348 proteins, ~4800 participants)" 
+    },
+    {
+        "title": "Evaluation Metric: ",
+        "type": "Text",
+        "value": "Spearman correlation coefficient (Rho), Variance Explained (R2)"
+    }
+]

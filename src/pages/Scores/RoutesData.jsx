@@ -30,7 +30,21 @@ import {
   PlotData_2,
   DownloadData_2,
   SumarryData_2,
-} from "..//..//data/Proteomics_Olink";
+} from "..//..//data/Proteomics_Olink/INTERVAL";
+
+import {
+  TableData_OLINK_UKB_EUR,
+  PlotData_OLINK_UKB_EUR,
+  DownloadData_OLINK_UKB_EUR,
+  SumarryData_OLINK_UKB_EUR,
+} from "..//..//data/Proteomics_Olink/UKB_EUR";
+
+import {
+  TableData_OLINK_UKB_MULTI,
+  PlotData_OLINK_UKB_MULTI,
+  DownloadData_OLINK_UKB_MULTI,
+  SumarryData_OLINK_UKB_MULTI,
+} from "..//..//data/Proteomics_Olink/UKB_MULTI";
 
 import {
   TableData_1,
@@ -53,11 +67,23 @@ const RoutesData = {
     download_data: DownloadData_1,
     sumarry_data: SumarryData_1,
   },
-  "Proteomics (Olink)": {
+  "Proteomics (Olink) - INTERVAL": {
     table_data: TableData_2,
     plot_data: PlotData_2,
     download_data: DownloadData_2,
     sumarry_data: SumarryData_2,
+  },
+  "Proteomics (Olink) - UK Biobank European": {
+    table_data: TableData_OLINK_UKB_EUR,
+    plot_data: PlotData_OLINK_UKB_EUR,
+    download_data: DownloadData_OLINK_UKB_EUR,
+    sumarry_data: SumarryData_OLINK_UKB_EUR,
+  },
+  "Proteomics (Olink) - UK Biobank Multi-ancestry": {
+    table_data: TableData_OLINK_UKB_MULTI,
+    plot_data: PlotData_OLINK_UKB_MULTI,
+    download_data: DownloadData_OLINK_UKB_MULTI,
+    sumarry_data: SumarryData_OLINK_UKB_MULTI,
   },
   "Metabolomics (Metabolon)": {
     table_data: TableData_4,
