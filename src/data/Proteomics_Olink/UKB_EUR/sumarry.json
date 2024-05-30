@@ -3,24 +3,30 @@
     {
         "title": "Number of proteins: ",
         "type": "Number",
-        "value": "308"
+        "value": "2612"
     },
     {
         "title": "Training cohort: ",
         "type": "Link",
-        "value": "UKB" ,
-        "link" :"https://www.ukbiobank.ac.uk/"
+        "value": "UK Biobank" ,
+        "link" : "https://www.ukbiobank.ac.uk/"
     },
     {
         "title": "Training sample size: ",
         "type": "Number",
-        "value": ""
+        "value": "34,557 (European)"
     },
     {
-        "title": "External validation cohort 1:",
+        "title": "Independent validation subset:",
         "type": "Link",
-        "link" : "https://pubmed.ncbi.nlm.nih.gov/20568910/" ,
-        "value": "NSPHS (European; 302 proteins; 872 participants)" 
+        "link" : "https://www.ukbiobank.ac.uk/" ,
+        "value": "UKB withheld set (2,612 proteins; N= 17,758) - European (EUR; N=14,322), Ad Mixed American (AMR; N=81), African (AFR; N=1,290), East Asian (EAS; N=224), South Asian (SAS; N=1013)" 
+    },
+    {
+        "title": "External validation cohort:",
+        "type": "Link",
+        "link" : "https://www.intervalstudy.org.uk/" ,
+        "value": " INTERVAL (European; 348 proteins, ~4800 participants)" 
     },
     {
         "title": "Evaluation Metric: ",

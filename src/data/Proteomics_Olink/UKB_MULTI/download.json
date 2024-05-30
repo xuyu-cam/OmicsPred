@@ -1,7 +1,4 @@
 [
-    { "title": "Validation results ", "type": "Number", "value": "https://app.box.com/s/btk5ud50jxqx0yfbupq6kc1hio43pqeg" },
-    { "title": "Model files", "type": "Link", "value": "https://app.box.com/s/7iu81vf9dujzjq6616f4szymri9fobwb" },
-    { "title": "Model files (pgsc_calc compatible)", "type": "Link", "value": "https://app.box.com/s/l5ozj1lkdnon0xrh78ypmnndeda0u7o9"},
-    { "title": "Model variant info", "type": "Link", "value": "https://app.box.com/s/hcyn4jza3xdab9q33twcyzhegotens76" },
-    { "title": "GWAS summary stats", "type": "Link", "value": "https://app.box.com/s/masb7ifg0yq7a4emf5p3dksdnblfxk4h" }
+    { "title": "Validation results ", "type": "Link", "value": "https://app.box.com/s/xteu4qcr40oown9l21w1e3la3ot31sst" },
+    { "title": "Model files (pgsc_calc compatible)", "type": "Link", "value": "https://app.box.com/s/seti3957h105samf0f4tnmy8u194wuhm"}
 ]

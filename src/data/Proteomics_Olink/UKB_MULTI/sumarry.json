@@ -3,24 +3,24 @@
     {
         "title": "Number of proteins: ",
         "type": "Number",
-        "value": "308"
+        "value": "2,704"
     },
     {
         "title": "Training cohort: ",
         "type": "Link",
-        "value": "UKB" ,
-        "link" :"https://www.ukbiobank.ac.uk/"
+        "value": "UK Biobank" ,
+        "link" : "https://www.ukbiobank.ac.uk/"
     },
     {
         "title": "Training sample size: ",
         "type": "Number",
-        "value": ""
+        "value": "52,315 (Multi-ancestry)"
     },
     {
-        "title": "External validation cohort 1:",
+        "title": "External validation cohort:",
         "type": "Link",
-        "link" : "https://pubmed.ncbi.nlm.nih.gov/20568910/" ,
-        "value": "NSPHS (European; 302 proteins; 872 participants)" 
+        "link" : "https://www.intervalstudy.org.uk/" ,
+        "value": " INTERVAL (European; 351 proteins, ~4800 participants)" 
     },
 
     {
