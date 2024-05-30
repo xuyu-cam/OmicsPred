@@ -93,16 +93,15 @@ export default function CircleChart(props) {
   var odata2 = Object.values(props.study_2);
   var odata1 = Object.values(props.study_1);
 
-  var data2 = Object.values(props.study_2);
-  var data1 = Object.values(props.study_1);
+  var data2 = [];
+  var data1 = [];
 
-  var counter = 0;
-
+  // Store data points for each study as a dictionary to keep the couple index/values.
   for (let i = 0; i < odata1.length; i++) {
-    if (odata2[i] === null || odata1[i] === null) {
-      counter++;
-      data2.splice(i - counter, 1);
-      data1.splice(i - counter, 1);
+    if (odata2[i] != null && odata2[i] != 'undefined'
+      && odata1[i] != null && odata1[i] != 'undefined') {
+      data2[i] = odata2[i];
+      data1[i] = odata1[i];
     }
   }
 

@@ -125,7 +125,7 @@ export default function Explore(props) {
 
   const [leftColumns] = useState([names[0], names[1]]);
 
-  console.log("the f is ", f);
+  // console.log("the f is ", f);
   return (
     <div className="h-auto w-full lg:w-[100%] py-0 my-0">
       <div className="pl-0">

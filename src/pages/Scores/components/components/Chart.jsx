@@ -55,14 +55,11 @@ const ChartWithData = (props) => {
   var data1_array = [];
   var data2_array = [];
 
-  var counter = 0;
-
   // Store data points for each study as a dictionary to keep the couple index/values.
   // The index is used to retrieve the metadata from the "tdata" variable.
   for (let i = 0; i < odata1.length; i++) {
     if (odata2[i] != null && odata2[i] != 'undefined'
       && odata1[i] != null && odata1[i] != 'undefined') {
-      counter++;
       data2[i] = odata2[i];
       data1[i] = odata1[i];
       // Simple array of the data1 subset in order to draw the chart
@@ -435,7 +432,7 @@ export default function ChartPlot(props) {
     }
   };
 
-  console.log("the datastady : ", datastudy1);
+  // console.log("the datastady : ", datastudy1);
 
   return (
     <React.Fragment>

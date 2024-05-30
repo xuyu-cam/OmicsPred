@@ -1,7 +1,4 @@
-
-import { Link } from "react-router-dom"
 import Htext from "./components/Htext";
-
 
 const Platform = (props) => {
 
@@ -15,25 +12,14 @@ const Platform = (props) => {
         if (props.platform === 'Olink') {
             return (
                 <>
-                    <ul>
-                        { platforms.map((platform) => 
-                            <>
-                                <li className="mb-3">
-                                    <Link
-                                        to={platform.href}
-                                        className="flex items-center justify-center px-4 py-1 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-lg md:px-4"
-                                        >
-                                    {platform.name}<small className="pl-2">({platform.version})</small>
-                                    </Link>
-                                </li>
-                            </>
-                        )}
-                    </ul>
+                    { platforms.map((platform) =>
+                        <div className="mt-3">- <a href={platform.href} className="text-indigo-600">{platform.name}</a><small className="pl-2">({platform.version})</small></div>
+                    )}
                 </>
             )
         }
     }
- 
+
     return (
       <>
         <div className="h-auto max-w-full pb-10 lg:px-32 pr-3 md:pr-10 ">
