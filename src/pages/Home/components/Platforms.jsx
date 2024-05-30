@@ -72,7 +72,7 @@ const Platforms = () => {
             {" "}
             <Slide
               logo={olink_img}
-              href="/Scores/Olink/INTERVAL"
+              href="/Scores/Olink"
               text="Proteomics (plasma)"
               discription={
                 <div>

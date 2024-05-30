@@ -83,7 +83,7 @@ export default function Header() {
               Here, you can explore and download the genetic scores for a wide range of biomolecular traits in human blood as well as the summary statistics of their associations with key traits and diseases in the UK Biobank.
               </p>
               <p className="mt-3 text-justify text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Currently, genetic scores have been trained on the  <Href text="INTERVAL cohort"  href="https://www.intervalstudy.org.uk/" />  using  <Href text="Bayesian Ridge regression" href="https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html"  /> with validation performed on independent individuals from other cohorts or on withheld subsets of INTERVAL (more info below). 
+              Currently, genetic scores have been trained on the  <Href text="INTERVAL cohort"  href="https://www.intervalstudy.org.uk/" /> and the <Href text="UK Biobank"  href="https://www.ukbiobank.ac.uk/" /> using  <Href text="Bayesian Ridge regression" href="https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html"  /> with validation performed on independent individuals from other cohorts or on withheld subsets of INTERVAL/UKB (more info below). 
                 Detailed methods and validation steps can be found <Href text="here" href="https://www.nature.com/articles/s41586-023-05844-9" /> .
               </p>
 

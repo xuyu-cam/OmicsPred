@@ -13,11 +13,17 @@ const About = () => {
         title="About"
         text={<div>The OmicsPred Atlas development was led by <Href text="Yu Xu" href="mailto:yx322@medschl.cam.ac.uk"></Href>, under the supervison of <Href text="Michael Inouye" href="https://www.inouyelab.org/home/people" /> at the Department of Public Health and Primary Care, University of Cambridge.</div>}
       />
+      
       <Container
         title="Citation"
-        text={<div>If you use OMICSPRED in your research, we ask that you cite our publication:
+        text={<div>If you use INTERVAL-trained scores and their associated results from OMICSPRED in your research, we ask that you cite our publication:
           <br />
-                  <br />[Full Citation] Xu Y, Ritchie SC, Liang Y, Timmers PRHJ, Pietzner M, Lannelongue L, Lambert SA, Tahir UA, May-Wilson S, Foguet C, Johansson A, Surendran P, Nath AP, Persyn E, Peters JE, Oliver-Williams C, Deng S, Prins B, Luan J, Bomba L, Soranzo N, Di Angelantonio E, Pirastu N, Tai ES, van Dam RM, Parkinson H, Davenport EE, Paul DS, Yau C, Gerszten RE, Malarstig M, Danesh J, Sim X, Langenberg C, Wilson JF, Butterworth AS, Inouye M. <b>An atlas of genetic scores to predict multi-omic traits</b>. Nature (2023). https://doi.org/10.1038/s41586-023-05844-9. <Href text="Article Link" href="https://www.nature.com/articles/s41586-023-05844-9" /></div>} 
+                  <br />[Full Citation] Xu Y, Ritchie SC, Liang Y, Timmers PRHJ, Pietzner M, Lannelongue L, Lambert SA, Tahir UA, May-Wilson S, Foguet C, Johansson A, Surendran P, Nath AP, Persyn E, Peters JE, Oliver-Williams C, Deng S, Prins B, Luan J, Bomba L, Soranzo N, Di Angelantonio E, Pirastu N, Tai ES, van Dam RM, Parkinson H, Davenport EE, Paul DS, Yau C, Gerszten RE, Malarstig M, Danesh J, Sim X, Langenberg C, Wilson JF, Butterworth AS, Inouye M. <b>An atlas of genetic scores to predict multi-omic traits</b>. Nature (2023). https://doi.org/10.1038/s41586-023-05844-9. <Href text="Article Link" href="https://www.nature.com/articles/s41586-023-05844-9" />
+                  <br /><br />
+      If you use UK Biobank-trained scores in your research, we ask that you cite our paper in preparation:<br /><br />
+      Xu Y*, Loesch D*, Taylor H*, et al. <b>Population-scale phenome-wide association analysis of the imputed plasma proteome.</b> (in preparation)
+
+      </div>}
       />
       <Container
       title="Our Collaborators"

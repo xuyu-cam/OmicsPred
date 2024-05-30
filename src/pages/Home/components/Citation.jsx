@@ -82,10 +82,16 @@ const Citation = () => {
 
       <div style={{width :"100%"}} className="mySwiper w-[100%] overflow-visible rounded-sm">
         <p className="text-justify mt-3 w-[100%] text-base text-gray-500 sm:mt-5 sm:text-lg sm:w-xl sm:mx-auto md:mt-5 md:text-md lg:mx-2">
-        OMICSPRED is under active development. If you use OMICSPRED in your research, we ask that you cite our publication (below).{" "}
+        OMICSPRED is under active development. If you use INTERVAL-trained scores and their associated results from OMICSPRED in your research, we ask that you cite our publication:{" "}
         </p>
         <p className=" text-justify nmt-3 w-[100%] text-base text-gray-500 sm:mt-5 sm:text-lg sm:w-xl sm:mx-auto md:mt-5 md:text-md lg:mx-2">
         [Full Citation] Xu Y, Ritchie SC, Liang Y, Timmers PRHJ, Pietzner M, Lannelongue L, Lambert SA, Tahir UA, May-Wilson S, Foguet C, Johansson A, Surendran P, Nath AP, Persyn E, Peters JE, Oliver-Williams C, Deng S, Prins B, Luan J, Bomba L, Soranzo N, Di Angelantonio E, Pirastu N, Tai ES, van Dam RM, Parkinson H, Davenport EE, Paul DS, Yau C, Gerszten RE, Malarstig M, Danesh J, Sim X, Langenberg C, Wilson JF, Butterworth AS, Inouye M. <b>An atlas of genetic scores to predict multi-omic traits</b>. Nature (2023). https://doi.org/10.1038/s41586-023-05844-9. <Href text="Article Link" href="https://www.nature.com/articles/s41586-023-05844-9" />
+        </p>
+        <p className="text-justify mt-3 w-[100%] text-base text-gray-500 sm:mt-5 sm:text-lg sm:w-xl sm:mx-auto md:mt-5 md:text-md lg:mx-2">
+        If you use UK Biobank-trained scores in your research, we ask that you cite our paper in preparation:{" "}
+        </p>
+        <p className=" text-justify nmt-3 w-[100%] text-base text-gray-500 sm:mt-5 sm:text-lg sm:w-xl sm:mx-auto md:mt-5 md:text-md lg:mx-2">
+        Xu Y*, Loesch D*, Taylor H*, et al. <b>Population-scale phenome-wide association analysis of the imputed plasma proteome.</b> (in preparation)
         </p>
         {/* <p className=" text-justify mt-3 w-[100%] text-base text-gray-500 sm:mt-5 sm:text-lg sm:w-xl sm:mx-auto md:mt-5 md:text-md lg:mx-2">
           ASHG Abstract: Yu Xu, Scott Ritchie, Maik Pietzner, Samuel Lambert,
