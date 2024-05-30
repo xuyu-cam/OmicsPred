@@ -76,15 +76,19 @@ const Platforms = () => {
               text="Proteomics (plasma)"
               discription={
                 <div>
-                  308 protein genetic scores, validated on the{" "}
+                  5,624 protein genetic scores, validated on the{" "}
                   <Href
                     text="NSPHS"
                     href="https://pubmed.ncbi.nlm.nih.gov/20568910/"
-                  ></Href>{" "}
-                  and{""}
+                  ></Href>{", "}
                   <Href
                     text="ORCADES"
                     href="https://www.ed.ac.uk/viking/about-us/what-we-do/our-studies"
+                  ></Href>{" "}
+                  and{""}
+                  <Href
+                    text="INTERVAL"
+                    href="https://www.intervalstudy.org.uk/"
                   ></Href>{" cohorts"}
                 </div>
               }

@@ -23,6 +23,8 @@ def parse_file_2_table(input_file):
             if pd.isna(value):
                 value=None
                 print(f"- NAN value for {col} ({index})")
+            elif isinstance(value, float):
+                value = round(value,3)
             data[col]['data'][str(index)]=value
     newdata = []
     for col in df.columns:
@@ -69,6 +71,8 @@ def parse_file_2_plot(input_file):
         for col in cols:
             if col in row.keys():
                 value = row[col]
+                if isinstance(value, float):
+                    value = round(value,3)
             elif col.endswith(mr_suffix):
                 value = 0
             # Replace NaN values
