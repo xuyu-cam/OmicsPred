@@ -16,7 +16,7 @@ function Slide(props) {
       sx={{ maxWidth: 345, minHeight: 290 }}
       style={{
         border: "1px solid rgb(240, 244, 248)",
-        "box-shadow": " rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+        boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
       }}
     >
       <CardMedia

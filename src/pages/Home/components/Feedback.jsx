@@ -1,7 +1,5 @@
 import React from "react";
 
-import Htext from "./components/Htext";
-
 import FlashOnIcon from "@mui/icons-material/FlashOn";
 
 import Href from "./components/Href";
@@ -11,7 +9,7 @@ const Feedback = () => {
     <div className="w-screen bg-slate-100 px-[5%] pb-6">
       <div className="py-10 w-full float-left grid place-items-center">
         <h1
-          style={{ "font-family": "Poppins", fontWeight: "1000px" }}
+          style={{ fontFamily: "Poppins", fontWeight: "900" }}
           className="text-xl pl-0 tracking-tight font-extrabold font-sans text-gray-900 sm:text-4xl md:text-3xl"
         >
           <span className=" text-indigo-600 inline">

@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div
       className="grid place-items-center  mt-10 w-full h-[50px] bg-white"
-      style={{ "border-top": "1px solid rgb(240, 244, 248)" }}
+      style={{ borderTop: "1px solid rgb(240, 244, 248)" }}
     >
       <div
         className="grid place-items-center lg:flex  my-2 w-full h-[50px] bg-white"
