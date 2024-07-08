@@ -2,18 +2,12 @@ import React, { useEffect, useState, useRef } from "react";
 import "./styles.css";
 import Htext from "./components/Htext";
 
-import Href from "./components/Href";
 import _ from "underscore";
 //import { DataGrid } from "@mui/x-data-grid";
 //import { DataGridPro } from "@mui/x-data-grid-pro";
 
-import FilterAltIcon from "@mui/icons-material/FilterAlt";
-import { Typography } from "@mui/material";
 
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
-import { Link } from "react-router-dom";
-
-import Download from "../Scores/components/Download";
 
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
@@ -26,34 +20,15 @@ import Sumary from "../Scores/components/Sumary";
 
 import data1 from "./data/all_omics_assoc_sum.json";
 import data1_1 from "./data/phecode.json";
-
 import data2 from "./data/pathway.json";
-
-
-
 
 import Paper from "@mui/material/Paper";
 import InputBase from "@mui/material/InputBase";
-import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
-import DirectionsIcon from "@mui/icons-material/Directions";
 
 import LinkIcon from "@mui/icons-material/Link";
 
-
-// added new
-import {
-  Grid,
-  Table,
-  TableHeaderRow,
-  TableFixedColumns,
-  TableBandHeader,
-  VirtualTable,
-  TableColumnResizing,
-  PagingPanel,
-} from "@devexpress/dx-react-grid-material-ui";
 
 /// for next type
 import DataGrid, {
@@ -62,15 +37,7 @@ import DataGrid, {
   ColumnFixing,
 } from "devextreme-react/data-grid";
 
-import { PagingState, IntegratedPaging } from "@devexpress/dx-react-grid";
-
 import MenuOpenIcon from "@mui/icons-material/MenuOpen";
-
-
-
-
-
-
 
 
 export default function Applications(props) {
@@ -101,57 +68,23 @@ export default function Applications(props) {
   });
 
   const columns_1 = names_1.map((e) => {
-    if (e !== "Download") {
-      return {
-        name: e,
-        align: "center",
-        headerAlign: "center",
-        title: e,
-        width: 250,
-      };
-    } else {
-      return {
-        name: e,
-        align: "center",
-        headerAlign: "center",
-        title: e,
-        width: 250,
-        renderCell: (params) => {
-          return (
-            <a href={params.value}>
-              <CloudDownloadIcon className="text-indigo-600" />{" "}
-            </a>
-          );
-        },
-      };
-    }
+    return {
+      name: e,
+      align: "center",
+      headerAlign: "center",
+      title: e,
+      width: 250,
+    };
   });
 
   const columns = names.map((e) => {
-    if (e !== "Download") {
-      return {
-        name: e,
-        align: "center",
-        headerAlign: "center",
-        title: e,
-        width: 250,
-      };
-    } else {
-      return {
-        name: e,
-        align: "center",
-        headerAlign: "center",
-        title: e,
-        width: 250,
-        renderCell: (params) => {
-          return (
-            <a href={params.value}>
-              <CloudDownloadIcon className="text-indigo-600" />{" "}
-            </a>
-          );
-        },
-      };
-    }
+    return {
+      name: e,
+      align: "center",
+      headerAlign: "center",
+      title: e,
+      width: 250,
+    };
   });
 
   useEffect(() => {
@@ -380,11 +313,7 @@ export default function Applications(props) {
 
       <div className=" w-full mt-[130px]  md:mt-[50px] overflow-x-hidden">
 
-
-
         <div className=" lg:flex block w-screen bg-white absolute overflow-x-hidden">
-
-
           {
             props.name == "pathway" ? (
               <div
@@ -541,7 +470,7 @@ export default function Applications(props) {
                             </div>
 
                             <div className="w-[200px] p-4 rounded-md shadow-md float-left my-5 mr-5">
-                              <a href="https://drive.google.com/drive/folders/15hE030Bq23ox0HSWq4AeSmkdGZUUoHkm?usp=sharing" target="_blank">
+                              <a href="https://app.box.com/s/2kbj2exeexuab51hjaveyzkftpc6ehdj" target="_blank">
                                 {" "}
                                 <div className="text-xl text-gray-600 text-justify">
                                   <h1 className="text-sm h-full grid place-items-center">
@@ -571,9 +500,6 @@ export default function Applications(props) {
             )
           }
 
-
-
-
           <div className={"overflow-y-scroll overflow-x-hidden h-auto md:pt-[70px] " + pl}>
             <div
               className={
@@ -594,12 +520,6 @@ export default function Applications(props) {
                     )
                   }
                 </div>
-
-
-
-
-
-
 
                 <div className="w-full h-auto lg:px-12">
                   <div className="w-full h-auto p-2 rounded-md   my-5 mr-5">
@@ -641,18 +561,8 @@ export default function Applications(props) {
                       <ColumnChooser enabled={true} />
                       <ColumnFixing enabled={true} />
 
-
-
-
-
-
-
-
-
                       {columns.map((c) => {
                         if (props.name !== "pathway") {
-
-
                           if (c.name == names[0] || c.name == names[1]) {
                             return (
                               <Column
@@ -663,29 +573,14 @@ export default function Applications(props) {
                               />
                             );
                           } else {
-                            if (c.name == "Download") {
-                              return (
-                                <Column
-                                  key={c.name}
-                                  alignment="center"
-                                  dataField={c.name}
-                                  cellRender={cellRender}
-                                />
-                              );
-                            } else {
-                              return (
-                                <Column
-                                  key={c.name}
-                                  alignment="center"
-                                  dataField={c.name}
-                                />
-                              );
-                            }
+                            return (
+                              <Column
+                                key={c.name}
+                                alignment="center"
+                                dataField={c.name}
+                              />
+                            );
                           }
-
-
-
-
                         } else {
                           if (c.name === "Pathway Identifier") {
                             return (
@@ -706,35 +601,18 @@ export default function Applications(props) {
                               />
                             );
                           }
-
-
                         }
-                      }
-                      )
-
-                      }
-
-
+                      })}
                     </DataGrid>
                   </div>
                 </div>
 
-
-
-
-
-
-
                 {props.name !== "pathway" ? (
-                  <>
+                <>
 
-                                  <div className="pl-5">
-
-
-                  <Htext text="Explore the full list of associations identified in the PheWAS" />
-
-
-                </div>
+                  <div className="pl-5">
+                    <Htext text="Explore the full list of associations identified in the PheWAS" />
+                  </div>
                   <div className="w-full h-auto lg:px-12">
                     <div className="w-full h-auto p-2 rounded-md   my-5 mr-5">
                       <Paper
@@ -776,18 +654,7 @@ export default function Applications(props) {
                         <ColumnChooser enabled={true} />
                         <ColumnFixing enabled={true} />
 
-
-
-
-
-
-
-
-
                         {columns_1.map((c) => {
-
-
-
                           if (c.name == names_1[0] || c.name == names_1[1]) {
                             return (
                               <Column
@@ -817,31 +684,7 @@ export default function Applications(props) {
                               );
                             }
                           }
-
-
-
-
-
-                        }
-                        )
-
-
-
-                        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                        })}
                       </DataGrid>
                     </div>
                   </div>
@@ -850,18 +693,10 @@ export default function Applications(props) {
                   null
                 )}
 
-
-
-
               </div>
             </div>
           </div>
         </div>
-
-
-
-
-
 
       </div>
     </div>
