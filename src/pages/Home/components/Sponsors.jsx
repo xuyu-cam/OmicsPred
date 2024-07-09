@@ -13,7 +13,7 @@ export default function Sponsors() {
 
       <div className="py-10 w-full float-left grid place-items-center">
         <h1
-          style={{ "font-family": "Poppins", fontWeight: "1000px" }}
+          style={{ fontFamily: "Poppins", fontWeight: "900" }}
           className="text-xl pl-0 tracking-tight font-extrabold font-sans text-gray-900 sm:text-4xl md:text-3xl"
         >
           <span className=" text-indigo-600 inline">
@@ -28,7 +28,7 @@ export default function Sponsors() {
         <a href="https://www.phpc.cam.ac.uk/">
           <img
             style={{
-              "box-shadow": " rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+              boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
               padding: "15px",
               borderRadius: "10px",
               float: "left",
