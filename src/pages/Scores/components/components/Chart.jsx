@@ -171,7 +171,7 @@ const ChartWithData = (props) => {
             },
           },
           {
-            type: "line",
+            type: "line", // x = y
             width: 10,
             xMin: 0,
             xMax: Math.max(...data1_array),
